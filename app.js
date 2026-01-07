@@ -4,18 +4,13 @@
 
   const TAG_LABELS = {
     aircon: "ממוזג",
-    rain: "טוב ליום גשם",
     stroller: "מתאים לעגלה",
+    water: "מים",
     drive_under_20: "עד 20 ד׳ נסיעה",
-    drive_over_20: "מעל 20 ד׳ נסיעה",
-    water: "מים/ים",
-    food: "אוכל",
-    nature: "טבע",
-    creative: "יצירה",
-    animals: "חיות"
+    drive_over_20: "מעל 20 ד׳ נסיעה"
   };
 
-  const TAG_ORDER = ["drive_under_20","drive_over_20","aircon","rain","stroller","water","food","nature","animals","creative"];
+  const TAG_ORDER = ["aircon","stroller","water","drive_under_20","drive_over_20"];
 
   const elSearch = document.getElementById("search");
   const elCategory = document.getElementById("category");
@@ -214,18 +209,16 @@
     const score = item.score;
     const starsText = stars(score);
     const mainImg = (item.images && item.images[0]) ? item.images[0] : "";
-    const tags = (item.tags || []).map(t => TAG_LABELS[t] || t);
+    const rawTags = (item.tags || []);
+    const tags = rawTags.filter(t => TAG_LABELS[t]).map(t => TAG_LABELS[t]);
 
-    const tagChips = tags.slice(0, 5).map(t => `<span class="badge soft"><span class="emoji">🏷️</span>${escapeHtml(t)}</span>`).join("");
+    const tagsForChips = rawTags.filter(t => TAG_LABELS[t] && !["drive_under_20","drive_over_20"].includes(t)).map(t => TAG_LABELS[t]);
+
+    const tagChips = tagsForChips.slice(0, 5).map(t => `<span class="badge tag"><span class="emoji">🏷️</span>${escapeHtml(t)}</span>`).join("");
 
     return `
       <article class="card" tabindex="0" data-id="${escapeHtml(id)}" aria-label="${escapeHtml(item.name)}">
         <div class="cardTop">
-          <div class="thumb">
-            ${mainImg ? `<img alt="" loading="lazy" src="${escapeHtml(mainImg)}">` : ``}
-            <button class="galleryBtn" data-action="gallery" data-id="${escapeHtml(id)}" type="button">תמונות</button>
-          </div>
-
           <div class="cardMain">
             <div class="cardTitleRow">
               <h3 class="cardTitle">${escapeHtml(icon)} ${escapeHtml(item.name)}</h3>
