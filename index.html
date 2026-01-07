@@ -4,94 +4,115 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>קוסמוי – אטרקציות למשפחה</title>
-  <link rel="stylesheet" href="styles.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css"/>
 </head>
 <body>
-  <header class="header">
-    <div class="title">
-      <h1>קוסמוי – אטרקציות למשפחה</h1>
+  <header class="topbar">
+    <div class="topbarInner">
+      <div class="titleWrap">
+        <div class="titleIcon" aria-hidden="true">🧭</div>
+        <div>
+          <h1 class="title">קוסמוי – אטרקציות למשפחה</h1>
+          <div class="subtitle">מסונן למשפחות עם ילדים · לפי קטגוריות, ציון ותגיות · לחיצה על מקום מעדכנת את המפה</div>
+        </div>
+      </div>
+      <div class="topActions">
+        <button id="resetBtn" class="btn btnGhost" type="button">איפוס</button>
+      </div>
     </div>
   </header>
 
-  <section class="filters">
-    <div class="filtersRow mainFilters">
-      <span class="filtersLabel">סינון:</span>
-      <input id="search" type="search" placeholder="חיפוש מקום / מילה בתיאור…"/>
-      <select id="category">
-        <option value="all">כל הקטגוריות</option>
-      </select>
-      <select id="minScore">
-        <option value="0">כל הציונים</option>
-        <option value="5">⭐️⭐️⭐️⭐️⭐️ בלבד</option>
-        <option value="4">⭐️⭐️⭐️⭐️ ומעלה</option>
-        <option value="3">⭐️⭐️⭐️ ומעלה</option>
-      </select>
-      <button id="reset">איפוס</button>
-    </div>
+  <section class="filters" aria-label="סינון">
+    <div class="filtersInner">
+      <div class="filtersLabel">סינון:</div>
 
-    <div class="filtersRow tagsFilters">
-      <span class="filtersLabel">תגיות:</span>
-      <label><input type="checkbox" class="tagChk" value="ממוזג"/> ממוזג</label>
-      <label><input type="checkbox" class="tagChk" value="טוב ליום גשם"/> טוב ליום גשם</label>
-      <label><input type="checkbox" class="tagChk" value="מתאים לעגלה"/> מתאים לעגלה</label>
-      <label><input type="checkbox" class="tagChk" value="יום קצר"/> יום קצר</label>
-      <label><input type="checkbox" class="tagChk" value="יום ארוך"/> יום ארוך</label>
-    </div>
+      <div class="field">
+        <label class="fieldLabel" for="search">חיפוש</label>
+        <input id="search" class="input" type="search" placeholder="חפשו מקום / מילה בתיאור..." />
+      </div>
 
-    <div class="filtersRow dayBuilderRow">
-      <span class="filtersLabel">בנה לי יום (2–4 שעות):</span> <select id="dayMode">
-        <option value="any">כללי</option>
-        <option value="hot">חם מאוד (עדיפות מים/ממוזג)</option>
-        <option value="rain">גשום (ממוזג/Indoor)</option>
-        <option value="tired">עייפים (קרוב וקצר)</option>
-      </select>
-      <select id="dayLength">
-        <option value="2">2 שעות</option>
-        <option value="3" selected>3 שעות</option>
-        <option value="4">4 שעות</option>
-      </select>
-      <button id="buildDay">צור מסלול</button>
-      <button id="clearDay" class="secondary">נקה</button>
-      <div id="dayPlan" class="dayPlan" aria-live="polite">
+      <div class="field">
+        <label class="fieldLabel" for="category">קטגוריה</label>
+        <select id="category" class="select"></select>
+      </div>
+
+      <div class="field">
+        <label class="fieldLabel" for="minScore">לפי ציון</label>
+        <select id="minScore" class="select">
+          <option value="0">הכול</option>
+          <option value="5">⭐️ 5 ומעלה</option>
+          <option value="4">⭐️ 4 ומעלה</option>
+          <option value="3">⭐️ 3 ומעלה</option>
+        </select>
+      </div>
+
+      <div class="field tagsField">
+        <div class="fieldLabel">תגיות</div>
+        <div class="tags" id="tags"></div>
+      </div>
+
+      <div class="field">
+        <label class="fieldLabel" for="sortBy">מיון</label>
+        <select id="sortBy" class="select">
+          <option value="score_desc">ציון (גבוה לנמוך)</option>
+          <option value="distance_asc">מרחק (קרוב לרחוק)</option>
+          <option value="name_asc">שם (א-ת)</option>
+        </select>
+      </div>
+
+      <div class="field buildField">
+        <label class="fieldLabel" for="mode">בנה לי יום (2–4 שעות)</label>
+        <div class="buildRow">
+          <select id="mode" class="select">
+            <option value="general">כללי</option>
+            <option value="hot">חם מאוד</option>
+            <option value="rain">גשום</option>
+            <option value="tired">עייפים</option>
+          </select>
+          <button id="buildBtn" class="btn" type="button">צור מסלול</button>
+        </div>
+      </div>
     </div>
   </section>
 
-
-
   <main class="layout">
-    <aside class="sidebar">
-      <div class="summary">
-        <div><strong>טיפ שימושי:</strong> התחילי מ־⭐️5 לשגרה, ושמרי את ⭐️4 ל״ימי גיוון״.</div>
-        <div class="small">זמני נסיעה הם הערכה מאזור Bang Rak (הקרוב למקום הלינה), משתנים לפי שעה ותנועה.</div>
+    <section class="listPane" aria-label="רשימת אטרקציות">
+      <div class="listHeader">
+        <div class="count" id="count"></div>
       </div>
-      <div id="list" class="list" aria-live="polite"></div>
-    </aside>
-
-    <section class="mapPane">
-      <div class="mapHeader">
-        <div class="mapTitle" id="mapTitle">מפה</div>
-        <div class="mapActions">
-          <a id="openMaps" class="btnLink" href="#" target="_blank" rel="noopener">פתיחה בגוגל מפות</a>
-          <a id="openLink" class="btnLink" href="#" target="_blank" rel="noopener">קישור רשמי/עמוד מקום</a>
-        </div>
-      </div>
-
-      <iframe
-        id="mapFrame"
-        title="Interactive map"
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-        src="https://www.google.com/maps?q=The%20Gardens%20by%20Samui%20Beach%20Properties%20Bang%20Rak&output=embed">
-      </iframe>
-
-      <div class="mapFooter" id="mapFooter">
-        הקליקי על מקום מהרשימה כדי להציג אותו במפה.
-      </div>
+      <div id="cards" class="cards"></div>
     </section>
+
+    <aside class="mapPane" aria-label="מפה">
+      <div class="mapCard">
+        <div class="mapHeader">
+          <div class="mapTitle">מפה</div>
+          <a id="openMaps" class="mapLink" href="#" target="_blank" rel="noopener">פתחי ב‑Google Maps</a>
+        </div>
+        <iframe id="map" class="mapFrame" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=The%20Gardens%20by%20Samui%20Beach%20Properties%20Bang%20Rak&output=embed">
+        </iframe>
+        <div class="mapHint">טיפ: לחצי על כרטיס כדי למקד את המפה.</div>
+      </div>
+    </aside>
   </main>
 
+  <div id="modal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modalOverlay" id="modalOverlay"></div>
+    <div class="modalBody">
+      <div class="modalTop">
+        <div class="modalTitle" id="modalTitle">תמונות</div>
+        <button class="btn btnGhost" id="closeModal" type="button">סגירה</button>
+      </div>
+      <div class="modalGrid" id="modalGrid"></div>
+      <div class="modalNote">הערה: התמונות הן להמחשה (תוצאות תמונה כלליות) ועשויות להשתנות.</div>
+    </div>
+  </div>
+
   <script>
-    // Data embedded for offline-friendly use (no server needed)
     window.ATTRACTIONS = [
   {
     "name": "The Gardens by Samui Beach Properties (Base)",
@@ -100,7 +121,17 @@
     "distance_min": "0 דק׳",
     "reviews": "בסיס מרכזי לצפון־מזרח האי, נוח לבופוט, צ׳ואנג מון וצ׳אוונג.",
     "link": "https://www.booking.com/Share-rpdDAdX",
-    "score": null
+    "score": null,
+    "category_he": "בסיס",
+    "icon": "📍",
+    "tags": [],
+    "images": [
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=1",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=2",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=3",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=4",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=5"
+    ]
   },
   {
     "name": "Bang Rak Beach",
@@ -109,7 +140,21 @@
     "distance_min": "3–6 דק׳",
     "reviews": "פרקטי ונוח עם ילדים; לא החוף הכי ‘גלויה’ אבל קרוב ושימושי.",
     "link": "https://maps.google.com/?q=Bang+Rak+Beach+Koh+Samui",
-    "score": 4
+    "score": 4,
+    "category_he": "חוף",
+    "icon": "🏖️",
+    "tags": [
+      "water",
+      "short",
+      "stroller"
+    ],
+    "images": [
+      "https://source.unsplash.com/featured/800x500/?koh+samui+beach&sig=6",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+beach&sig=7",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+beach&sig=8",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+beach&sig=9",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+beach&sig=10"
+    ]
   },
   {
     "name": "Bophut Beach",
@@ -118,7 +163,21 @@
     "distance_min": "8–12 דק׳",
     "reviews": "אהוב על משפחות; נעים לשלב חוף עם אוכל וטיול קצר.",
     "link": "https://maps.google.com/?q=Bophut+Beach+Koh+Samui",
-    "score": 5
+    "score": 5,
+    "category_he": "חוף",
+    "icon": "🏖️",
+    "tags": [
+      "water",
+      "short",
+      "stroller"
+    ],
+    "images": [
+      "https://source.unsplash.com/featured/800x500/?fisherman+village+koh+samui&sig=11",
+      "https://source.unsplash.com/featured/800x500/?fisherman+village+koh+samui&sig=12",
+      "https://source.unsplash.com/featured/800x500/?fisherman+village+koh+samui&sig=13",
+      "https://source.unsplash.com/featured/800x500/?fisherman+village+koh+samui&sig=14",
+      "https://source.unsplash.com/featured/800x500/?fisherman+village+koh+samui&sig=15"
+    ]
   },
   {
     "name": "Choeng Mon Beach",
@@ -127,7 +186,21 @@
     "distance_min": "12–15 דק׳",
     "reviews": "נחשב רגוע ובטיחותי יותר לילדים לעומת חופים פתוחים.",
     "link": "https://maps.google.com/?q=Choeng+Mon+Beach+Koh+Samui",
-    "score": 5
+    "score": 5,
+    "category_he": "חוף",
+    "icon": "🏖️",
+    "tags": [
+      "water",
+      "short",
+      "stroller"
+    ],
+    "images": [
+      "https://source.unsplash.com/featured/800x500/?koh+samui+beach&sig=16",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+beach&sig=17",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+beach&sig=18",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+beach&sig=19",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+beach&sig=20"
+    ]
   },
   {
     "name": "Mae Nam Beach",
@@ -136,7 +209,21 @@
     "distance_min": "15–18 דק׳",
     "reviews": "מתאים לימים רגועים עם מרחב – פחות אטרקציות מסביב.",
     "link": "https://maps.google.com/?q=Mae+Nam+Beach+Koh+Samui",
-    "score": 4
+    "score": 4,
+    "category_he": "חוף",
+    "icon": "🏖️",
+    "tags": [
+      "water",
+      "short",
+      "stroller"
+    ],
+    "images": [
+      "https://source.unsplash.com/featured/800x500/?koh+samui+beach&sig=21",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+beach&sig=22",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+beach&sig=23",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+beach&sig=24",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+beach&sig=25"
+    ]
   },
   {
     "name": "Lipa Noi Beach",
@@ -145,7 +232,22 @@
     "distance_min": "55–65 דק׳",
     "reviews": "שקט מאוד; מומלץ לבדוק תנאי ים/גאות ביום ההגעה.",
     "link": "https://maps.google.com/?q=Lipa+Noi+Beach+Koh+Samui",
-    "score": 5
+    "score": 5,
+    "category_he": "חוף",
+    "icon": "🏖️",
+    "tags": [
+      "water",
+      "short",
+      "stroller",
+      "long"
+    ],
+    "images": [
+      "https://source.unsplash.com/featured/800x500/?koh+samui+beach&sig=26",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+beach&sig=27",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+beach&sig=28",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+beach&sig=29",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+beach&sig=30"
+    ]
   },
   {
     "name": "Crystal Bay (Silver Beach)",
@@ -154,7 +256,21 @@
     "distance_min": "30–35 דק׳",
     "reviews": "המון אנשים מתלהבים מהנוף; תנאי ים יכולים להשתנות ולכן פחות אידיאלי כשגרה לילדים קטנים.",
     "link": "https://maps.google.com/?q=Crystal+Bay+Silver+Beach+Koh+Samui",
-    "score": 4
+    "score": 4,
+    "category_he": "חוף",
+    "icon": "🏖️",
+    "tags": [
+      "water",
+      "short",
+      "stroller"
+    ],
+    "images": [
+      "https://source.unsplash.com/featured/800x500/?koh+samui+beach&sig=31",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+beach&sig=32",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+beach&sig=33",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+beach&sig=34",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+beach&sig=35"
+    ]
   },
   {
     "name": "Chi Samui (Bang Rak)",
@@ -163,7 +279,19 @@
     "distance_min": "6–8 דק׳",
     "reviews": "נוח ביום; אפשר לשלב אוכל והתרעננות בבריכה.",
     "link": "https://maps.google.com/?q=Chi+Samui+Bang+Rak",
-    "score": 5
+    "score": 5,
+    "category_he": "Beach Restaurant / Beach Club",
+    "icon": "✨",
+    "tags": [
+      "short"
+    ],
+    "images": [
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=36",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=37",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=38",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=39",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=40"
+    ]
   },
   {
     "name": "CoCo Tam’s (Bophut)",
@@ -172,7 +300,19 @@
     "distance_min": "10–12 דק׳",
     "reviews": "פופולרי מאוד; בערב יכול להיות עמוס ורועש יותר – עם ילדים עדיף להגיע מוקדם.",
     "link": "https://maps.google.com/?q=CoCo+Tam's+Bophut+Koh+Samui",
-    "score": 5
+    "score": 5,
+    "category_he": "Beach Restaurant / Beach Club",
+    "icon": "✨",
+    "tags": [
+      "short"
+    ],
+    "images": [
+      "https://source.unsplash.com/featured/800x500/?fisherman+village+koh+samui&sig=41",
+      "https://source.unsplash.com/featured/800x500/?fisherman+village+koh+samui&sig=42",
+      "https://source.unsplash.com/featured/800x500/?fisherman+village+koh+samui&sig=43",
+      "https://source.unsplash.com/featured/800x500/?fisherman+village+koh+samui&sig=44",
+      "https://source.unsplash.com/featured/800x500/?fisherman+village+koh+samui&sig=45"
+    ]
   },
   {
     "name": "The Shack",
@@ -181,7 +321,19 @@
     "distance_min": "~15 דק׳",
     "reviews": "בחירה טובה כשמחפשים אווירה רגועה ואוכל טוב ליד הים.",
     "link": "https://maps.google.com/?q=The+Shack+Koh+Samui",
-    "score": 4
+    "score": 4,
+    "category_he": "Beach Restaurant / Beach Club",
+    "icon": "✨",
+    "tags": [
+      "short"
+    ],
+    "images": [
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=46",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=47",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=48",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=49",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=50"
+    ]
   },
   {
     "name": "KohCo Beach Club",
@@ -190,7 +342,19 @@
     "distance_min": "~15 דק׳",
     "reviews": "מתואר כמתאים למשפחות; מומלץ לבדוק עומסים בשעות שיא.",
     "link": "https://maps.google.com/?q=KohCo+Beach+Club+Koh+Samui",
-    "score": 4
+    "score": 4,
+    "category_he": "Beach Restaurant / Beach Club",
+    "icon": "✨",
+    "tags": [
+      "short"
+    ],
+    "images": [
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=51",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=52",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=53",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=54",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=55"
+    ]
   },
   {
     "name": "Hacienda Beach Restaurant",
@@ -199,7 +363,19 @@
     "distance_min": "~12 דק׳",
     "reviews": "לא יומרני; פתרון יציב ונוח.",
     "link": "https://maps.google.com/?q=Hacienda+Beach+Restaurant+Koh+Samui",
-    "score": 4
+    "score": 4,
+    "category_he": "Beach Restaurant / Beach Club",
+    "icon": "✨",
+    "tags": [
+      "short"
+    ],
+    "images": [
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=56",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=57",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=58",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=59",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=60"
+    ]
   },
   {
     "name": "Kids Club – Fisherman’s Village (Bophut)",
@@ -208,7 +384,19 @@
     "distance_min": "~10 דק׳",
     "reviews": "מתאים במיוחד לגילאי גן; שווה לשלב עם טיול קצר ב-Fisherman’s Village.",
     "link": "https://maps.google.com/?q=Kids+Club+Fisherman's+Village+Koh+Samui",
-    "score": 5
+    "score": 5,
+    "category_he": "Kids Indoor / Playroom",
+    "icon": "✨",
+    "tags": [
+      "short"
+    ],
+    "images": [
+      "https://source.unsplash.com/featured/800x500/?fisherman+village+koh+samui&sig=61",
+      "https://source.unsplash.com/featured/800x500/?fisherman+village+koh+samui&sig=62",
+      "https://source.unsplash.com/featured/800x500/?fisherman+village+koh+samui&sig=63",
+      "https://source.unsplash.com/featured/800x500/?fisherman+village+koh+samui&sig=64",
+      "https://source.unsplash.com/featured/800x500/?fisherman+village+koh+samui&sig=65"
+    ]
   },
   {
     "name": "Clever Kids Playroom (Mae Nam)",
@@ -217,7 +405,19 @@
     "distance_min": "~15–20 דק׳",
     "reviews": "הורים מחפשים מקום רגוע/נקי; פחות ‘פארק ענק’, יותר שימושי ליומיום.",
     "link": "https://maps.google.com/?q=Clever+Kids+Playroom+Mae+Nam+Koh+Samui",
-    "score": 4
+    "score": 4,
+    "category_he": "Kids Indoor / Playroom",
+    "icon": "✨",
+    "tags": [
+      "short"
+    ],
+    "images": [
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=66",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=67",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=68",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=69",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=70"
+    ]
   },
   {
     "name": "Tesco Lotus – Indoor Playground",
@@ -226,7 +426,19 @@
     "distance_min": "~15–20 דק׳",
     "reviews": "בסיסי אבל יעיל בימים חמים/גשומים.",
     "link": "https://maps.google.com/?q=Tesco+Lotus+Koh+Samui+playground",
-    "score": 3
+    "score": 3,
+    "category_he": "Kids Indoor / Playroom",
+    "icon": "✨",
+    "tags": [
+      "short"
+    ],
+    "images": [
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=71",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=72",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=73",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=74",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=75"
+    ]
   },
   {
     "name": "Central Festival Samui – Kids Area",
@@ -235,7 +447,19 @@
     "distance_min": "~20 דק׳",
     "reviews": "נוח; מומלץ לבדוק אילו מתקנים פעילים ביום ההגעה.",
     "link": "https://maps.google.com/?q=Central+Festival+Samui+kids+playground",
-    "score": 4
+    "score": 4,
+    "category_he": "Kids Indoor / Playroom",
+    "icon": "✨",
+    "tags": [
+      "short"
+    ],
+    "images": [
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=76",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=77",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=78",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=79",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=80"
+    ]
   },
   {
     "name": "Holiday Inn Resort Samui – Playground",
@@ -244,7 +468,19 @@
     "distance_min": "~12–15 דק׳",
     "reviews": "שווה לבדוק מדיניות כניסה/Day pass לפני שמגיעים.",
     "link": "https://maps.google.com/?q=Holiday+Inn+Resort+Koh+Samui+playground",
-    "score": 4
+    "score": 4,
+    "category_he": "Playground / Resort Day",
+    "icon": "✨",
+    "tags": [
+      "short"
+    ],
+    "images": [
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=81",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=82",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=83",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=84",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=85"
+    ]
   },
   {
     "name": "Na Muang Waterfalls",
@@ -253,7 +489,17 @@
     "distance_min": "~45–55 דק׳",
     "reviews": "יפה, אבל עלול להיות חלק – נעליים סגורות והשגחה צמודה.",
     "link": "https://maps.google.com/?q=Na+Muang+Waterfall+Koh+Samui",
-    "score": 4
+    "score": 4,
+    "category_he": "Nature",
+    "icon": "✨",
+    "tags": [],
+    "images": [
+      "https://source.unsplash.com/featured/800x500/?waterfall+thailand&sig=86",
+      "https://source.unsplash.com/featured/800x500/?waterfall+thailand&sig=87",
+      "https://source.unsplash.com/featured/800x500/?waterfall+thailand&sig=88",
+      "https://source.unsplash.com/featured/800x500/?waterfall+thailand&sig=89",
+      "https://source.unsplash.com/featured/800x500/?waterfall+thailand&sig=90"
+    ]
   },
   {
     "name": "Secret Buddha Garden (Ta Nim)",
@@ -262,7 +508,19 @@
     "distance_min": "~50–60 דק׳",
     "reviews": "מעניין ומיוחד; גישה/שבילים יכולים להיות תלולים.",
     "link": "https://maps.google.com/?q=Secret+Buddha+Garden+Koh+Samui",
-    "score": 4
+    "score": 4,
+    "category_he": "Nature / Culture",
+    "icon": "✨",
+    "tags": [
+      "long"
+    ],
+    "images": [
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=91",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=92",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=93",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=94",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=95"
+    ]
   },
   {
     "name": "Samui Elephant Sanctuary",
@@ -271,7 +529,19 @@
     "distance_min": "~15–35 דק׳",
     "reviews": "מומלץ למשפחות שמחפשות חוויה אתית וחינוכית; מומלץ להזמין מראש.",
     "link": "https://www.samuielephantsanctuary.org",
-    "score": 5
+    "score": 5,
+    "category_he": "Animals (Ethical)",
+    "icon": "✨",
+    "tags": [
+      "short"
+    ],
+    "images": [
+      "https://source.unsplash.com/featured/800x500/?elephant+sanctuary+thailand&sig=96",
+      "https://source.unsplash.com/featured/800x500/?elephant+sanctuary+thailand&sig=97",
+      "https://source.unsplash.com/featured/800x500/?elephant+sanctuary+thailand&sig=98",
+      "https://source.unsplash.com/featured/800x500/?elephant+sanctuary+thailand&sig=99",
+      "https://source.unsplash.com/featured/800x500/?elephant+sanctuary+thailand&sig=100"
+    ]
   },
   {
     "name": "Paradise Park Farm",
@@ -280,7 +550,19 @@
     "distance_min": "~60 דק׳",
     "reviews": "כדאי לקרוא ביקורות עדכניות ולהחליט לפי הערכים שלכם לגבי רווחת בעלי חיים.",
     "link": "https://maps.google.com/?q=Paradise+Park+Farm+Koh+Samui",
-    "score": 3
+    "score": 3,
+    "category_he": "Animals / Viewpoint",
+    "icon": "✨",
+    "tags": [
+      "long"
+    ],
+    "images": [
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=101",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=102",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=103",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=104",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=105"
+    ]
   },
   {
     "name": "Ang Thong National Marine Park (Day Trip)",
@@ -289,7 +571,21 @@
     "distance_min": "~10–25 דק׳ למזח + יום שייט",
     "reviews": "יום ארוך; עם ילדים קטנים מומלץ לבחור ספק משפחתי/רגוע ולצמצם פעילויות מאתגרות.",
     "link": "https://maps.google.com/?q=Ang+Thong+National+Marine+Park+tours+Koh+Samui",
-    "score": 4
+    "score": 4,
+    "category_he": "שייט",
+    "icon": "🚤",
+    "tags": [
+      "water",
+      "long",
+      "short"
+    ],
+    "images": [
+      "https://source.unsplash.com/featured/800x500/?ang+thong+marine+park&sig=106",
+      "https://source.unsplash.com/featured/800x500/?ang+thong+marine+park&sig=107",
+      "https://source.unsplash.com/featured/800x500/?ang+thong+marine+park&sig=108",
+      "https://source.unsplash.com/featured/800x500/?ang+thong+marine+park&sig=109",
+      "https://source.unsplash.com/featured/800x500/?ang+thong+marine+park&sig=110"
+    ]
   },
   {
     "name": "Tropical Kaleidoscope",
@@ -298,10 +594,20 @@
     "distance_min": "~25–30 דק׳ (הערכה)",
     "reviews": "לא אטרקציה ‘קלאסית’; תלוי באופי הילדים ובמה שמוצע באותו יום.",
     "link": "https://maps.google.com/?q=Tropical+Kaleidoscope+Koh+Samui",
-    "score": 4
+    "score": 4,
+    "category_he": "Creative / Educational",
+    "icon": "✨",
+    "tags": [],
+    "images": [
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=111",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=112",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=113",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=114",
+      "https://source.unsplash.com/featured/800x500/?koh+samui+resort&sig=115"
+    ]
   }
 ];
   </script>
-  <script src="app.js"></script>
+  <script src="./app.js"></script>
 </body>
 </html>

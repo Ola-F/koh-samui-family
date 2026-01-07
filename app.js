@@ -1,340 +1,372 @@
+
 (function(){
-  const data = (window.ATTRACTIONS || []).slice();
+  const raw = (window.ATTRACTIONS || []).slice();
 
-  const elList = document.getElementById('list');
-  const elSearch = document.getElementById('search');
-  const elCategory = document.getElementById('category');
-  const elMinScore = document.getElementById('minScore');
-  const elReset = document.getElementById('reset');
-  const elTagChks = Array.from(document.querySelectorAll('.tagChk'));
-  const elBuildDay = document.getElementById('buildDay');
-  const elClearDay = document.getElementById('clearDay');
-  const elDayMode = document.getElementById('dayMode');
-  const elDayLength = document.getElementById('dayLength');
-  const elDayPlan = document.getElementById('dayPlan');
-
-
-  const elMapFrame = document.getElementById('mapFrame');
-  const elMapTitle = document.getElementById('mapTitle');
-  const elMapFooter = document.getElementById('mapFooter');
-  const elOpenMaps = document.getElementById('openMaps');
-  const elOpenLink = document.getElementById('openLink');
-
-  function parseDistanceMinutes(distStr){
-    if(!distStr) return null;
-    // Attempt to get the first number in minutes from a string like "~15–20 דק׳"
-    const m = distStr.replace(/[,]/g,'').match(/(\d+(?:\.\d+)?)/);
-    return m ? Number(m[1]) : null;
-  }
-
-  function inferTags(item){
-    const tags = new Set();
-    const name = (item.name||'').toLowerCase();
-    const cat = (item.category||'').toLowerCase();
-
-    const isIndoor = cat.includes('indoor') || name.includes('playroom') || name.includes('kids club') || name.includes('central') || name.includes('tesco') || name.includes('holiday inn');
-    const isBeach = cat.includes('beach') || name.includes('beach') || name.includes('bay') || name.includes('silver');
-    const isNature = cat.includes('nature') || name.includes('waterfall') || name.includes('garden') || name.includes('park') || name.includes('sanctuary') || name.includes('elephant');
-    const isFood = cat.includes('dining') || cat.includes('restaurant') || name.includes('restaurant') || name.includes('club') || name.includes("coco") || name.includes("chi") || name.includes("hacienda") || name.includes("shack");
-    const minutes = parseDistanceMinutes(item.distance_min) ?? 999;
-
-    if(isIndoor) tags.add('ממוזג');
-    if(isIndoor || cat.includes('creative')) tags.add('טוב ליום גשם');
-    // stroller-friendly heuristic
-    const strollerBad = name.includes('na muang') || name.includes('secret buddha') || name.includes('paradise park') || name.includes('ang thong');
-    if(!strollerBad && (isIndoor || isBeach || isFood)) tags.add('מתאים לעגלה');
-
-    if(minutes <= 20 && !name.includes('ang thong')) tags.add('יום קצר');
-    if(minutes >= 45 || name.includes('ang thong')) tags.add('יום ארוך');
-
-    // Helpful extras (not in filter chips, but shown)
-    if(isBeach) tags.add('מים/חוף');
-    if(isFood) tags.add('אוכל');
-    if(isNature) tags.add('טבע/חיות');
-    if(cat.includes('creative')) tags.add('יצירה');
-
-    return Array.from(tags);
-  }
-
-  function selectedTagFilters(){
-    return elTagChks.filter(ch=>ch.checked).map(ch=>ch.value);
-  }
-
-
-  // Build categories
-  
-  const CATEGORY_LABELS = {
-    "Base": "בסיס",
-    "Beach": "חופים",
-    "Beach Restaurant / Beach Club": "מסעדות חוף וביץ׳ קלאבים",
-    "Kids Indoor / Playroom": "משחקיות וממוזג",
-    "Playground / Resort Day": "מגרשי משחקים ויום ריזורט",
-    "Nature": "טבע",
-    "Nature / Culture": "טבע ותרבות",
-    "Animals (Ethical)": "חיות (אתרי)",
-    "Animals / Viewpoint": "חיות ותצפיות",
-    "Creative / Educational": "יצירה וחינוכי",
-    "Boat Trip": "שייט וים"
+  const TAG_LABELS = {
+    aircon: "ממוזג",
+    rain: "טוב ליום גשם",
+    stroller: "מתאים לעגלה",
+    short: "יום קצר",
+    long: "יום ארוך",
+    water: "מים/ים",
+    food: "אוכל",
+    nature: "טבע",
+    creative: "יצירה",
+    animals: "חיות"
   };
-  function categoryLabel(cat){
-    return CATEGORY_LABELS[cat] || cat;
+
+  const TAG_ORDER = ["aircon","rain","short","long","stroller","water","food","nature","animals","creative"];
+
+  const elSearch = document.getElementById("search");
+  const elCategory = document.getElementById("category");
+  const elMinScore = document.getElementById("minScore");
+  const elSortBy = document.getElementById("sortBy");
+  const elTags = document.getElementById("tags");
+  const elCards = document.getElementById("cards");
+  const elCount = document.getElementById("count");
+  const elReset = document.getElementById("resetBtn");
+
+  const elMap = document.getElementById("map");
+  const elOpenMaps = document.getElementById("openMaps");
+
+  const elMode = document.getElementById("mode");
+  const elBuild = document.getElementById("buildBtn");
+
+  const elModal = document.getElementById("modal");
+  const elModalOverlay = document.getElementById("modalOverlay");
+  const elCloseModal = document.getElementById("closeModal");
+  const elModalTitle = document.getElementById("modalTitle");
+  const elModalGrid = document.getElementById("modalGrid");
+
+  function isBase(item){
+    return (item.category_he || item.category) === "בסיס" || (item.category === "Base") || /base/i.test(item.name);
   }
 
-  const categories = Array.from(new Set(data.map(x => x.category))).sort((a,b)=>a.localeCompare(b,'he'));
-  categories.forEach(c=>{
-    const opt = document.createElement('option');
-    opt.value = c;
-    opt.textContent = categoryLabel(c);
-    elCategory.appendChild(opt);
-  });
+  function parseMin(distanceText){
+    if(!distanceText) return null;
+    const t = String(distanceText);
+    // Handles: "10–15 דק׳" or "55–65 דקות" or "15 דק׳"
+    let m = t.match(/(\d+)\s*[–-]\s*(\d+)/);
+    if(m) return parseInt(m[1], 10);
+    m = t.match(/(\d+)/);
+    if(m) return parseInt(m[1], 10);
+    return null;
+  }
 
   function stars(score){
-    if(!score) return '';
-    return '⭐️'.repeat(Math.max(0, Math.min(5, score)));
+    if(score == null) return "";
+    const s = Math.max(0, Math.min(5, Number(score)));
+    return "★".repeat(s) + "☆".repeat(5 - s);
   }
 
-  function cardTemplate(item){
-    const scoreText = item.score ? stars(item.score) : '';
-    const distance = item.distance_min || '';
-    const why = item.why || '';
-    const reviews = item.reviews || '';
-    const cat = item.category || '';
-    const link = item.link || '#';
+  function unique(arr){
+    return Array.from(new Set(arr));
+  }
 
-    const tags = inferTags(item);
-    const tagsHtml = tags.length ? `<div class="tagChips">${tags.map(t=>`<span class=\"tagChip\">${escapeHtml(t)}</span>`).join('')}</div>` : ``;
+  // Category dropdown
+  const categories = unique(raw.filter(x=>!isBase(x)).map(x => x.category_he || x.category)).sort((a,b)=>a.localeCompare(b,'he'));
+  elCategory.innerHTML = `<option value="">כל הקטגוריות</option>` + categories.map(c=>`<option value="${escapeHtml(c)}">${escapeHtml(c)}</option>`).join("");
 
-    const mapsLink = item.link && item.link.includes('maps.google.com')
-      ? item.link
-      : `https://maps.google.com/?q=${encodeURIComponent(item.name + ' Koh Samui')}`;
+  // Tag checkboxes (only those actually exist)
+  const presentTags = unique(raw.flatMap(x => (x.tags || [])));
+  const tagsToShow = TAG_ORDER.filter(t => presentTags.includes(t)).concat(presentTags.filter(t => !TAG_ORDER.includes(t))).filter(Boolean);
 
-    const wrapper = document.createElement('div');
-    wrapper.className = 'card';
-    wrapper.setAttribute('tabindex','0');
-    wrapper.setAttribute('role','button');
-    wrapper.setAttribute('aria-label', `פתח במפה: ${item.name}`);
+  elTags.innerHTML = tagsToShow.map(tagKey => {
+    const label = TAG_LABELS[tagKey] || tagKey;
+    return `<label class="tag"><input type="checkbox" value="${escapeHtml(tagKey)}"> ${escapeHtml(label)}</label>`;
+  }).join("");
 
-    wrapper.innerHTML = `
-      <div class="cardHeader">
-        <div class="name">${escapeHtml(item.name)}</div>
-        <div class="score">${scoreText}</div>
-      </div>
-      <div class="meta">
-        <div class="chip">קטגוריה: ${escapeHtml(categoryLabel(cat))}</div>
-        ${distance ? `<div class="chip">מרחק: ${escapeHtml(distance)}</div>` : ``}
-      </div>
-      ${tagsHtml}
-      <div class="desc"><strong>למה שווה:</strong> ${escapeHtml(why)}</div>
-      <div class="muted"><strong>תמצית ביקורות/מה מצפים:</strong> ${escapeHtml(reviews)}</div>
-      <div class="links">
-        <a href="${mapsLink}" target="_blank" rel="noopener">מפה (Google Maps)</a>
-        <a href="${link}" target="_blank" rel="noopener">קישור להתרשם</a>
-      </div>
-    `;
+  const tagInputs = Array.from(elTags.querySelectorAll('input[type="checkbox"]'));
 
-    function openOnMap(){
-      const q = item.link && item.link.includes('maps.google.com/?q=')
-        ? decodeURIComponent(item.link.split('maps.google.com/?q=')[1] || item.name)
-        : item.name;
+  function escapeHtml(s){
+    return String(s)
+      .replace(/&/g,"&amp;")
+      .replace(/</g,"&lt;")
+      .replace(/>/g,"&gt;")
+      .replace(/"/g,"&quot;")
+      .replace(/'/g,"&#039;");
+  }
 
-      const embed = `https://www.google.com/maps?q=${encodeURIComponent(q)}&output=embed`;
-      elMapFrame.src = embed;
-      elMapTitle.textContent = item.name;
-      elMapFooter.textContent = `${item.category}${item.distance_min ? ' · ' + item.distance_min : ''}${item.score ? ' · ' + stars(item.score) : ''}`;
-
-      elOpenMaps.href = `https://maps.google.com/?q=${encodeURIComponent(q)}`;
-      elOpenLink.href = item.link || elOpenMaps.href;
-    }
-
-    wrapper.addEventListener('click', openOnMap);
-    wrapper.addEventListener('keydown', (e)=>{
-      if(e.key === 'Enter' || e.key === ' '){
-        e.preventDefault();
-        openOnMap();
+  function buildMapEmbed(linkOrName){
+    const base = "https://www.google.com/maps";
+    if(linkOrName && String(linkOrName).includes("google.com/maps")){
+      // Use embed based on query param if possible
+      const url = new URL(linkOrName);
+      const q = url.searchParams.get("q");
+      if(q){
+        return `${base}?q=${encodeURIComponent(q)}&output=embed`;
       }
-    });
-
-    return wrapper;
+    }
+    const q = linkOrName || "Koh Samui";
+    return `${base}?q=${encodeURIComponent(q)}&output=embed`;
   }
 
-  function escapeHtml(str){
-    return String(str ?? '')
-      .replaceAll('&','&amp;')
-      .replaceAll('<','&lt;')
-      .replaceAll('>','&gt;')
-      .replaceAll('"','&quot;')
-      .replaceAll("'",'&#039;');
+  function openMapHref(linkOrName){
+    if(linkOrName && String(linkOrName).includes("google.com/maps")) return linkOrName;
+    return `https://www.google.com/maps?q=${encodeURIComponent(linkOrName || "Koh Samui")}`;
   }
 
-  function matches(item, q){
+  function setMap(item){
+    const q = item.link && item.link.includes("google.com/maps") ? item.link : item.name;
+    elMap.src = buildMapEmbed(q);
+    elOpenMaps.href = openMapHref(q);
+  }
+
+  function matchesSearch(item, q){
     if(!q) return true;
-    const hay = (item.name + ' ' + item.category + ' ' + item.why + ' ' + item.reviews).toLowerCase();
+    const hay = [
+      item.name, item.category_he, item.why, item.reviews,
+      (item.tags||[]).map(t => TAG_LABELS[t] || t).join(" ")
+    ].join(" ").toLowerCase();
     return hay.includes(q.toLowerCase());
   }
 
-  function render(){
-    elList.innerHTML = '';
-    const q = elSearch.value.trim();
-    const cat = elCategory.value;
-    const minScore = parseInt(elMinScore.value, 10) || 0;
-    const selTags = selectedTagFilters();
-
-    const filtered = data.filter(item=>{
-      const okQ = matches(item, q);
-      const okCat = (cat === 'all') ? true : item.category === cat;
-      const s = item.score || 0;
-      const okScore = s >= minScore;
-      const tags = inferTags(item);
-      const okTags = selTags.length ? selTags.every(t=>tags.includes(t)) : true;
-      return okQ && okCat && okScore && okTags;
-    });
-
-    // Group by category in the list (but keep cards)
-    const byCat = new Map();
-    filtered.forEach(it=>{
-      if(!byCat.has(it.category)) byCat.set(it.category, []);
-      byCat.get(it.category).push(it);
-    });
-
-    Array.from(byCat.keys()).sort((a,b)=>a.localeCompare(b,'he')).forEach(c=>{
-      const h = document.createElement('div');
-      h.className = 'chip';
-      h.style.margin = '6px 0 2px';
-      h.style.display = 'inline-block';
-      h.textContent = `קטגוריה: ${c} · ${byCat.get(c).length}`;
-      elList.appendChild(h);
-
-      // sort within category by score desc then name
-      const items = byCat.get(c).slice().sort((a,b)=>{
-        const sa = a.score || 0, sb = b.score || 0;
-        if(sb !== sa) return sb - sa;
-        return (a.name||'').localeCompare(b.name||'', 'he');
-      });
-
-      items.forEach(it => elList.appendChild(cardTemplate(it)));
-    });
-
-    if(filtered.length === 0){
-      const empty = document.createElement('div');
-      empty.className = 'summary';
-      empty.textContent = 'לא נמצאו תוצאות. נסי חיפוש אחר או הורידי סינון.';
-      elList.appendChild(empty);
-    }
+  function matchesTags(item, selectedTags){
+    if(selectedTags.length === 0) return true;
+    const tags = item.tags || [];
+    return selectedTags.every(t => tags.includes(t));
   }
 
-  elSearch.addEventListener('input', render);
-  elCategory.addEventListener('change', render);
-  elMinScore.addEventListener('change', render);
-  
-  // Tag filters
-  elTagChks.forEach(ch=>{
-    ch.addEventListener('change', ()=>render());
-  });
-
-  // Day builder
-  function buildDayPlan(){
-    const mode = elDayMode.value;
-    const hours = parseInt(elDayLength.value,10) || 3;
-    const targetMinutes = hours * 60;
-
-    const items = data.map(it=>({it, tags: inferTags(it)}));
-
-    function modeOk(x){
-      const tags = x.tags;
-      if(mode==='rain') return tags.includes('ממוזג') || tags.includes('טוב ליום גשם');
-      if(mode==='hot') return tags.includes('ממוזג') || tags.includes('מים/חוף');
-      if(mode==='tired') return tags.includes('יום קצר');
-      return true;
+  function sortItems(items){
+    const mode = elSortBy.value;
+    const copy = items.slice();
+    if(mode === "distance_asc"){
+      copy.sort((a,b)=> (parseMin(a.distance_min)??9999) - (parseMin(b.distance_min)??9999));
+      return copy;
     }
-
-    const ranked = items
-      .filter(modeOk)
-      .map(x=>{
-        const mins = parseDistanceMinutes(x.it.distance_min) ?? 999;
-        const score = x.it.score || 0;
-        return {...x, mins, score, isFood: x.tags.includes('אוכל')};
-      })
-      .sort((a,b)=>{
-        if(b.score!==a.score) return b.score-a.score;
-        return a.mins-b.mins;
-      });
-
-    if(!ranked.length){
-      elDayPlan.innerHTML = `<div class="planTitle">לא נמצאו הצעות למסלול לפי הסינון.</div>`;
-      return;
+    if(mode === "name_asc"){
+      copy.sort((a,b)=> String(a.name).localeCompare(String(b.name), 'he'));
+      return copy;
     }
+    // score desc
+    copy.sort((a,b)=> (Number(b.score)||0) - (Number(a.score)||0));
+    return copy;
+  }
 
-    const chosen = [];
-    let total = 0;
+  function render(){
+    const q = elSearch.value.trim();
+    const cat = elCategory.value;
+    const minScore = Number(elMinScore.value || 0);
+    const selectedTags = tagInputs.filter(i=>i.checked).map(i=>i.value);
 
-    function addIf(x, minutes){
-      if(chosen.some(c=>c.it.name===x.it.name)) return;
-      chosen.push(x);
-      total += minutes;
-    }
+    let items = raw.filter(x => !isBase(x));
 
-    for(const x of ranked){
-      if(!x.isFood){
-        addIf(x, 75);
-        break;
-      }
-    }
-    for(const x of ranked){
-      if(x.isFood){
-        addIf(x, 60);
-        break;
-      }
-    }
-    for(const x of ranked){
-      if(total >= targetMinutes - 45) break;
-      if(chosen.length >= 4) break;
-      addIf(x, 60);
-    }
+    items = items.filter(x => matchesSearch(x, q));
+    if(cat) items = items.filter(x => (x.category_he || x.category) === cat);
+    if(minScore > 0) items = items.filter(x => (Number(x.score)||0) >= minScore);
+    items = items.filter(x => matchesTags(x, selectedTags));
 
-    const titleMap = {any:'כללי', hot:'חם מאוד', rain:'גשום', tired:'עייפים'};
-    const title = `מסלול מוצע (${hours} שעות, מצב: ${titleMap[mode]||'כללי'})`;
+    items = sortItems(items);
 
-    const list = chosen.map((x)=>{
-      const mapsLink = x.it.link && x.it.link.includes('maps.google.com')
-        ? x.it.link
-        : `https://maps.google.com/?q=${encodeURIComponent(x.it.name + ' Koh Samui')}`;
-      const shortWhy = x.it.why || '';
-      const dist = x.it.distance_min ? ` · ${x.it.distance_min}` : '';
-      return `<li><a href="#" data-name="${escapeHtml(x.it.name)}" class="planPick">${escapeHtml(x.it.name)}</a><span class="muted">${escapeHtml(dist)}</span><br/><span class="muted">${escapeHtml(shortWhy)}</span><br/><a href="${mapsLink}" target="_blank" rel="noopener">פתח במפות</a></li>`;
-    }).join('');
+    elCount.textContent = `${items.length} תוצאות`;
 
-    elDayPlan.innerHTML = `<div class="planTitle">${escapeHtml(title)}</div><ol>${list}</ol>`;
-    elDayPlan.querySelectorAll('.planPick').forEach(a=>{
-      a.addEventListener('click', (e)=>{
+    elCards.innerHTML = items.map((x, idx) => cardHtml(x, idx)).join("");
+
+    // attach listeners
+    Array.from(document.querySelectorAll("[data-action='focus']")).forEach(btn=>{
+      btn.addEventListener("click", (e)=>{
         e.preventDefault();
-        const name = a.getAttribute('data-name');
-        const found = data.find(d=>d.name===name);
-        if(found){
-          selectItem(found);
-          window.scrollTo({top: 0, behavior: 'smooth'});
+        const id = btn.getAttribute("data-id");
+        const item = items.find(i => i._id === id);
+        if(item) setMap(item);
+      });
+    });
+
+    Array.from(document.querySelectorAll(".card")).forEach(card=>{
+      card.addEventListener("click", (e)=>{
+        // ignore clicks on buttons/links
+        const tag = (e.target && e.target.tagName) ? e.target.tagName.toLowerCase() : "";
+        if(tag === "a" || tag === "button" || tag === "input") return;
+        const id = card.getAttribute("data-id");
+        const item = items.find(i => i._id === id);
+        if(item) setMap(item);
+      });
+      card.addEventListener("keydown", (e)=>{
+        if(e.key === "Enter"){
+          const id = card.getAttribute("data-id");
+          const item = items.find(i => i._id === id);
+          if(item) setMap(item);
         }
       });
     });
-  }
 
-  if(elBuildDay){
-    elBuildDay.addEventListener('click', buildDayPlan);
-  }
-  if(elClearDay){
-    elClearDay.addEventListener('click', ()=>{
-      elDayPlan.innerHTML = '';
-      elDayMode.value='any';
-      elDayLength.value='3';
+    Array.from(document.querySelectorAll("[data-action='gallery']")).forEach(btn=>{
+      btn.addEventListener("click", (e)=>{
+        e.preventDefault();
+        e.stopPropagation();
+        const id = btn.getAttribute("data-id");
+        const item = items.find(i => i._id === id);
+        if(item) openGallery(item);
+      });
+    });
+
+    Array.from(document.querySelectorAll("[data-action='openLink']")).forEach(a=>{
+      a.addEventListener("click", (e)=>{ e.stopPropagation(); });
     });
   }
 
-elReset.addEventListener('click', ()=>{
-    elSearch.value = '';
-    elCategory.value = 'all';
-    elMinScore.value = '0';
+  function cardHtml(item, idx){
+    // stable id (avoid recompute)
+    const id = item._id;
+    const cat = item.category_he || item.category;
+    const icon = item.icon || "✨";
+    const dist = item.distance_min || "";
+    const score = item.score;
+    const starsText = stars(score);
+    const mainImg = (item.images && item.images[0]) ? item.images[0] : "";
+    const tags = (item.tags || []).map(t => TAG_LABELS[t] || t);
+
+    const tagChips = tags.slice(0, 5).map(t => `<span class="badge soft"><span class="emoji">🏷️</span>${escapeHtml(t)}</span>`).join("");
+
+    return `
+      <article class="card" tabindex="0" data-id="${escapeHtml(id)}" aria-label="${escapeHtml(item.name)}">
+        <div class="cardTop">
+          <div class="thumb">
+            ${mainImg ? `<img alt="" loading="lazy" src="${escapeHtml(mainImg)}">` : ``}
+            <button class="galleryBtn" data-action="gallery" data-id="${escapeHtml(id)}" type="button">תמונות</button>
+          </div>
+
+          <div class="cardMain">
+            <div class="cardTitleRow">
+              <h3 class="cardTitle">${escapeHtml(icon)} ${escapeHtml(item.name)}</h3>
+              ${score ? `<div class="stars" title="ציון">${starsText}</div>` : ``}
+            </div>
+
+            <div class="badges">
+              <span class="badge"><span class="emoji">📌</span>${escapeHtml(cat)}</span>
+              ${dist ? `<span class="badge"><span class="emoji">🚗</span>${escapeHtml(dist)}</span>` : ``}
+              ${tagChips}
+            </div>
+          </div>
+        </div>
+
+        <div class="cardBody">
+          <div class="line"><div class="k">למה שווה</div><div class="v">${escapeHtml(item.why || "")}</div></div>
+          <div class="line"><div class="k">תמצית ביקורות</div><div class="v">${escapeHtml(item.reviews || "")}</div></div>
+        </div>
+
+        <div class="cardLinks">
+          <a class="linkBtn" data-action="openLink" target="_blank" rel="noopener" href="${escapeHtml(item.link || "#")}">קישור להתרשמות</a>
+          <a class="linkBtn" data-action="openLink" target="_blank" rel="noopener" href="${escapeHtml(openMapHref(item.link && item.link.includes('google.com/maps') ? item.link : item.name))}">פתחי מפה</a>
+          <button class="linkBtn" data-action="focus" data-id="${escapeHtml(id)}" type="button">מקד במפה</button>
+        </div>
+      </article>
+    `;
+  }
+
+  function openGallery(item){
+    const imgs = (item.images || []).slice(0, 4);
+    elModalTitle.textContent = `תמונות – ${item.name}`;
+    elModalGrid.innerHTML = imgs.map(src => `<img loading="lazy" alt="" src="${escapeHtml(src)}">`).join("");
+    elModal.setAttribute("aria-hidden", "false");
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeGallery(){
+    elModal.setAttribute("aria-hidden", "true");
+    document.body.style.overflow = "";
+  }
+
+  function resetAll(){
+    elSearch.value = "";
+    elCategory.value = "";
+    elMinScore.value = "0";
+    elSortBy.value = "score_desc";
+    tagInputs.forEach(i => i.checked = false);
     render();
+  }
+
+  function buildDay(){
+    const mode = elMode.value;
+    const items = raw.filter(x => !isBase(x));
+
+    const hasTag = (it, t) => (it.tags || []).includes(t);
+    const score = (it) => Number(it.score) || 0;
+    const mins = (it) => parseMin(it.distance_min) ?? 9999;
+
+    let pool = items.slice();
+
+    if(mode === "hot"){
+      pool = pool.filter(it => hasTag(it, "aircon") || hasTag(it, "water"));
+    } else if(mode === "rain"){
+      pool = pool.filter(it => hasTag(it, "rain") || hasTag(it, "aircon"));
+    } else if(mode === "tired"){
+      pool = pool.filter(it => hasTag(it, "short")).sort((a,b)=> mins(a) - mins(b));
+    }
+
+    // Choose 3 items: higher score first, then closer
+    pool.sort((a,b)=> (score(b) - score(a)) || (mins(a) - mins(b)));
+
+    const chosen = pool.slice(0, 3);
+    if(chosen.length === 0){
+      alert("לא מצאתי מסלול מתאים למסננים. נסי מצב אחר 🙂");
+      return;
+    }
+
+    // Highlight by pre-filling filters: set tags and min score for a nicer experience
+    resetAll();
+    // set category to "הכול"
+    elMinScore.value = "4";
+
+    // Create a small “focus” sequence: set map to first and scroll
+    setMap(chosen[0]);
+    // Render only chosen list (temporary)
+    elCount.textContent = `מסלול מומלץ (2–4 שעות): ${chosen.length} עצירות`;
+    elCards.innerHTML = chosen.map((x)=>cardHtml(x, 0)).join("");
+
+    // attach listeners again
+    Array.from(document.querySelectorAll("[data-action='focus']")).forEach(btn=>{
+      btn.addEventListener("click", (e)=>{
+        e.preventDefault();
+        const id = btn.getAttribute("data-id");
+        const item = chosen.find(i => i._id === id);
+        if(item) setMap(item);
+      });
+    });
+    Array.from(document.querySelectorAll(".card")).forEach(card=>{
+      card.addEventListener("click", (e)=>{
+        const tag = (e.target && e.target.tagName) ? e.target.tagName.toLowerCase() : "";
+        if(tag === "a" || tag === "button" || tag === "input") return;
+        const id = card.getAttribute("data-id");
+        const item = chosen.find(i => i._id === id);
+        if(item) setMap(item);
+      });
+    });
+    Array.from(document.querySelectorAll("[data-action='gallery']")).forEach(btn=>{
+      btn.addEventListener("click", (e)=>{
+        e.preventDefault();
+        e.stopPropagation();
+        const id = btn.getAttribute("data-id");
+        const item = chosen.find(i => i._id === id);
+        if(item) openGallery(item);
+      });
+    });
+
+    window.scrollTo({top: 0, behavior: "smooth"});
+  }
+
+  // Assign stable ids
+  raw.forEach((it, idx)=>{
+    it._id = `${idx}-${(it.name||"").replace(/\s+/g,'-').slice(0,24)}`;
   });
 
-  // Initial selection: base
+  // Wire events
+  [elSearch, elCategory, elMinScore, elSortBy].forEach(el => el.addEventListener("input", render));
+  elTags.addEventListener("change", render);
+  elReset.addEventListener("click", resetAll);
+  elBuild.addEventListener("click", buildDay);
+
+  elModalOverlay.addEventListener("click", closeGallery);
+  elCloseModal.addEventListener("click", closeGallery);
+  document.addEventListener("keydown", (e)=>{
+    if(e.key === "Escape" && elModal.getAttribute("aria-hidden") === "false") closeGallery();
+  });
+
+  // Initial map should be base if exists
+  const base = raw.find(isBase);
+  if(base){
+    setMap(base);
+  }
+
   render();
 })();
