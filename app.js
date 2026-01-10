@@ -12,7 +12,7 @@
   }
   ;
 
-  const TAG_ORDER = ["ac","stroller","water","drive_under_20","drive_over_20"];
+  const TAG_ORDER = ["ac","stroller","water","day_pass","drive_under_20","drive_over_20"];
 
   const elSearch = document.getElementById("search");
   const elCategory = document.getElementById("category");
@@ -220,6 +220,11 @@
     const hoursLine = item.hours ? `<div class="line"><div class="k">שעות</div><div class="v">${item.hours === 'לבדיקה' ? '<span class="checkBadge">❓</span> לבדיקה' : escapeHtml(item.hours)}</div></div>` : ``;
     const phoneLine = item.phone ? `<div class="line"><div class="k">טלפון</div><div class="v"><a class="tel" href="tel:${escapeHtml(item.phone)}">${escapeHtml(item.phone)}</a></div></div>` : ``;
 
+    const dayPassBlock = (item.day_pass_lines && item.day_pass_lines.length)
+      ? `<div class="line"><div class="k">Day Pass</div><div class="v"><ul class="bullets">${item.day_pass_lines.map(l => `<li>${escapeHtml(l)}</li>`).join("")}</ul></div></div>`
+      : ``;
+
+
     const mainImg = (item.images && item.images[0]) ? item.images[0] : "";
     const rawTags = (item.tags || []);
     const tags = rawTags.filter(t => TAG_LABELS[t]).map(t => TAG_LABELS[t]);
@@ -248,6 +253,7 @@
         <div class="cardBody">
           ${hoursLine}
           ${phoneLine}
+          ${dayPassBlock}
           <div class="line"><div class="k">למה שווה</div><div class="v">${escapeHtml(item.why || "")}</div></div>
           <div class="line"><div class="k">תמצית ביקורות</div><div class="v">${escapeHtml(item.reviews || "")}</div></div>
         </div>

@@ -384,3 +384,7 @@ a:hover{text-decoration:underline}
 }
 
 .tel{color:inherit;text-decoration:underline;}
+
+
+.bullets{margin:6px 0 0 0;padding:0 18px 0 0;line-height:1.5}
+.bullets li{margin:4px 0}
