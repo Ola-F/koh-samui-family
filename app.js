@@ -225,7 +225,17 @@
     // meta moved into details (under phone)
     const metaText = metaParts.length ? metaParts.join(" · ") : "";
 const hoursLine = item.hours ? `<div class="line"><div class="k">שעות</div><div class="v">${item.hours === 'לבדיקה' ? '<span class="checkBadge">❓</span> לבדיקה' : escapeHtml(item.hours)}</div></div>` : ``;
-    const phoneLine = item.phone ? (`<div class="line"><div class="k">טלפון</div><div class="v">${item.phone==='לבדיקה' ? '<span class="qmark">❓</span> לבדיקה' : `<a href="tel:${escapeHtml(item.phone)}">${escapeHtml(item.phone)}</a>`}</div></div>`) : ``;
+    let phoneLine = ``;
+    if(item.phone){
+      let phoneVal = ``;
+      if(item.phone === "לבדיקה"){
+        phoneVal = `<span class="qmark">❓</span> לבדיקה`;
+      } else {
+        const ph = escapeHtml(item.phone);
+        phoneVal = `<a href="tel:${ph}">${ph}</a>`;
+      }
+      phoneLine = `<div class="line"><div class="k">טלפון</div><div class="v">${phoneVal}</div></div>`;
+    }
 
     const dayPassBlock = (item.day_pass_lines && item.day_pass_lines.length)
       ? `<div class="line"><div class="k">Day Pass</div><div class="v"><ul class="bullets">${item.day_pass_lines.map(l => `<li>${escapeHtml(l)}</li>`).join("")}</ul></div></div>`

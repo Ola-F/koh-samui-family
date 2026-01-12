@@ -452,3 +452,22 @@ a:hover{text-decoration:underline}
     margin: 0;
   }
 }
+
+
+/* Desktop fix: force tags chips to lay out horizontally (mobile unchanged) */
+@media (min-width: 900px){
+  .tagsField .tags{
+    display:flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 10px !important;
+  }
+  .tagsField .tag{
+    display:inline-flex !important;
+    width: auto !important;
+    margin: 0 !important;
+    white-space: nowrap;
+  }
+}
