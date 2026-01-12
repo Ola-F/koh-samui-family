@@ -437,26 +437,9 @@ a:hover{text-decoration:underline}
   }
 }
 
-
-/* Desktop: tags should be in rows (keep mobile as-is) */
+/* Desktop-only: tags in a row (do not affect mobile) */
 @media (min-width: 900px){
-  .tags{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 10px;
-  }
-  .tags .tag{
-    margin: 0;
-  }
-}
-
-
-/* Desktop fix: force tags chips to lay out horizontally (mobile unchanged) */
-@media (min-width: 900px){
-  .tagsField .tags{
+  #tags, .tags{
     display:flex !important;
     flex-direction: row !important;
     flex-wrap: wrap !important;
@@ -464,10 +447,7 @@ a:hover{text-decoration:underline}
     justify-content: flex-start !important;
     gap: 10px !important;
   }
-  .tagsField .tag{
-    display:inline-flex !important;
-    width: auto !important;
+  #tags .tag, .tags .tag{
     margin: 0 !important;
-    white-space: nowrap;
   }
 }

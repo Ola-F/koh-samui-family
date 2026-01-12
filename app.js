@@ -222,19 +222,18 @@
     const metaParts = [];
     if(item.cuisine) metaParts.push(`מטבח: ${escapeHtml(item.cuisine)}`);
     if(item.price) metaParts.push(`מחיר: ${escapeHtml(item.price)}`);
-    // meta moved into details (under phone)
-    const metaText = metaParts.length ? metaParts.join(" · ") : "";
-const hoursLine = item.hours ? `<div class="line"><div class="k">שעות</div><div class="v">${item.hours === 'לבדיקה' ? '<span class="checkBadge">❓</span> לבדיקה' : escapeHtml(item.hours)}</div></div>` : ``;
+    const metaLine = metaParts.length ? `<div class="line"><div class="k">פרטים</div><div class="v">${metaParts.join(" · ")}</div></div>` : "";
+    const metaText = "";
+
+    const hoursLine = item.hours ? `<div class="line"><div class="k">שעות</div><div class="v">${item.hours === 'לבדיקה' ? '<span class="checkBadge">❓</span> לבדיקה' : escapeHtml(item.hours)}</div></div>` : ``;
     let phoneLine = ``;
     if(item.phone){
-      let phoneVal = ``;
       if(item.phone === "לבדיקה"){
-        phoneVal = `<span class="qmark">❓</span> לבדיקה`;
+        phoneLine = `<div class="line"><div class="k">טלפון</div><div class="v"><span class="qmark">❓</span> לבדיקה</div></div>`;
       } else {
         const ph = escapeHtml(item.phone);
-        phoneVal = `<a href="tel:${ph}">${ph}</a>`;
+        phoneLine = `<div class="line"><div class="k">טלפון</div><div class="v"><a class="tel" href="tel:${ph}">${ph}</a></div></div>`;
       }
-      phoneLine = `<div class="line"><div class="k">טלפון</div><div class="v">${phoneVal}</div></div>`;
     }
 
     const dayPassBlock = (item.day_pass_lines && item.day_pass_lines.length)
