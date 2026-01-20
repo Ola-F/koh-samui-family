@@ -9,7 +9,11 @@
     day_pass: "Day Pass",
     drive_under_20: "עד 20 ד׳ נסיעה",
     drive_over_20: "מעל 20 ד׳ נסיעה"
-  }
+    ,
+    supermarket: "סופרים",
+    mall: "קניון",
+    shopping: "קניות"
+}
   ;
 
   const TAG_ORDER = ["ac","stroller","water","drive_under_20","drive_over_20"];
@@ -71,11 +75,15 @@
     return Array.from(new Set(arr));
   }
 
-  // Category dropdown
-  const categories = unique(raw.filter(x=>!isBase(x)).map(x => x.category_he || x.category)).sort((a,b)=>a.localeCompare(b,'he'));
-  elCategory.innerHTML = `<option value="">כל הקטגוריות</option>` + categories.map(c=>`<option value="${escapeHtml(c)}">${escapeHtml(c)}</option>`).join("");
+  // Category dropdown (destination-aware)
+  function populateCategories(dest){
+    const cats = unique(raw.filter(x=>!isBase(x)).filter(x=>(x.destination||'koh_samui')===dest).map(x => x.category_he || x.category)).sort((a,b)=>a.localeCompare(b,'he'));
+    elCategory.innerHTML = `<option value="">כל הקטגוריות</option>` + cats.map(c=>`<option value="${escapeHtml(c)}">${escapeHtml(c)}</option>`).join("");
+  }
 
   let currentDestination = "koh_samui";
+  if(elDestination && elDestination.value) currentDestination = elDestination.value;
+  populateCategories(currentDestination);
 
   // Tag checkboxes (locked to approved Hebrew tags only)
   const tagsToShow = TAG_ORDER.slice();
@@ -169,6 +177,9 @@
     const selectedTags = tagInputs.filter(i=>i.checked).map(i=>i.value);
 
     let items = raw.filter(x => !isBase(x));
+
+    // destination filter
+    items = items.filter(x => (x.destination || 'koh_samui') === currentDestination);
 
     items = items.filter(x => matchesSearch(x, q));
     if(cat) items = items.filter(x => (x.category_he || x.category) === cat);
@@ -471,6 +482,9 @@
   if(elDestination){
     elDestination.addEventListener("change", ()=>{
       currentDestination = elDestination.value || "koh_samui";
+      populateCategories(currentDestination);
+      // reset category selection when switching destination
+      elCategory.value = "";
       resetAll();
       // keep destination selection
       if(elDestination) elDestination.value = currentDestination;
