@@ -6,26 +6,29 @@ body{font-family:Arial,"Noto Sans Hebrew",sans-serif;background:var(--bg);color:
 a{color:inherit} 
 button,input,select{font:inherit}
 
-.topbar{padding:16px 16px 6px;max-width:1400px;margin:0 auto}
-.topbar h1{margin:0 0 4px;font-size:30px;line-height:1.2}
-.ghostBtn{background:none;border:none;color:var(--accent);cursor:pointer;padding:0}
+.topbar{padding:10px 14px 4px;max-width:1400px;margin:0 auto}
+.topbar h1{margin:0 0 2px;font-size:26px;line-height:1.15}
+.ghostBtn{background:none;border:none;color:var(--accent);cursor:pointer;padding:0;font-size:14px}
 
-.layout{max-width:1400px;margin:0 auto;padding:12px 16px 28px;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(320px,.85fr);gap:18px;align-items:start}
-.panel{background:var(--panel);border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow);padding:14px}
-.filters{display:grid;gap:12px}
+.layout{max-width:1400px;margin:0 auto;padding:8px 14px 24px;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(320px,.85fr);gap:16px;align-items:start}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow);padding:12px}
+.filters{display:grid;gap:10px}
 .row2,.row4,.builderRow{display:grid;gap:10px}
-.row2{grid-template-columns:1fr 1.2fr}
-.row4{grid-template-columns:1fr 1fr 1fr auto}
+/* keep the top area compact: two controls in each row */
+.row2,.row4{grid-template-columns:repeat(2,minmax(0,1fr));align-items:end}
+.row2>label,.row4>label,.row4>.btnWrap{min-width:0}
+.row4>.btnWrap{grid-column:1 / -1}
 .builderRow{grid-template-columns:1fr auto;align-items:end}
-label span,.label,.panelTitle,.builderHead,strong{display:block;font-weight:700;margin-bottom:6px}
-input,select,button{width:100%;border:1px solid var(--line);border-radius:14px;padding:11px 14px;background:#fff;min-height:50px}
+label span,.label,.panelTitle,.builderHead,strong{display:block;font-weight:700;margin-bottom:5px}
+input,select,button{width:100%;border:1px solid var(--line);border-radius:14px;padding:10px 12px;background:#fff;min-height:46px}
+input,select{min-width:0}
 button{cursor:pointer;background:#111;color:#fff;border-color:#111}
 .btnWrap{display:flex;align-items:end}
 .btnWrap button{min-width:110px}
 
 .tagsBlock{display:grid;gap:8px}
-.tags{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
-.tag{border:1px solid var(--line);border-radius:18px;padding:10px 12px;background:#faf8f3;font-size:14px;display:flex;align-items:center;justify-content:flex-start;gap:8px;min-height:52px;line-height:1.25;white-space:normal}
+.tags{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.tag{border:1px solid var(--line);border-radius:18px;padding:10px 12px;background:#faf8f3;font-size:14px;display:flex;align-items:center;justify-content:flex-start;gap:8px;min-height:52px;line-height:1.25;white-space:normal;min-width:0;overflow-wrap:anywhere}
 .tag input{width:20px;height:20px;min-height:auto;flex:0 0 auto;margin:0}
 
 .resultsHead{margin:12px 2px}
@@ -71,18 +74,23 @@ button{cursor:pointer;background:#111;color:#fff;border-color:#111}
 }
 
 @media (max-width:760px){
-  .topbar{padding:12px 12px 4px}
-  .topbar h1{font-size:24px}
-  .layout{padding:10px 12px 22px;gap:14px}
-  .panel{padding:12px;border-radius:18px}
-  .filters{gap:10px}
-  .row2{grid-template-columns:1fr 1fr}
-  .row4{grid-template-columns:1fr 1fr}
-  .row4 > .btnWrap{grid-column:1 / -1}
+  .topbar{padding:8px 12px 2px}
+  .topbar h1{font-size:22px}
+  .layout{padding:8px 12px 20px;gap:12px}
+  .panel{padding:10px 10px 12px;border-radius:18px}
+  .filters{gap:8px}
+  .row2,.row4{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .row4>.btnWrap{grid-column:1 / -1}
   .builderRow{grid-template-columns:1fr 1fr}
-  .tags{grid-template-columns:1fr 1fr}
-  input,select,button{padding:10px 12px;min-height:48px}
+  .tags{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  input,select,button{padding:9px 10px;min-height:44px}
+  .tag{font-size:13px;padding:8px 10px;min-height:48px}
   .line{grid-template-columns:1fr}
   .modalGrid{grid-template-columns:1fr}
   .cardTitle{font-size:20px}
+}
+
+@media (max-width:430px){
+  .topbar h1{font-size:20px}
+  .tag{font-size:12px}
 }
