@@ -1712,7 +1712,7 @@ window.ATTRACTIONS = [
 }
   ;
 
-  const TAG_ORDER = ["ac","water","calm","challenging","drive_under_20","drive_over_20"];
+  const TAG_ORDER = ["ac","water","day_pass","calm","challenging","drive_under_20","drive_over_20"];
 
   const elSearch = document.getElementById("search");
   const elCategory = document.getElementById("category");
