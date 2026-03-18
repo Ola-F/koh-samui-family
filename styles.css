@@ -94,3 +94,21 @@ button{cursor:pointer;background:#111;color:#fff;border-color:#111}
   .topbar h1{font-size:20px}
   .tag{font-size:12px}
 }
+
+
+.builderHint{margin:8px 2px 0;color:var(--muted);font-size:14px}
+.dayPlan{background:#fff;border:1px solid var(--line);border-radius:22px;padding:18px;box-shadow:var(--shadow);display:grid;gap:12px}
+.dayPlanTitle{font-size:22px;font-weight:700;line-height:1.2}
+.dayPlanShort{font-size:16px;color:var(--text)}
+.dayPlanVibe{display:inline-flex;justify-self:start;background:#eef4ea;border:1px solid #d6e4cd;border-radius:999px;padding:6px 12px;font-size:13px;color:#35513a}
+.dayStops{display:grid;gap:10px}
+.dayStop{background:#faf8f3;border:1px solid var(--line);border-radius:16px;padding:12px}
+.dayLabel{font-weight:700;color:var(--muted);margin-bottom:4px}
+.dayName{font-weight:700;text-decoration:none;color:var(--text)}
+.dayNote{margin-top:4px;color:var(--muted);font-size:14px}
+.dayWhy,.dayTips{font-size:15px}
+.dayPlanActions{display:flex;flex-wrap:wrap;gap:10px}
+@media (max-width:760px){
+  .dayPlanTitle{font-size:20px}
+  .dayPlan{padding:16px}
+}
