@@ -49,9 +49,7 @@ window.ATTRACTIONS = [
     "score": 4,
     "tags": [
       "water",
-      "stroller",
-      "drive_under_20"
-    ],
+      "stroller"],
     "hours": "כל היום",
     "phone": "",
     "link": "https://maps.google.com/?q=Bang+Rak+Beach+Koh+Samui",
@@ -66,9 +64,7 @@ window.ATTRACTIONS = [
     "score": 5,
     "tags": [
       "water",
-      "stroller",
-      "drive_under_20"
-    ],
+      "stroller"],
     "hours": "כל היום",
     "phone": "",
     "link": "https://maps.google.com/?q=Bophut+Beach+Koh+Samui",
@@ -83,9 +79,7 @@ window.ATTRACTIONS = [
     "score": 5,
     "tags": [
       "water",
-      "stroller",
-      "drive_under_20"
-    ],
+      "stroller"],
     "hours": "כל היום",
     "phone": "",
     "link": "https://maps.google.com/?q=Choeng+Mon+Beach+Koh+Samui",
@@ -100,9 +94,7 @@ window.ATTRACTIONS = [
     "score": 4,
     "tags": [
       "water",
-      "stroller",
-      "drive_under_20"
-    ],
+      "stroller"],
     "hours": "כל היום",
     "phone": "",
     "link": "https://maps.google.com/?q=Mae+Nam+Beach+Koh+Samui",
@@ -117,7 +109,7 @@ window.ATTRACTIONS = [
     "score": 5,
     "tags": [
       "water",
-      "drive_over_20",
+      
       "stroller"
     ],
     "hours": "כל היום",
@@ -134,7 +126,7 @@ window.ATTRACTIONS = [
     "score": 4,
     "tags": [
       "water",
-      "drive_over_20",
+      
       "stroller"
     ],
     "hours": "כל היום",
@@ -150,9 +142,7 @@ window.ATTRACTIONS = [
     "category": "מסעדות חוף",
     "score": 5,
     "tags": [
-      "water",
-      "drive_under_20"
-    ],
+      "water"],
     "hours": "לבדיקה",
     "phone": "",
     "link": "https://maps.google.com/?q=Chi+Samui+Bang+Rak",
@@ -166,9 +156,7 @@ window.ATTRACTIONS = [
     "category": "מסעדות חוף",
     "score": 5,
     "tags": [
-      "water",
-      "drive_under_20"
-    ],
+      "water"],
     "hours": "לבדיקה",
     "phone": "",
     "link": "https://maps.google.com/?q=CoCo+Tam's+Bophut+Koh+Samui",
@@ -182,9 +170,7 @@ window.ATTRACTIONS = [
     "category": "מסעדות חוף",
     "score": 4,
     "tags": [
-      "water",
-      "drive_under_20"
-    ],
+      "water"],
     "hours": "לבדיקה",
     "phone": "",
     "link": "https://maps.google.com/?q=The+Shack+Koh+Samui",
@@ -198,9 +184,7 @@ window.ATTRACTIONS = [
     "category": "מסעדות חוף",
     "score": 4,
     "tags": [
-      "water",
-      "drive_under_20"
-    ],
+      "water"],
     "hours": "לבדיקה",
     "phone": "",
     "link": "https://maps.google.com/?q=KohCo+Beach+Club+Koh+Samui",
@@ -214,9 +198,7 @@ window.ATTRACTIONS = [
     "category": "מסעדות חוף",
     "score": 4,
     "tags": [
-      "water",
-      "drive_under_20"
-    ],
+      "water"],
     "hours": "לבדיקה",
     "phone": "",
     "link": "https://maps.google.com/?q=Hacienda+Beach+Restaurant+Koh+Samui",
@@ -230,7 +212,7 @@ window.ATTRACTIONS = [
     "category": "משחקיות וסדנאות",
     "score": 5,
     "tags": [
-      "drive_under_20",
+      
       "ac"
     ],
     "hours": "כל יום 08:00–19:00",
@@ -246,7 +228,7 @@ window.ATTRACTIONS = [
     "category": "משחקיות וסדנאות",
     "score": 4,
     "tags": [
-      "drive_under_20",
+      
       "ac"
     ],
     "hours": "א׳–ה׳ 09:00–19:00, ו׳ סגור, שבת 09:00–19:00 (ד׳ פיצול שעות)",
@@ -263,7 +245,7 @@ window.ATTRACTIONS = [
     "score": "check",
     "tags": [
       "ac",
-      "drive_under_20",
+      
       "ac",
       "supermarket"
     ],
@@ -280,7 +262,7 @@ window.ATTRACTIONS = [
     "category": "קניות",
     "score": 4,
     "tags": [
-      "drive_under_20",
+      
       "ac",
       "mall"
     ],
@@ -297,7 +279,7 @@ window.ATTRACTIONS = [
     "category": "משחקיות וסדנאות",
     "score": 4,
     "tags": [
-      "drive_under_20",
+      
       "ac"
     ],
     "hours": "כל יום 09:00–21:00",
@@ -313,7 +295,7 @@ window.ATTRACTIONS = [
     "category": "טבע",
     "score": 4,
     "tags": [
-      "drive_over_20"
+      
     ],
     "hours": "כל יום 09:00–17:00",
     "phone": "",
@@ -328,7 +310,7 @@ window.ATTRACTIONS = [
     "category": "טבע",
     "score": 4,
     "tags": [
-      "drive_over_20"
+      
     ],
     "hours": "לבדיקה",
     "phone": "",
@@ -343,7 +325,7 @@ window.ATTRACTIONS = [
     "category": "חיות",
     "score": 5,
     "tags": [
-      "drive_over_20"
+      
     ],
     "hours": "כל יום 09:00–17:00",
     "phone": "+66 95 269 8343",
@@ -358,7 +340,7 @@ window.ATTRACTIONS = [
     "category": "חיות",
     "score": 3,
     "tags": [
-      "drive_over_20"
+      
     ],
     "hours": "כל יום 09:00–17:00",
     "phone": "+66 81 255 1222",
@@ -373,7 +355,7 @@ window.ATTRACTIONS = [
     "category": "משחקיות וסדנאות",
     "score": 4,
     "tags": [
-      "drive_over_20"
+      
     ],
     "hours": "לבדיקה",
     "phone": "",
@@ -388,7 +370,7 @@ window.ATTRACTIONS = [
     "category": "משחקיות וסדנאות",
     "score": "check",
     "tags": [
-      "drive_over_20",
+      
       "ac"
     ],
     "hours": "שבת–חמישי 10:00–18:00, ראשון 12:00–17:00, שישי סגור",
@@ -404,7 +386,7 @@ window.ATTRACTIONS = [
     "category": "משחקיות וסדנאות",
     "score": "check",
     "tags": [
-      "drive_over_20"
+      
     ],
     "hours": "לבדיקה",
     "phone": "",
@@ -419,7 +401,7 @@ window.ATTRACTIONS = [
     "category": "חיות",
     "score": "check",
     "tags": [
-      "drive_over_20",
+      
       "ac"
     ],
     "hours": "לבדיקה",
@@ -478,9 +460,7 @@ window.ATTRACTIONS = [
     "category": "שווקים",
     "score": "check",
     "tags": [
-      "water",
-      "drive_under_20"
-    ],
+      "water"],
     "hours": "שישי 17:00–23:00 (משוער)",
     "phone": "",
     "link": "https://maps.google.com/?q=Fisherman's+Village+Walking+Street+Koh+Samui",
@@ -494,7 +474,7 @@ window.ATTRACTIONS = [
     "category": "שווקים",
     "score": "check",
     "tags": [
-      "drive_over_20"
+      
     ],
     "hours": "כל יום 15:00–24:00 (משוער)",
     "phone": "+66 84 695 3502",
@@ -509,7 +489,7 @@ window.ATTRACTIONS = [
     "category": "שווקים",
     "score": "check",
     "tags": [
-      "drive_over_20"
+      
     ],
     "hours": "כל יום (משוער) 11:00–01:00",
     "phone": "",
@@ -524,7 +504,7 @@ window.ATTRACTIONS = [
     "category": "טבע",
     "score": "check",
     "tags": [
-      "drive_over_20"
+      
     ],
     "hours": "לבדיקה",
     "phone": "",
@@ -604,7 +584,7 @@ window.ATTRACTIONS = [
     "category": "ריזורטים עם Day Pass",
     "score": 5,
     "tags": [
-      "day_pass"
+      
     ],
     "hours": "כל יום 09:00–17:00",
     "phone": "+66 77 425 031",
@@ -619,7 +599,7 @@ window.ATTRACTIONS = [
     "category": "ריזורטים עם Day Pass",
     "score": 4,
     "tags": [
-      "day_pass"
+      
     ],
     "hours": "לבדיקה (בד״כ במהלך שעות הפעילות של KOA/הריזורט)",
     "phone": "",
@@ -634,7 +614,7 @@ window.ATTRACTIONS = [
     "category": "ריזורטים עם Day Pass",
     "score": "check",
     "tags": [
-      "day_pass"
+      
     ],
     "hours": "לבדיקה מול המלון (טלפון/מייל באתר הרשמי)",
     "phone": "+66 77 951 777",
@@ -649,7 +629,7 @@ window.ATTRACTIONS = [
     "category": "ריזורטים עם Day Pass",
     "score": "check",
     "tags": [
-      "day_pass"
+      
     ],
     "hours": "כל יום 10:00–22:00",
     "phone": "+66 77 458 560",
@@ -665,7 +645,7 @@ window.ATTRACTIONS = [
     "score": 4,
     "tags": [
       "ac",
-      "drive_under_20",
+      
       "mall"
     ],
     "hours": "11:00–21:00",
@@ -682,7 +662,7 @@ window.ATTRACTIONS = [
     "score": 4,
     "tags": [
       "ac",
-      "drive_under_20",
+      
       "supermarket"
     ],
     "hours": "09:00–22:00",
@@ -699,7 +679,7 @@ window.ATTRACTIONS = [
     "score": 4,
     "tags": [
       "ac",
-      "drive_under_20",
+      
       "supermarket"
     ],
     "hours": "09:00–22:00",
@@ -716,7 +696,7 @@ window.ATTRACTIONS = [
     "score": 4,
     "tags": [
       "ac",
-      "drive_under_20",
+      
       "supermarket"
     ],
     "hours": "06:00–22:00",
@@ -732,7 +712,7 @@ window.ATTRACTIONS = [
     "category": "קניות",
     "score": 4,
     "tags": [
-      "drive_under_20",
+      
       "supermarket"
     ],
     "hours": "",
@@ -748,7 +728,7 @@ window.ATTRACTIONS = [
     "category": "קניות",
     "score": 4,
     "tags": [
-      "drive_under_20",
+      
       "supermarket"
     ],
     "hours": "09:00–22:00",
@@ -764,7 +744,7 @@ window.ATTRACTIONS = [
     "category": "קניות",
     "score": 4,
     "tags": [
-      "drive_under_20",
+      
       "shopping"
     ],
     "hours": "",
@@ -780,7 +760,7 @@ window.ATTRACTIONS = [
     "category": "קניות",
     "score": 4,
     "tags": [
-      "drive_under_20",
+      
       "supermarket"
     ],
     "hours": "06:00–22:00",
@@ -796,7 +776,7 @@ window.ATTRACTIONS = [
     "category": "קניות",
     "score": 4,
     "tags": [
-      "drive_under_20",
+      
       "supermarket"
     ],
     "hours": "09:00–22:00",
@@ -812,7 +792,7 @@ window.ATTRACTIONS = [
     "category": "קניות",
     "score": 4,
     "tags": [
-      "drive_under_20",
+      
       "supermarket"
     ],
     "hours": "09:00–22:00",
@@ -871,7 +851,7 @@ window.ATTRACTIONS = [
     "category": "חיות",
     "score": 5,
     "tags": [
-      "drive_under_20"
+      
     ],
     "hours": "09:00–19:00",
     "phone": "+66 91 034 2526",
@@ -886,7 +866,7 @@ window.ATTRACTIONS = [
     "category": "חיות",
     "score": "check",
     "tags": [
-      "drive_under_20"
+      
     ],
     "hours": "",
     "phone": "",
@@ -927,9 +907,7 @@ window.ATTRACTIONS = [
     "category": "משחקיות וסדנאות",
     "score": 4,
     "tags": [
-      "ac",
-      "drive_over_20"
-    ],
+      "ac"],
     "hours": "א׳ 12:00–17:00 | ב׳–ה׳ 10:00–18:00 | ו׳ סגור | שבת 10:00–18:00",
     "phone": "",
     "link": "https://www.google.com/maps/search/?api=1&query=UniKids%20Big%20C%20Koh%20Samui",
@@ -943,9 +921,7 @@ window.ATTRACTIONS = [
     "category": "משחקיות וסדנאות",
     "score": "check",
     "tags": [
-      "ac",
-      "drive_over_20"
-    ],
+      "ac"],
     "hours": "קפה/אזור משחק: 15:00–20:00 (סגור בשלישי)",
     "phone": "WhatsApp +66 80 853 0400",
     "link": "https://www.google.com/maps/search/?api=1&query=Move%20Time%20Club%20Maenam%20Koh%20Samui",
@@ -959,9 +935,7 @@ window.ATTRACTIONS = [
     "category": "חיות",
     "score": 4,
     "tags": [
-      "ac",
-      "drive_under_20"
-    ],
+      "ac"],
     "hours": "לבדיקה",
     "phone": "",
     "link": "https://maps.google.com/?q=Siam+Serpentarium",
@@ -975,7 +949,7 @@ window.ATTRACTIONS = [
     "category": "טבע",
     "score": 4,
     "tags": [
-      "drive_under_20"
+      
     ],
     "hours": "כל היום",
     "phone": "+66 2 326 9994",
@@ -991,7 +965,7 @@ window.ATTRACTIONS = [
     "score": 4,
     "tags": [
       "ac",
-      "drive_over_20",
+      
       "mall"
     ],
     "hours": "Mon–Fri 10:30–20:00 | Weekend 10:00–20:00",
@@ -1008,7 +982,7 @@ window.ATTRACTIONS = [
     "score": 4,
     "tags": [
       "ac",
-      "drive_over_20",
+      
       "mall"
     ],
     "hours": "לבדיקה",
@@ -1024,7 +998,7 @@ window.ATTRACTIONS = [
     "category": "מסעדות",
     "score": 4,
     "tags": [
-      "drive_over_20"
+      
     ],
     "hours": "לבדיקה",
     "phone": "",
@@ -1056,7 +1030,7 @@ window.ATTRACTIONS = [
     "score": "check",
     "tags": [
       "ac",
-      "drive_over_20",
+      
       "mall"
     ],
     "hours": "לבדיקה",
@@ -1073,7 +1047,7 @@ window.ATTRACTIONS = [
     "score": 4,
     "tags": [
       "ac",
-      "drive_under_20",
+      
       "mall"
     ],
     "hours": "ב׳–ו׳ 11:00–20:00 | ש׳–א׳ 10:00–20:00",
@@ -1090,7 +1064,7 @@ window.ATTRACTIONS = [
     "score": 4,
     "tags": [
       "ac",
-      "drive_under_20",
+      
       "mall"
     ],
     "hours": "כל יום 10:00–22:00",
@@ -1106,7 +1080,7 @@ window.ATTRACTIONS = [
     "category": "שווקים",
     "score": 4,
     "tags": [
-      "drive_under_20"
+      
     ],
     "hours": "א׳–ו׳ 06:00–17:00 | ש׳ 06:00–18:00",
     "phone": "",
@@ -1122,7 +1096,7 @@ window.ATTRACTIONS = [
     "score": "check",
     "tags": [
       "ac",
-      "drive_under_20",
+      
       "mall"
     ],
     "hours": "כל יום 10:00–21:00",
@@ -1139,7 +1113,7 @@ window.ATTRACTIONS = [
     "score": "check",
     "tags": [
       "ac",
-      "drive_under_20",
+      
       "shopping"
     ],
     "hours": "כל יום 10:00–21:00",
@@ -1155,9 +1129,7 @@ window.ATTRACTIONS = [
     "category": "מסעדות",
     "score": "check",
     "tags": [
-      "ac",
-      "drive_under_20"
-    ],
+      "ac"],
     "hours": "06:30–23:00",
     "phone": "+66 98 747 7214",
     "link": "https://maps.google.com/?q=Gate43+Airport+Hotel+The+First+Lounge",
@@ -1172,7 +1144,7 @@ window.ATTRACTIONS = [
     "score": "check",
     "tags": [
       "ac",
-      "drive_under_20",
+      
       "mall"
     ],
     "hours": "כל יום 10:00–21:00",
@@ -1594,9 +1566,7 @@ window.ATTRACTIONS = [
     "score": 5,
     "tags": [
       "water",
-      "calm",
-      "day_pass"
-    ],
+      "calm"],
     "hours": "לבדיקה",
     "phone": "",
     "link": "https://www.google.com/maps/search/?api=1&query=Sofitel+Krabi+Phokeethra",
@@ -1616,9 +1586,7 @@ window.ATTRACTIONS = [
     "score": 4,
     "tags": [
       "water",
-      "calm",
-      "day_pass"
-    ],
+      "calm"],
     "hours": "10:00–22:00",
     "phone": "",
     "link": "https://www.google.com/maps/search/?api=1&query=The+Beach+Club+Krabi",
@@ -1760,9 +1728,7 @@ window.ATTRACTIONS = [
     "score": 5,
     "tags": [
       "ac",
-      "calm",
-      "day_pass"
-    ],
+      "calm"],
     "hours": "כל יום 08:00–18:00",
     "phone": "66 75 627 800",
     "link": "https://www.google.com/maps/search/?api=1&query=Sofitel%20Krabi%20Phokeethra%20Kids%20Club",
@@ -1853,7 +1819,8 @@ window.ATTRACTIONS = [
     shopping: "קניות",
     calm: "רגוע",
     challenging: "אתגרי"
-  };
+}
+  ;
 
   const TAG_ORDER = ["ac","water","calm","challenging"];
 
@@ -2161,7 +2128,7 @@ window.ATTRACTIONS = [
     const rawTags = (item.tags || []);
     const tags = rawTags.filter(t => TAG_LABELS[t]).map(t => TAG_LABELS[t]);
 
-    const tagsForChips = rawTags.filter(t => TAG_LABELS[t]).map(t => TAG_LABELS[t]);
+    const tagsForChips = rawTags.filter(t => TAG_LABELS[t] && ![].includes(t)).map(t => TAG_LABELS[t]);
 
     const tagChips = tagsForChips.slice(0, 5).map(t => `<span class="badge tag"><span class="emoji">🏷️</span>${escapeHtml(t)}</span>`).join("");
 
