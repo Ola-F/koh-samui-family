@@ -598,10 +598,10 @@ window.ATTRACTIONS = [
     "reviews": "נראה מתאים למשפחות וקיבל רושם חיובי מספיק כדי להיכנס לרשימה."
   },
   {
-    "name": "Santiburi Koh Samui – ",
+    "name": "Santiburi Koh Samui – Day Pass",
     "destination": "koh_samui",
-    "category_he": "ריזורטים עם ",
-    "category": "ריזורטים עם ",
+    "category_he": "ריזורטים עם Day Pass",
+    "category": "ריזורטים עם Day Pass",
     "score": 5,
     "tags": [
       "day_pass"
@@ -613,10 +613,10 @@ window.ATTRACTIONS = [
     "reviews": "נראה מתאים למשפחות וקיבל רושם חיובי מספיק כדי להיכנס לרשימה."
   },
   {
-    "name": "Tolani Resort Koh Samui (KOA Dining) – ",
+    "name": "Tolani Resort Koh Samui (KOA Dining) – Day Pass",
     "destination": "koh_samui",
-    "category_he": "ריזורטים עם ",
-    "category": "ריזורטים עם ",
+    "category_he": "ריזורטים עם Day Pass",
+    "category": "ריזורטים עם Day Pass",
     "score": 4,
     "tags": [
       "day_pass"
@@ -628,10 +628,10 @@ window.ATTRACTIONS = [
     "reviews": "נראה מתאים למשפחות וקיבל רושם חיובי מספיק כדי להיכנס לרשימה."
   },
   {
-    "name": "Holiday Inn Resort Samui Bophut – Family  (לבדיקה)",
+    "name": "Holiday Inn Resort Samui Bophut – Family Day Pass (לבדיקה)",
     "destination": "koh_samui",
-    "category_he": "ריזורטים עם ",
-    "category": "ריזורטים עם ",
+    "category_he": "ריזורטים עם Day Pass",
+    "category": "ריזורטים עם Day Pass",
     "score": "check",
     "tags": [
       "day_pass"
@@ -643,10 +643,10 @@ window.ATTRACTIONS = [
     "reviews": "מקום שנמצא רלוונטי למשפחות, אבל כדאי לבדוק פרטים עדכניים לפני הגעה."
   },
   {
-    "name": "Outrigger Koh Samui Beach Resort –  (לבדיקה)",
+    "name": "Outrigger Koh Samui Beach Resort – Day Pass (לבדיקה)",
     "destination": "koh_samui",
-    "category_he": "ריזורטים עם ",
-    "category": "ריזורטים עם ",
+    "category_he": "ריזורטים עם Day Pass",
+    "category": "ריזורטים עם Day Pass",
     "score": "check",
     "tags": [
       "day_pass"
@@ -654,7 +654,7 @@ window.ATTRACTIONS = [
     "hours": "כל יום 10:00–22:00",
     "phone": "+66 77 458 560",
     "link": "https://maps.google.com/?q=Outrigger+Koh+Samui+Beach+Resort",
-    "why": "אפשרות  במחיר נוח, עם פעילות יומית ואווירה רגועה.",
+    "why": "אפשרות Day Pass במחיר נוח, עם פעילות יומית ואווירה רגועה.",
     "reviews": "מקום שנמצא רלוונטי למשפחות, אבל כדאי לבדוק פרטים עדכניים לפני הגעה."
   },
   {
@@ -1587,10 +1587,10 @@ window.ATTRACTIONS = [
     "reviews": "המבקרים מתלהבים מהנוף ומהאווירה השקטה והיותר יוקרתית. החיסרון העיקרי שחוזר הוא שפחות מדובר בחוף עם הרבה אקשן, אלא במקום לשקט ולישיבה נינוחה."
   },
   {
-    "name": "Sofitel Krabi Phokeethra – Family ",
+    "name": "Sofitel Krabi Phokeethra – Family Day Pass",
     "destination": "krabi",
-    "category_he": "ריזורטים עם ",
-    "category": "ריזורטים עם ",
+    "category_he": "ריזורטים עם Day Pass",
+    "category": "ריזורטים עם Day Pass",
     "score": 5,
     "tags": [
       "water",
@@ -1603,7 +1603,7 @@ window.ATTRACTIONS = [
     "why": "פתרון מעולה ליום קל עם ילדים: בריכה ענקית, מתקנים, שירותי ריזורט והכול בלי להתחייב ללינה. זה בדיוק מסוג המקומות שטובים כשצריך יום מפנק ונטול מאמץ.",
     "reviews": "הביקורות והחומר הרשמי מדגישים את גודל הבריכה ואת העובדה שהמקום מתאים מאוד למשפחות. שווה לבדוק זמינות מראש, כי ההטבה אינה תמיד פתוחה בכל תקופה.",
     "day_pass_lines": [
-      "Family  רשמי של המלון",
+      "Family Day Pass רשמי של המלון",
       "כולל שימוש בבריכה ובחלק מהמתקנים",
       "כדאי לבדוק מחיר ותנאים מעודכנים לפני הגעה"
     ]
@@ -1625,7 +1625,7 @@ window.ATTRACTIONS = [
     "why": "ביץ׳ קלאב מסודר על החוף עם בריכה, ישיבה נוחה ואווירה של יום חופש בלי יותר מדי תכנון. מתאים מאוד לשילוב של ים, אוכל ובריכה באותו מקום.",
     "reviews": "החוזקה העיקרית שחוזרת היא הלוקיישן והישיבה הנוחה מול הים. מי שמחפש מקום פשוט וזול ירגיש שזה יותר מקום של בילוי מסודר מאשר חוף קז׳ואלי.",
     "day_pass_lines": [
-      "קיים  עם זיכוי חלקי לאוכל ושתייה",
+      "קיים Day Pass עם זיכוי חלקי לאוכל ושתייה",
       "כדאי לבדוק מחיר ותנאים עדכניים לפני הגעה"
     ]
   },
@@ -1642,7 +1642,7 @@ window.ATTRACTIONS = [
     "hours": "לבדיקה",
     "phone": "",
     "link": "https://www.google.com/maps/search/?api=1&query=Dusit+Thani+Krabi+Beach+Resort",
-    "why": "ריזורט על חוף יפה ושקט יחסית, עם אווירה מסודרת ונעימה. גם בלי  רשמי, זה מקום ששווה לשקול עבור ארוחה, קפה או ביקור קצר באזור החוף.",
+    "why": "ריזורט על חוף יפה ושקט יחסית, עם אווירה מסודרת ונעימה. גם בלי Day Pass רשמי, זה מקום ששווה לשקול עבור ארוחה, קפה או ביקור קצר באזור החוף.",
     "reviews": "מבקרים נוטים להחמיא מאוד לחוף היפה ולתחושת הנוחות של המקום. זה פחות יעד אטרקציה בפני עצמו ויותר מקום נעים לשלב סביב Klong Muang."
   },
   {
@@ -1767,7 +1767,7 @@ window.ATTRACTIONS = [
     "phone": "66 75 627 800",
     "link": "https://www.google.com/maps/search/?api=1&query=Sofitel%20Krabi%20Phokeethra%20Kids%20Club",
     "why": "קידס קלאב מושקע במיוחד בתוך Sofitel, עם חללים מעוצבים, פינות קריאה, יצירה, משחק דיגיטלי ופעילויות מתחלפות. תוספת חזקה מאוד לאתר כי זו אופציה איכותית ליום חם או להפסקה מריזורט.",
-    "reviews": "החומר הרשמי מדגיש מרחב מעוצב ורב גילאי, עם סדנאות ופעילויות לאורך השבוע. היתרון הגדול הוא האיכות והסדר, אבל חשוב לבדוק מראש אם נדרש  או הזמנה נפרדת לשימוש חיצוני.",
+    "reviews": "החומר הרשמי מדגיש מרחב מעוצב ורב גילאי, עם סדנאות ופעילויות לאורך השבוע. היתרון הגדול הוא האיכות והסדר, אבל חשוב לבדוק מראש אם נדרש Day Pass או הזמנה נפרדת לשימוש חיצוני.",
     "icon": "🧸"
   },
   {
@@ -1848,19 +1848,14 @@ window.ATTRACTIONS = [
   const TAG_LABELS = {
     ac: "ממוזג",
     water: "מים",
-    day_pass: "",
-    drive_under_20: " נסיעה",
-    drive_over_20: " נסיעה"
-    ,
     supermarket: "סופרים",
     mall: "קניון",
     shopping: "קניות",
     calm: "רגוע",
     challenging: "אתגרי"
-}
-  ;
+  };
 
-  const TAG_ORDER = ["ac","water","day_pass","calm","challenging","drive_under_20","drive_over_20"];
+  const TAG_ORDER = ["ac","water","calm","challenging"];
 
   const elSearch = document.getElementById("search");
   const elCategory = document.getElementById("category");
@@ -2146,8 +2141,8 @@ window.ATTRACTIONS = [
       }
     }
 
-    const Block = (item.day_pass_lines && item.day_pass_lines.length)
-      ? `<div class="line"><div class="k"></div><div class="v"><ul class="bullets">${item.day_pass_lines.map(l => `<li>${escapeHtml(l)}</li>`).join("")}</ul></div></div>`
+    const dayPassBlock = (item.day_pass_lines && item.day_pass_lines.length)
+      ? `<div class="line"><div class="k">Day Pass</div><div class="v"><ul class="bullets">${item.day_pass_lines.map(l => `<li>${escapeHtml(l)}</li>`).join("")}</ul></div></div>`
       : ``;
 
     const howToBlock = item.how_to_get
@@ -2166,7 +2161,7 @@ window.ATTRACTIONS = [
     const rawTags = (item.tags || []);
     const tags = rawTags.filter(t => TAG_LABELS[t]).map(t => TAG_LABELS[t]);
 
-    const tagsForChips = rawTags.filter(t => TAG_LABELS[t] && !["drive_under_20","drive_over_20"].includes(t)).map(t => TAG_LABELS[t]);
+    const tagsForChips = rawTags.filter(t => TAG_LABELS[t]).map(t => TAG_LABELS[t]);
 
     const tagChips = tagsForChips.slice(0, 5).map(t => `<span class="badge tag"><span class="emoji">🏷️</span>${escapeHtml(t)}</span>`).join("");
 
@@ -2191,7 +2186,7 @@ window.ATTRACTIONS = [
           ${hoursLine}
           ${phoneLine}
           ${metaLine}
-          ${Block}
+          ${dayPassBlock}
           ${howToBlock}
           ${includesBlock}
           <div class="line"><div class="k">למה שווה</div><div class="v">${escapeHtml(item.why || "")}</div></div>
