@@ -1522,7 +1522,7 @@ window.ATTRACTIONS = [
     ],
     "hours": "כל היום",
     "phone": "",
-    "link": "https://www.google.com/maps/search/?api=1&query=Noppharat+Thara+Beach+Krabi",
+    "link": "https://www.tourismthailand.org/Attraction/noppharat-thara-beach",
     "why": "חוף רחב, נוח וקליל במיוחד, עם שורת עצים שנותנת יותר צל מרוב החופים באזור. מצוין לשקיעה, משחק בחול או עצירה קצרה בלי לוגיסטיקה מסובכת.",
     "reviews": "מבקרים אוהבים את המרחב ואת התחושה שהחוף פחות צפוף מהמרכז של Ao Nang. מצד שני, מי שמחפש חוף ״גלויה״ עם מים טורקיז דרמטיים יעדיף בדרך כלל את Railay או Tubkaek."
   },
@@ -1569,7 +1569,7 @@ window.ATTRACTIONS = [
       "calm"],
     "hours": "לבדיקה",
     "phone": "",
-    "link": "https://www.google.com/maps/search/?api=1&query=Sofitel+Krabi+Phokeethra",
+    "link": "https://www.sofitelkrabiphokeethra.com/offers/family-day-pass/",
     "why": "פתרון מעולה ליום קל עם ילדים: בריכה ענקית, מתקנים, שירותי ריזורט והכול בלי להתחייב ללינה. זה בדיוק מסוג המקומות שטובים כשצריך יום מפנק ונטול מאמץ.",
     "reviews": "הביקורות והחומר הרשמי מדגישים את גודל הבריכה ואת העובדה שהמקום מתאים מאוד למשפחות. שווה לבדוק זמינות מראש, כי ההטבה אינה תמיד פתוחה בכל תקופה.",
     "day_pass_lines": [
@@ -1589,7 +1589,7 @@ window.ATTRACTIONS = [
       "calm"],
     "hours": "10:00–22:00",
     "phone": "",
-    "link": "https://www.google.com/maps/search/?api=1&query=The+Beach+Club+Krabi",
+    "link": "https://thebeachkrabi.com/beach-club/",
     "why": "ביץ׳ קלאב מסודר על החוף עם בריכה, ישיבה נוחה ואווירה של יום חופש בלי יותר מדי תכנון. מתאים מאוד לשילוב של ים, אוכל ובריכה באותו מקום.",
     "reviews": "החוזקה העיקרית שחוזרת היא הלוקיישן והישיבה הנוחה מול הים. מי שמחפש מקום פשוט וזול ירגיש שזה יותר מקום של בילוי מסודר מאשר חוף קז׳ואלי.",
     "day_pass_lines": [
@@ -1640,7 +1640,7 @@ window.ATTRACTIONS = [
     ],
     "hours": "לבדיקה",
     "phone": "",
-    "link": "https://www.google.com/maps/search/?api=1&query=Following+Giants+Krabi",
+    "link": "https://www.followinggiants.net/",
     "why": "אופציה חזקה מאוד למי שמחפש חוויית פילים אתית יותר, עם דגש על תצפית והתבוננות ולא על אינטראקציה כפויה. מתאים למשפחות שרוצות להרגיש נוח יותר עם אופי הפעילות.",
     "reviews": "החומר הרשמי מדגיש מודל no touch ותצפית בהתנהגות טבעית, וזה גם מה שמושך הרבה מבקרים. צריך לקחת בחשבון שמי שמחפש האכלה, רחצה או הרבה מגע עלול להרגיש שהחוויה כאן עדינה יותר."
   },
@@ -1655,7 +1655,7 @@ window.ATTRACTIONS = [
     ],
     "hours": "08:00–17:00",
     "phone": "",
-    "link": "https://www.google.com/maps/search/?api=1&query=Susan+Hoi+Shell+Cemetery+Krabi",
+    "link": "https://www.tourismthailand.org/Attraction/75-million-year-old-shell-cemetery",
     "why": "עצירה קצרה ומעניינת בזכות התופעה הגיאולוגית הייחודית והטיילת שליד הים. זה לא יום טיול בפני עצמו, אלא תוספת נחמדה בדרך או לשילוב עם אזור Ao Nam Mao.",
     "reviews": "מבקרים בדרך כלל מעריכים את הייחוד של המקום ואת זה שלא צריך הרבה זמן כדי לראות אותו. מי שמגיע עם ציפייה לאטרקציה גדולה עלול להרגיש שזה קצר ופשוט יחסית."
   },
@@ -1671,7 +1671,7 @@ window.ATTRACTIONS = [
     ],
     "hours": "לרוב יציאה בבוקר, תלוי מפעיל",
     "phone": "",
-    "link": "https://www.google.com/maps/search/?api=1&query=Noppharat%20Thara%20Pier%20Krabi",
+    "link": "https://www.tourismthailand.org/Attraction/hat-noppharat-thara-mu-ko-phi-phi-national-park",
     "why": "מבין כל השייטים באזור זה בדרך כלל השילוב הכי מוצלח למשפחות: לגונה יפה, חופים קטנים, מים יפים ושייט רגוע יחסית. מתאים במיוחד למי שרוצה יום איים בלי להרגיש במירוץ בין יותר מדי תחנות.",
     "reviews": "הביקורות החיוביות מדגישות את Hong Lagoon, את צבע המים ואת העובדה שזה מסלול נעים יותר ופחות עמוס מהשייטים הקלאסיים. מי שבוחר סירה פרטית או יציאה מוקדמת בדרך כלל נהנה יותר מהשקט.",
     "price": "קבוצתי לרוב כ 1,100 עד 1,500 באט לאדם, פרטי בלונגטייל לרוב סביב 4,400 עד 5,500 באט לסירה, לא כולל דמי פארק",
@@ -1731,7 +1731,7 @@ window.ATTRACTIONS = [
       "calm"],
     "hours": "כל יום 08:00–18:00",
     "phone": "66 75 627 800",
-    "link": "https://www.google.com/maps/search/?api=1&query=Sofitel%20Krabi%20Phokeethra%20Kids%20Club",
+    "link": "https://www.sofitelkrabiphokeethra.com/leisureandlifestyle/kids-club/",
     "why": "קידס קלאב מושקע במיוחד בתוך Sofitel, עם חללים מעוצבים, פינות קריאה, יצירה, משחק דיגיטלי ופעילויות מתחלפות. תוספת חזקה מאוד לאתר כי זו אופציה איכותית ליום חם או להפסקה מריזורט.",
     "reviews": "החומר הרשמי מדגיש מרחב מעוצב ורב גילאי, עם סדנאות ופעילויות לאורך השבוע. היתרון הגדול הוא האיכות והסדר, אבל חשוב לבדוק מראש אם נדרש Day Pass או הזמנה נפרדת לשימוש חיצוני.",
     "icon": "🧸"
@@ -1749,7 +1749,7 @@ window.ATTRACTIONS = [
     ],
     "hours": "מועדון ילדים לרוב 08:00–18:00, בריכות ילדים עד 20:00",
     "phone": "66 75 810 888",
-    "link": "https://www.google.com/maps/search/?api=1&query=Holiday%20Ao%20Nang%20Beach%20Resort%20Krabi%20Kids%20Club",
+    "link": "https://holidayresortkrabi.com/facilities/kids-club",
     "why": "מתחם משפחתי חזק עם קידס קלאב, בריכת ילדים ומגלשות מים, כך שהוא נותן יותר ממקום משחק סגור בלבד. טוב במיוחד אם רוצים לשלב מים ופעילות באותו מקום.",
     "reviews": "האתר הרשמי מדגיש אזור ילדים פעיל ומתחם מים למשפחות. זו אופציה טובה כשמחפשים בילוי ריזורטי לילדים, אבל שווה לוודא מראש אילו אזורים פתוחים גם לאורחי חוץ.",
     "icon": "🛝"
@@ -1766,7 +1766,7 @@ window.ATTRACTIONS = [
     ],
     "hours": "לבדיקה",
     "phone": "66 86 633 5797",
-    "link": "https://www.google.com/maps/search/?api=1&query=Cocokids%20Summer%20Cafe%20Krabi",
+    "link": "https://www.facebook.com/p/Cocokids-Summer-Cafe-61572437880683/",
     "why": "שילוב של בית קפה ומתחם משחק שנראה מתאים במיוחד לילדים קטנים, כך שההורים יכולים לשבת בזמן שהילדים משחקים. תוספת טובה מאוד לקטגוריית ימי חום וגשם.",
     "reviews": "הנוכחות ברשתות והצילומים מראים מתחם צבעוני ומשפחתי עם הרבה משחק. לפני ביקור מומלץ לבדוק שעות פתיחה עדכניות, כי זה מקום חדש יחסית והמידע ברשת עדיין לא תמיד אחיד.",
     "icon": "🎨"
@@ -1782,7 +1782,7 @@ window.ATTRACTIONS = [
     ],
     "hours": "לפי האתר ניתן להזמין משלוח, איסוף עצמי ויש גם הזמנת שולחן",
     "phone": "",
-    "link": "https://www.google.com/maps/search/?api=1&query=Schnitzel%20Challah%20The%20Kosher%20Home%20in%20Krabi",
+    "link": "https://www.schnitzelchallakosher.com/en/",
     "why": "אופציה נוחה מאוד למי שמחפש אוכל ישראלי מוכר בקראבי, עם דגש על אוכל ביתי, שניצל בחלה ומשלוחים. טובה במיוחד לימים עייפים או כשפשוט רוצים טעמים מוכרים.",
     "reviews": "האתר הרשמי מדגיש אוכל ביתי, איסוף עצמי ומשלוח, וזה היתרון הגדול כאן. זו פחות מסעדת אווירה ויותר פתרון פרקטי ונוח לאוכל ישראלי וכשר.",
     "cuisine": "ישראלי / כשר",
@@ -1800,7 +1800,7 @@ window.ATTRACTIONS = [
     ],
     "hours": "לבדיקה",
     "phone": "66 95 195 9842",
-    "link": "https://www.google.com/maps/search/?api=1&query=MediJungle%20Waterfall%20Restaurant%20Bakery%20Kosher%20Krabi",
+    "link": "https://www.instagram.com/medijungle.krabi/?hl=en",
     "why": "מקום עם קונספט חזק יותר מסתם מסעדה ישראלית: אוכל ישראלי וכשר, מאפייה, ואווירה ירוקה ליד מים. מתאים גם למי שמחפש חוויה נעימה לשבת בה, לא רק להזמין אוכל.",
     "reviews": "הנוכחות הרשמית והחומרים ברשת מדגישים חומוס, מאפים ואווירת ג׳ונגל עם מים. זה מקום שנראה מושך במיוחד למטיילים ישראלים שרוצים גם טעמים מוכרים וגם לוקיישן מיוחד יותר.",
     "cuisine": "ישראלי / כשר / צמחוני וידידותי לטבעונים",
