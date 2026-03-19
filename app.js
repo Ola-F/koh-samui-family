@@ -1849,8 +1849,8 @@ window.ATTRACTIONS = [
     ac: "ממוזג",
     water: "מים",
     day_pass: "",
-    drive_under_20: "עד 20 ד׳ נסיעה",
-    drive_over_20: "מעל 20 ד׳ נסיעה"
+    drive_under_20: " נסיעה",
+    drive_over_20: " נסיעה"
     ,
     supermarket: "סופרים",
     mall: "קניון",
@@ -2146,7 +2146,7 @@ window.ATTRACTIONS = [
       }
     }
 
-    const dayPassBlock = (item.day_pass_lines && item.day_pass_lines.length)
+    const Block = (item.day_pass_lines && item.day_pass_lines.length)
       ? `<div class="line"><div class="k"></div><div class="v"><ul class="bullets">${item.day_pass_lines.map(l => `<li>${escapeHtml(l)}</li>`).join("")}</ul></div></div>`
       : ``;
 
@@ -2191,7 +2191,7 @@ window.ATTRACTIONS = [
           ${hoursLine}
           ${phoneLine}
           ${metaLine}
-          ${dayPassBlock}
+          ${Block}
           ${howToBlock}
           ${includesBlock}
           <div class="line"><div class="k">למה שווה</div><div class="v">${escapeHtml(item.why || "")}</div></div>
