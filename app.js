@@ -49,7 +49,8 @@ window.ATTRACTIONS = [
     "score": 4,
     "tags": [
       "water",
-      "stroller"],
+      "stroller"
+    ],
     "hours": "כל היום",
     "phone": "",
     "link": "https://maps.google.com/?q=Bang+Rak+Beach+Koh+Samui",
@@ -64,7 +65,8 @@ window.ATTRACTIONS = [
     "score": 5,
     "tags": [
       "water",
-      "stroller"],
+      "stroller"
+    ],
     "hours": "כל היום",
     "phone": "",
     "link": "https://maps.google.com/?q=Bophut+Beach+Koh+Samui",
@@ -79,7 +81,8 @@ window.ATTRACTIONS = [
     "score": 5,
     "tags": [
       "water",
-      "stroller"],
+      "stroller"
+    ],
     "hours": "כל היום",
     "phone": "",
     "link": "https://maps.google.com/?q=Choeng+Mon+Beach+Koh+Samui",
@@ -94,7 +97,8 @@ window.ATTRACTIONS = [
     "score": 4,
     "tags": [
       "water",
-      "stroller"],
+      "stroller"
+    ],
     "hours": "כל היום",
     "phone": "",
     "link": "https://maps.google.com/?q=Mae+Nam+Beach+Koh+Samui",
@@ -109,7 +113,6 @@ window.ATTRACTIONS = [
     "score": 5,
     "tags": [
       "water",
-      
       "stroller"
     ],
     "hours": "כל היום",
@@ -126,7 +129,6 @@ window.ATTRACTIONS = [
     "score": 4,
     "tags": [
       "water",
-      
       "stroller"
     ],
     "hours": "כל היום",
@@ -142,7 +144,8 @@ window.ATTRACTIONS = [
     "category": "מסעדות חוף",
     "score": 5,
     "tags": [
-      "water"],
+      "water"
+    ],
     "hours": "לבדיקה",
     "phone": "",
     "link": "https://maps.google.com/?q=Chi+Samui+Bang+Rak",
@@ -156,7 +159,8 @@ window.ATTRACTIONS = [
     "category": "מסעדות חוף",
     "score": 5,
     "tags": [
-      "water"],
+      "water"
+    ],
     "hours": "לבדיקה",
     "phone": "",
     "link": "https://maps.google.com/?q=CoCo+Tam's+Bophut+Koh+Samui",
@@ -170,7 +174,8 @@ window.ATTRACTIONS = [
     "category": "מסעדות חוף",
     "score": 4,
     "tags": [
-      "water"],
+      "water"
+    ],
     "hours": "לבדיקה",
     "phone": "",
     "link": "https://maps.google.com/?q=The+Shack+Koh+Samui",
@@ -184,7 +189,8 @@ window.ATTRACTIONS = [
     "category": "מסעדות חוף",
     "score": 4,
     "tags": [
-      "water"],
+      "water"
+    ],
     "hours": "לבדיקה",
     "phone": "",
     "link": "https://maps.google.com/?q=KohCo+Beach+Club+Koh+Samui",
@@ -198,7 +204,8 @@ window.ATTRACTIONS = [
     "category": "מסעדות חוף",
     "score": 4,
     "tags": [
-      "water"],
+      "water"
+    ],
     "hours": "לבדיקה",
     "phone": "",
     "link": "https://maps.google.com/?q=Hacienda+Beach+Restaurant+Koh+Samui",
@@ -212,7 +219,6 @@ window.ATTRACTIONS = [
     "category": "משחקיות וסדנאות",
     "score": 5,
     "tags": [
-      
       "ac"
     ],
     "hours": "כל יום 08:00–19:00",
@@ -228,7 +234,6 @@ window.ATTRACTIONS = [
     "category": "משחקיות וסדנאות",
     "score": 4,
     "tags": [
-      
       "ac"
     ],
     "hours": "א׳–ה׳ 09:00–19:00, ו׳ סגור, שבת 09:00–19:00 (ד׳ פיצול שעות)",
@@ -245,7 +250,6 @@ window.ATTRACTIONS = [
     "score": "check",
     "tags": [
       "ac",
-      
       "ac",
       "supermarket"
     ],
@@ -262,7 +266,6 @@ window.ATTRACTIONS = [
     "category": "קניות",
     "score": 4,
     "tags": [
-      
       "ac",
       "mall"
     ],
@@ -279,7 +282,6 @@ window.ATTRACTIONS = [
     "category": "משחקיות וסדנאות",
     "score": 4,
     "tags": [
-      
       "ac"
     ],
     "hours": "כל יום 09:00–21:00",
@@ -294,9 +296,7 @@ window.ATTRACTIONS = [
     "category_he": "טבע",
     "category": "טבע",
     "score": 4,
-    "tags": [
-      
-    ],
+    "tags": [],
     "hours": "כל יום 09:00–17:00",
     "phone": "",
     "link": "https://maps.google.com/?q=Na+Muang+Waterfall+Koh+Samui",
@@ -309,9 +309,7 @@ window.ATTRACTIONS = [
     "category_he": "טבע",
     "category": "טבע",
     "score": 4,
-    "tags": [
-      
-    ],
+    "tags": [],
     "hours": "לבדיקה",
     "phone": "",
     "link": "https://maps.google.com/?q=Secret+Buddha+Garden+Koh+Samui",
@@ -324,9 +322,7 @@ window.ATTRACTIONS = [
     "category_he": "חיות",
     "category": "חיות",
     "score": 5,
-    "tags": [
-      
-    ],
+    "tags": [],
     "hours": "כל יום 09:00–17:00",
     "phone": "+66 95 269 8343",
     "link": "https://www.samuielephantsanctuary.org",
@@ -339,9 +335,7 @@ window.ATTRACTIONS = [
     "category_he": "חיות",
     "category": "חיות",
     "score": 3,
-    "tags": [
-      
-    ],
+    "tags": [],
     "hours": "כל יום 09:00–17:00",
     "phone": "+66 81 255 1222",
     "link": "https://maps.google.com/?q=Paradise+Park+Farm+Koh+Samui",
@@ -354,9 +348,7 @@ window.ATTRACTIONS = [
     "category_he": "משחקיות וסדנאות",
     "category": "משחקיות וסדנאות",
     "score": 4,
-    "tags": [
-      
-    ],
+    "tags": [],
     "hours": "לבדיקה",
     "phone": "",
     "link": "https://maps.google.com/?q=Tropical+Kaleidoscope+Koh+Samui",
@@ -370,7 +362,6 @@ window.ATTRACTIONS = [
     "category": "משחקיות וסדנאות",
     "score": "check",
     "tags": [
-      
       "ac"
     ],
     "hours": "שבת–חמישי 10:00–18:00, ראשון 12:00–17:00, שישי סגור",
@@ -385,9 +376,7 @@ window.ATTRACTIONS = [
     "category_he": "משחקיות וסדנאות",
     "category": "משחקיות וסדנאות",
     "score": "check",
-    "tags": [
-      
-    ],
+    "tags": [],
     "hours": "לבדיקה",
     "phone": "",
     "link": "https://www.google.com/maps?q=City+of+bricks+LEGO+playroom/+Kid%27s+Club,+10/81,+Mae+Nam,+Surat+Thani+84330",
@@ -401,7 +390,6 @@ window.ATTRACTIONS = [
     "category": "חיות",
     "score": "check",
     "tags": [
-      
       "ac"
     ],
     "hours": "לבדיקה",
@@ -460,7 +448,8 @@ window.ATTRACTIONS = [
     "category": "שווקים",
     "score": "check",
     "tags": [
-      "water"],
+      "water"
+    ],
     "hours": "שישי 17:00–23:00 (משוער)",
     "phone": "",
     "link": "https://maps.google.com/?q=Fisherman's+Village+Walking+Street+Koh+Samui",
@@ -473,9 +462,7 @@ window.ATTRACTIONS = [
     "category_he": "שווקים",
     "category": "שווקים",
     "score": "check",
-    "tags": [
-      
-    ],
+    "tags": [],
     "hours": "כל יום 15:00–24:00 (משוער)",
     "phone": "+66 84 695 3502",
     "link": "https://maps.google.com/?q=Lamai+Night+Market+Koh+Samui",
@@ -488,9 +475,7 @@ window.ATTRACTIONS = [
     "category_he": "שווקים",
     "category": "שווקים",
     "score": "check",
-    "tags": [
-      
-    ],
+    "tags": [],
     "hours": "כל יום (משוער) 11:00–01:00",
     "phone": "",
     "link": "https://maps.google.com/?q=Chaweng+Night+Market+Koh+Samui",
@@ -503,9 +488,7 @@ window.ATTRACTIONS = [
     "category_he": "טבע",
     "category": "טבע",
     "score": "check",
-    "tags": [
-      
-    ],
+    "tags": [],
     "hours": "לבדיקה",
     "phone": "",
     "link": "https://maps.google.com/?q=Hin+Lad+Waterfall+Koh+Samui",
@@ -583,9 +566,7 @@ window.ATTRACTIONS = [
     "category_he": "ריזורטים עם Day Pass",
     "category": "ריזורטים עם Day Pass",
     "score": 5,
-    "tags": [
-      
-    ],
+    "tags": [],
     "hours": "כל יום 09:00–17:00",
     "phone": "+66 77 425 031",
     "link": "https://maps.google.com/?q=Santiburi+Koh+Samui",
@@ -598,9 +579,7 @@ window.ATTRACTIONS = [
     "category_he": "ריזורטים עם Day Pass",
     "category": "ריזורטים עם Day Pass",
     "score": 4,
-    "tags": [
-      
-    ],
+    "tags": [],
     "hours": "לבדיקה (בד״כ במהלך שעות הפעילות של KOA/הריזורט)",
     "phone": "",
     "link": "https://maps.google.com/?q=Tolani+Resort+Koh+Samui+KOA+Dining",
@@ -613,9 +592,7 @@ window.ATTRACTIONS = [
     "category_he": "ריזורטים עם Day Pass",
     "category": "ריזורטים עם Day Pass",
     "score": "check",
-    "tags": [
-      
-    ],
+    "tags": [],
     "hours": "לבדיקה מול המלון (טלפון/מייל באתר הרשמי)",
     "phone": "+66 77 951 777",
     "link": "https://maps.google.com/?q=Holiday+Inn+Resort+Samui+Bophut+Beach",
@@ -628,9 +605,7 @@ window.ATTRACTIONS = [
     "category_he": "ריזורטים עם Day Pass",
     "category": "ריזורטים עם Day Pass",
     "score": "check",
-    "tags": [
-      
-    ],
+    "tags": [],
     "hours": "כל יום 10:00–22:00",
     "phone": "+66 77 458 560",
     "link": "https://maps.google.com/?q=Outrigger+Koh+Samui+Beach+Resort",
@@ -645,7 +620,6 @@ window.ATTRACTIONS = [
     "score": 4,
     "tags": [
       "ac",
-      
       "mall"
     ],
     "hours": "11:00–21:00",
@@ -662,7 +636,6 @@ window.ATTRACTIONS = [
     "score": 4,
     "tags": [
       "ac",
-      
       "supermarket"
     ],
     "hours": "09:00–22:00",
@@ -679,7 +652,6 @@ window.ATTRACTIONS = [
     "score": 4,
     "tags": [
       "ac",
-      
       "supermarket"
     ],
     "hours": "09:00–22:00",
@@ -696,7 +668,6 @@ window.ATTRACTIONS = [
     "score": 4,
     "tags": [
       "ac",
-      
       "supermarket"
     ],
     "hours": "06:00–22:00",
@@ -712,7 +683,6 @@ window.ATTRACTIONS = [
     "category": "קניות",
     "score": 4,
     "tags": [
-      
       "supermarket"
     ],
     "hours": "",
@@ -728,7 +698,6 @@ window.ATTRACTIONS = [
     "category": "קניות",
     "score": 4,
     "tags": [
-      
       "supermarket"
     ],
     "hours": "09:00–22:00",
@@ -744,7 +713,6 @@ window.ATTRACTIONS = [
     "category": "קניות",
     "score": 4,
     "tags": [
-      
       "shopping"
     ],
     "hours": "",
@@ -760,7 +728,6 @@ window.ATTRACTIONS = [
     "category": "קניות",
     "score": 4,
     "tags": [
-      
       "supermarket"
     ],
     "hours": "06:00–22:00",
@@ -776,7 +743,6 @@ window.ATTRACTIONS = [
     "category": "קניות",
     "score": 4,
     "tags": [
-      
       "supermarket"
     ],
     "hours": "09:00–22:00",
@@ -792,7 +758,6 @@ window.ATTRACTIONS = [
     "category": "קניות",
     "score": 4,
     "tags": [
-      
       "supermarket"
     ],
     "hours": "09:00–22:00",
@@ -850,9 +815,7 @@ window.ATTRACTIONS = [
     "category_he": "חיות",
     "category": "חיות",
     "score": 5,
-    "tags": [
-      
-    ],
+    "tags": [],
     "hours": "09:00–19:00",
     "phone": "+66 91 034 2526",
     "link": "https://www.google.com/maps/search/?api=1&query=Haven%20Elephant%20Caf%C3%A9%20%26%20Restaurant%20Koh%20Samui",
@@ -865,9 +828,7 @@ window.ATTRACTIONS = [
     "category_he": "חיות",
     "category": "חיות",
     "score": "check",
-    "tags": [
-      
-    ],
+    "tags": [],
     "hours": "",
     "phone": "",
     "link": "https://www.capybaracoffeethailand.com/capybara-coffee-samui/",
@@ -907,7 +868,8 @@ window.ATTRACTIONS = [
     "category": "משחקיות וסדנאות",
     "score": 4,
     "tags": [
-      "ac"],
+      "ac"
+    ],
     "hours": "א׳ 12:00–17:00 | ב׳–ה׳ 10:00–18:00 | ו׳ סגור | שבת 10:00–18:00",
     "phone": "",
     "link": "https://www.google.com/maps/search/?api=1&query=UniKids%20Big%20C%20Koh%20Samui",
@@ -921,7 +883,8 @@ window.ATTRACTIONS = [
     "category": "משחקיות וסדנאות",
     "score": "check",
     "tags": [
-      "ac"],
+      "ac"
+    ],
     "hours": "קפה/אזור משחק: 15:00–20:00 (סגור בשלישי)",
     "phone": "WhatsApp +66 80 853 0400",
     "link": "https://www.google.com/maps/search/?api=1&query=Move%20Time%20Club%20Maenam%20Koh%20Samui",
@@ -935,7 +898,8 @@ window.ATTRACTIONS = [
     "category": "חיות",
     "score": 4,
     "tags": [
-      "ac"],
+      "ac"
+    ],
     "hours": "לבדיקה",
     "phone": "",
     "link": "https://maps.google.com/?q=Siam+Serpentarium",
@@ -948,9 +912,7 @@ window.ATTRACTIONS = [
     "category_he": "טבע",
     "category": "טבע",
     "score": 4,
-    "tags": [
-      
-    ],
+    "tags": [],
     "hours": "כל היום",
     "phone": "+66 2 326 9994",
     "link": "https://maps.google.com/?q=Lat+Krabang+Park+Suan+Phra+Nakhon",
@@ -965,7 +927,6 @@ window.ATTRACTIONS = [
     "score": 4,
     "tags": [
       "ac",
-      
       "mall"
     ],
     "hours": "Mon–Fri 10:30–20:00 | Weekend 10:00–20:00",
@@ -982,7 +943,6 @@ window.ATTRACTIONS = [
     "score": 4,
     "tags": [
       "ac",
-      
       "mall"
     ],
     "hours": "לבדיקה",
@@ -997,9 +957,7 @@ window.ATTRACTIONS = [
     "category_he": "מסעדות",
     "category": "מסעדות",
     "score": 4,
-    "tags": [
-      
-    ],
+    "tags": [],
     "hours": "לבדיקה",
     "phone": "",
     "link": "https://maps.google.com/?q=Chocolate+Ville+Bangkok",
@@ -1030,7 +988,6 @@ window.ATTRACTIONS = [
     "score": "check",
     "tags": [
       "ac",
-      
       "mall"
     ],
     "hours": "לבדיקה",
@@ -1047,7 +1004,6 @@ window.ATTRACTIONS = [
     "score": 4,
     "tags": [
       "ac",
-      
       "mall"
     ],
     "hours": "ב׳–ו׳ 11:00–20:00 | ש׳–א׳ 10:00–20:00",
@@ -1064,7 +1020,6 @@ window.ATTRACTIONS = [
     "score": 4,
     "tags": [
       "ac",
-      
       "mall"
     ],
     "hours": "כל יום 10:00–22:00",
@@ -1079,9 +1034,7 @@ window.ATTRACTIONS = [
     "category_he": "שווקים",
     "category": "שווקים",
     "score": 4,
-    "tags": [
-      
-    ],
+    "tags": [],
     "hours": "א׳–ו׳ 06:00–17:00 | ש׳ 06:00–18:00",
     "phone": "",
     "link": "https://maps.google.com/?q=Hua+Takhe+Old+Market",
@@ -1096,7 +1049,6 @@ window.ATTRACTIONS = [
     "score": "check",
     "tags": [
       "ac",
-      
       "mall"
     ],
     "hours": "כל יום 10:00–21:00",
@@ -1113,7 +1065,6 @@ window.ATTRACTIONS = [
     "score": "check",
     "tags": [
       "ac",
-      
       "shopping"
     ],
     "hours": "כל יום 10:00–21:00",
@@ -1129,7 +1080,8 @@ window.ATTRACTIONS = [
     "category": "מסעדות",
     "score": "check",
     "tags": [
-      "ac"],
+      "ac"
+    ],
     "hours": "06:30–23:00",
     "phone": "+66 98 747 7214",
     "link": "https://maps.google.com/?q=Gate43+Airport+Hotel+The+First+Lounge",
@@ -1144,7 +1096,6 @@ window.ATTRACTIONS = [
     "score": "check",
     "tags": [
       "ac",
-      
       "mall"
     ],
     "hours": "כל יום 10:00–21:00",
@@ -1566,7 +1517,8 @@ window.ATTRACTIONS = [
     "score": 5,
     "tags": [
       "water",
-      "calm"],
+      "calm"
+    ],
     "hours": "לבדיקה",
     "phone": "",
     "link": "https://www.sofitelkrabiphokeethra.com/offers/family-day-pass/",
@@ -1586,7 +1538,8 @@ window.ATTRACTIONS = [
     "score": 4,
     "tags": [
       "water",
-      "calm"],
+      "calm"
+    ],
     "hours": "10:00–22:00",
     "phone": "",
     "link": "https://thebeachkrabi.com/beach-club/",
@@ -1728,7 +1681,8 @@ window.ATTRACTIONS = [
     "score": 5,
     "tags": [
       "ac",
-      "calm"],
+      "calm"
+    ],
     "hours": "כל יום 08:00–18:00",
     "phone": "66 75 627 800",
     "link": "https://www.sofitelkrabiphokeethra.com/leisureandlifestyle/kids-club/",
@@ -1805,6 +1759,606 @@ window.ATTRACTIONS = [
     "reviews": "הנוכחות הרשמית והחומרים ברשת מדגישים חומוס, מאפים ואווירת ג׳ונגל עם מים. זה מקום שנראה מושך במיוחד למטיילים ישראלים שרוצים גם טעמים מוכרים וגם לוקיישן מיוחד יותר.",
     "cuisine": "ישראלי / כשר / צמחוני וידידותי לטבעונים",
     "icon": "🍽️"
+  },
+  {
+    "name": "בסיס הוי אן",
+    "destination": "hoi_an",
+    "category_he": "בסיס",
+    "category": "בסיס",
+    "score": null,
+    "tags": [],
+    "hours": "",
+    "phone": "",
+    "link": "https://www.google.com/maps?q=Hoi%20An%20Vietnam",
+    "why": "",
+    "reviews": "",
+    "icon": "🏠"
+  },
+  {
+    "name": "Hoi An Ancient Town",
+    "destination": "hoi_an",
+    "category_he": "תרבות ועיר",
+    "category": "תרבות ועיר",
+    "score": 5,
+    "tags": [
+      "calm"
+    ],
+    "hours": "מומלץ מוקדם בבוקר או בערב",
+    "phone": "",
+    "link": "https://www.google.com/maps?q=Hoi%20An%20Ancient%20Town",
+    "why": "הלב של הוי אן. לא רק סימטאות יפות ופנסים, אלא אזור שקל מאוד לשלב בו שיטוט קצר, עצירת אוכל וקניות קטנות בלי לתכנן יום שלם.",
+    "reviews": "העיר העתיקה נחשבת לאטרקציה המרכזית של הוי אן ומככבת כמעט בכל מדריך רשמי. מי שמגיע עם ילדים נהנה ממנה יותר כשהולכים בשעות הנעימות ולא בשיא החום."
+  },
+  {
+    "name": "An Bang Beach",
+    "destination": "hoi_an",
+    "category_he": "חופים",
+    "category": "חופים",
+    "score": 5,
+    "tags": [
+      "water",
+      "calm"
+    ],
+    "hours": "כל היום, עדיף בוקר או אחה״צ",
+    "phone": "",
+    "link": "https://www.google.com/maps?q=An%20Bang%20Beach%20Hoi%20An",
+    "why": "החוף הכי שימושי לשהות ארוכה: קל להגיע, יש לאורכו מסעדות ובתי קפה, ואפשר לקפוץ גם רק לשעה בלי להרגיש שמבזבזים יום שלם.",
+    "reviews": "אתר התיירות הרשמי של וייטנאם מציג את An Bang כאופציה משפחתית קלאסית להוי אן, עם חוף נעים ואוכל על החול. זה בדיוק מסוג המקומות שחוזרים אליהם יותר מפעם אחת במהלך חודש."
+  },
+  {
+    "name": "Cua Dai Beach",
+    "destination": "hoi_an",
+    "category_he": "חופים",
+    "category": "חופים",
+    "score": 4,
+    "tags": [
+      "water",
+      "calm"
+    ],
+    "hours": "בוקר או לקראת שקיעה",
+    "phone": "",
+    "link": "https://www.google.com/maps?q=Cua%20Dai%20Beach%20Hoi%20An",
+    "why": "עוד חוף טוב לשילוב במהלך השהות, במיוחד כשרוצים גיוון מ-An Bang או מחפשים עצירה קצרה עם פחות אווירת חוף-כפר ויותר קו חוף פתוח.",
+    "reviews": "הוא פחות 'הבחירה הראשונה' של רוב המשפחות לעומת An Bang, אבל עדיין עובד טוב ליום חוף קליל או לשקיעה. שווה להכניס כאופציה משלימה, לא ככוכב הראשי."
+  },
+  {
+    "name": "Tra Que Vegetable Village",
+    "destination": "hoi_an",
+    "category_he": "טבע וכפרים",
+    "category": "טבע וכפרים",
+    "score": 5,
+    "tags": [
+      "calm"
+    ],
+    "hours": "עדיף בוקר",
+    "phone": "",
+    "link": "https://www.google.com/maps?q=Tra%20Que%20Vegetable%20Village%20Hoi%20An",
+    "why": "אחת האטרקציות הכי טובות למשפחה בהוי אן כי היא מרגישה כפרית, ירוקה ורגועה בלי להיות מסע. אפשר לשלב הליכה קצרה, חוויה חקלאית ואוכל טוב באזור.",
+    "reviews": "אתרי התיירות הרשמיים של הוי אן ושל וייטנאם מציינים שוב ושוב את Tra Que כאחד מכפרי החוויה הבולטים באזור. היתרון הגדול למשפחות הוא שזה מקום מעניין אבל לא עמוס מדי בגירויים."
+  },
+  {
+    "name": "Cam Thanh Coconut Village",
+    "destination": "hoi_an",
+    "category_he": "טבע וכפרים",
+    "category": "טבע וכפרים",
+    "score": 4,
+    "tags": [
+      "water"
+    ],
+    "hours": "בוקר או אחר הצהריים",
+    "phone": "",
+    "link": "https://www.google.com/maps?q=Cam%20Thanh%20Coconut%20Village%20Hoi%20An",
+    "why": "חוויה קלאסית של הוי אן עם סירות הסל העגולות בתוך יער הקוקוסים. זה צבעוני וכיפי, אבל עדיף לבחור מפעיל רגוע יותר ופחות 'מופע רועש'.",
+    "reviews": "מקורות התיירות הרשמיים מציגים את Cam Thanh כאחד האזורים החזקים מחוץ לעיר העתיקה. למשפחות עם ילדים קטנים זה עובד הכי טוב כששומרים על ציפיות לפעילות קצרה ולא לחצי יום."
+  },
+  {
+    "name": "Thanh Ha Pottery Village",
+    "destination": "hoi_an",
+    "category_he": "טבע וכפרים",
+    "category": "טבע וכפרים",
+    "score": 4,
+    "tags": [
+      "calm"
+    ],
+    "hours": "בוקר או אחה״צ",
+    "phone": "",
+    "link": "https://www.google.com/maps?q=Thanh%20Ha%20Pottery%20Village%20Hoi%20An",
+    "why": "כפר מסורתי שנוח לשלב עם סדנת קדרות, ונותן תחושת יציאה קטנה מהעיר בלי להיכנס לנסיעה ארוכה או לפעילות מאמצת.",
+    "reviews": "הכפר מופיע שוב ושוב בהמלצות הרשמיות של הוי אן כמרכז למלאכת הקרמיקה. היתרון שלו באתר שלך הוא לא רק הביקור עצמו אלא האפשרות לבנות סביבו יום יצירה."
+  },
+  {
+    "name": "My Son Sanctuary",
+    "destination": "hoi_an",
+    "category_he": "תרבות ועיר",
+    "category": "תרבות ועיר",
+    "score": 4,
+    "tags": [
+      "challenging"
+    ],
+    "hours": "מוקדם מאוד בבוקר",
+    "phone": "",
+    "link": "https://www.google.com/maps?q=My%20Son%20Sanctuary",
+    "why": "אתר מורשת עולמית מרשים מאוד למי שרוצה יום תרבות והיסטוריה, אבל הוא פחות 'קליל' ולכן מתאים יותר ליום עם הרבה אנרגיה ופחות לימים חמים או עייפים.",
+    "reviews": "UNESCO מתאר את Mỹ Sơn כמרכז דתי ופוליטי חשוב של ממלכת צ'אמפה. זה מקום חזק מאוד תוכניתית, אבל עם ילדים קטנים הוא פחות נוח מאטרקציות הקרובות להוי אן עצמה."
+  },
+  {
+    "name": "Precious Heritage Art Gallery Museum",
+    "destination": "hoi_an",
+    "category_he": "תרבות ועיר",
+    "category": "תרבות ועיר",
+    "score": 4,
+    "tags": [
+      "ac",
+      "calm"
+    ],
+    "hours": "בדרך כלל בשעות היום",
+    "phone": "",
+    "link": "https://www.google.com/maps?q=Precious%20Heritage%20Art%20Gallery%20Museum%20Hoi%20An",
+    "why": "מוזיאון/גלריה שיכול לעבוד טוב כהפסקה ממוזגת ורגועה, במיוחד אם רוצים פעילות תרבותית קלילה יחסית בתוך העיר ולא משהו תובעני.",
+    "reviews": "זה לא 'חובה' לכל משפחה, אבל הוא מתאים מאוד לימים שבהם רוצים תוכן רגוע ומעט שקט. מתאים בעיקר לילדים שיודעים כבר להסתכל ולשאול, ופחות לקטנטנים סופר־אנרגטיים."
+  },
+  {
+    "name": "Hoi An Memories Show",
+    "destination": "hoi_an",
+    "category_he": "ערב והופעות",
+    "category": "ערב והופעות",
+    "score": 4,
+    "tags": [
+      "calm"
+    ],
+    "hours": "ערב",
+    "phone": "",
+    "link": "https://www.google.com/maps?q=Hoi%20An%20Memories%20Show",
+    "why": "אם רוצים ערב אחד מיוחד ושונה מהרגיל, זו אופציה טובה מאוד. לא משהו שעושים שוב ושוב, אלא חוויה אחת גדולה בתוך שהות ארוכה.",
+    "reviews": "אתר התיירות הרשמי של וייטנאם ממליץ על מופעים בהוי אן כחלק מהחוויה התרבותית בעיר. לילדים קטנים זה תלוי אופי, ולכן כדאי להכניס אבל לא להציג כבחירת ברירת מחדל."
+  },
+  {
+    "name": "Roving Chillhouse",
+    "destination": "hoi_an",
+    "category_he": "בתי קפה ונקודות עצירה",
+    "category": "בתי קפה ונקודות עצירה",
+    "score": 5,
+    "tags": [
+      "calm"
+    ],
+    "hours": "בוקר עד שקיעה",
+    "phone": "+84 968 470 047",
+    "link": "https://www.google.com/maps?q=Roving%20Chillhouse%20Hoi%20An",
+    "why": "אחד המקומות הכי טובים לשגרה של חודש: לא 'אטרקציה' אלא עצירה יפה, נעימה ומאווררת באמצע שדות אורז. מושלם לימים שרוצים רק לצאת קצת מהבית.",
+    "reviews": "הנוכחות הרשמית שלו מדגישה את הלוקיישן בין השדות ואת אווירת ה-chill. זה מסוג המקומות שלא חייבים לשמור לסוף שבוע – אפשר לחזור אליהם שוב ושוב."
+  },
+  {
+    "name": "ECO Coffee and Restaurant",
+    "destination": "hoi_an",
+    "category_he": "בתי קפה ונקודות עצירה",
+    "category": "בתי קפה ונקודות עצירה",
+    "score": 4,
+    "tags": [
+      "calm"
+    ],
+    "hours": "לבדיקה",
+    "phone": "",
+    "link": "https://www.google.com/maps?q=ECO%20Coffee%20and%20Restaurant%20Hoi%20An",
+    "why": "מקום טוב כעצירת ביניים ליד הכפרים/האזור הירוק, כשצריך אוכל וקפה במסגרת יום רגוע ולא מסעדה של 'אירוע'.",
+    "reviews": "זה לא מקום אייקוני כמו Roving Chillhouse, אבל הוא כן נראה שימושי מאוד לשילוב בתוך יום בכפרים או כחלק משגרת שהות ארוכה."
+  },
+  {
+    "name": "Hoian Vela Candle & Spa",
+    "destination": "hoi_an",
+    "category_he": "משחקיות וסדנאות",
+    "category": "משחקיות וסדנאות",
+    "score": 5,
+    "tags": [
+      "ac",
+      "calm"
+    ],
+    "hours": "לבדיקה",
+    "phone": "+84 767 344 665",
+    "link": "https://www.google.com/maps?q=Hoian%20Vela%20Candle%20%26%20Spa",
+    "why": "סדנת נרות היא בדיוק מסוג הפעילויות שעובדות נהדר בהוי אן: נעימה, יצירתית, ממוזגת, ולא ארוכה מדי. מצוינת ליום חם או ליום שרוצים בו פעילות שקטה.",
+    "reviews": "העמודים הפעילים של המקום מציגים סדנאות נרות גם למשפחות וילדים. זו בחירה חזקה במיוחד כי היא מתאימה גם למבוגרים וגם לילדים בלי לדרוש מיומנות קודמת."
+  },
+  {
+    "name": "Chau Pottery",
+    "destination": "hoi_an",
+    "category_he": "משחקיות וסדנאות",
+    "category": "משחקיות וסדנאות",
+    "score": 5,
+    "tags": [
+      "calm"
+    ],
+    "hours": "לבדיקה",
+    "phone": "",
+    "link": "https://www.google.com/maps?q=Chau%20Pottery%20Hoi%20An",
+    "why": "אחת הסדנאות הכי מתאימות לילדים בהוי אן. יש כאן גם מגע בחומר, גם תהליך קצר יחסית, וגם תוצר שממש כיף לקחת הביתה.",
+    "reviews": "הנוכחות הרשמית של Chau Pottery מדגישה חיבור לחומר ויצירה חופשית, וזה בדיוק מה שעובד טוב עם ילדים. זו סדנה שיש לה גם ערך חווייתי וגם קצב רגוע."
+  },
+  {
+    "name": "Spoon it Up – Peanut Workshop",
+    "destination": "hoi_an",
+    "category_he": "משחקיות וסדנאות",
+    "category": "משחקיות וסדנאות",
+    "score": 5,
+    "tags": [
+      "calm"
+    ],
+    "hours": "לבדיקה",
+    "phone": "",
+    "link": "https://www.google.com/maps?q=Spoon%20it%20Up%20Hoi%20An",
+    "why": "מהסוגים הכי מיוחדים של פעילויות לאתר שלך: לא עוד יצירה גנרית אלא חוויה מקומית, טעימה וקצרה יחסית שמוסיפה משהו שונה לשהות בהוי אן.",
+    "reviews": "זה בדיוק המקום שנכנס לרשימת 'דברים שלא כולם מגיעים אליהם' אבל מרגישים אחר כך שהוא היה שוס. מתאים מאוד למשפחות שמחפשות חוויה מקומית קלילה."
+  },
+  {
+    "name": "Bao Huynh Watercolor Atelier",
+    "destination": "hoi_an",
+    "category_he": "משחקיות וסדנאות",
+    "category": "משחקיות וסדנאות",
+    "score": 4,
+    "tags": [
+      "ac",
+      "calm"
+    ],
+    "hours": "לבדיקה",
+    "phone": "",
+    "link": "https://www.google.com/maps?q=Bao%20Huynh%20Watercolor%20Atelier%20Hoi%20An",
+    "why": "שיעור צבעי מים הוא אופציה נהדרת ליום רגוע, במיוחד לילדים שאוהבים לשבת ולהתעמק. הוא פחות 'לפרוק אנרגיה' ויותר חוויה יצירתית ושקטה.",
+    "reviews": "מתאים יותר לילדים שמסוגלים לשבת ולהתרכז תקופה מסוימת. לא הייתי בונה עליו כפעילות הראשונה עם קטנטן, אבל בהחלט שווה להחזיק באתר כאופציית יצירה איכותית."
+  },
+  {
+    "name": "PHAP Studio – Painting Workshop",
+    "destination": "hoi_an",
+    "category_he": "משחקיות וסדנאות",
+    "category": "משחקיות וסדנאות",
+    "score": 5,
+    "tags": [
+      "ac",
+      "calm"
+    ],
+    "hours": "לבדיקה",
+    "phone": "",
+    "link": "https://www.google.com/maps?q=PHAP%20Studio%20Hoi%20An",
+    "why": "אחד המקומות הכי טובים ליצירה רחבה יותר מצבעי מים בלבד. מתאים גם למי שמחפש חוויה אמנותית קלילה וגם למי שרוצה שעה־שעתיים נעימות בפנים.",
+    "reviews": "העמודים הפעילים של הסטודיו והפלטפורמות שמוכרות את הסדנה מדגישים התאמה גם למתחילים. זו בחירה חזקה במיוחד כי היא באמת נראית נגישה לכל הרמות."
+  },
+  {
+    "name": "Alluvia Chocolate House Hội An",
+    "destination": "hoi_an",
+    "category_he": "משחקיות וסדנאות",
+    "category": "משחקיות וסדנאות",
+    "score": 5,
+    "tags": [
+      "ac",
+      "calm"
+    ],
+    "hours": "09:00–21:30 (לבדיקה)",
+    "phone": "",
+    "link": "https://www.google.com/maps?q=Alluvia%20Chocolate%20House%20Hoi%20An",
+    "why": "זו אחת הסדנאות הכי 'בטוחות' להצלחה עם ילדים: שוקולד, טעימות, הכנה בידיים ואווירה כיפית. קלה מאוד לשילוב ביום בעיר העתיקה.",
+    "reviews": "פלטפורמות ההזמנה וההמלצות מתארות כאן סדנת הכנת שוקולד שבה מכינים ולוקחים הביתה תוצרים. זה בדיוק מסוג הדברים שילדים זוכרים גם אחרי הרבה זמן."
+  },
+  {
+    "name": "Taboo Bamboo Workshop",
+    "destination": "hoi_an",
+    "category_he": "משחקיות וסדנאות",
+    "category": "משחקיות וסדנאות",
+    "score": 4,
+    "tags": [
+      "challenging"
+    ],
+    "hours": "לבדיקה",
+    "phone": "",
+    "link": "https://www.google.com/maps?q=Taboo%20Bamboo%20Workshop%20Hoi%20An",
+    "why": "סדנה מיוחדת ומקומית מאוד, אבל היא מתאימה יותר לילדים גדולים או להורים שמחפשים פעילות יצירתית עם קצת יותר מורכבות.",
+    "reviews": "שווה להוסיף כי זה תוכן איכותי ומבדל, אבל לא להציג כבחירת ברירת מחדל למשפחות עם ילדים קטנים מאוד."
+  },
+  {
+    "name": "Driftwood Village – Wood Sculpture Workshop",
+    "destination": "hoi_an",
+    "category_he": "משחקיות וסדנאות",
+    "category": "משחקיות וסדנאות",
+    "score": 4,
+    "tags": [
+      "challenging"
+    ],
+    "hours": "לבדיקה",
+    "phone": "",
+    "link": "https://www.google.com/maps?q=Driftwood%20Village%20Hoi%20An",
+    "why": "מקום עם אופי אומנותי חזק, טוב להורים ולילדים גדולים יותר שאוהבים ליצור. פחות אידיאלי לפעילות מהירה עם ילד קטן וחסר סבלנות.",
+    "reviews": "היתרון כאן הוא הייחוד והאווירה, לא בהכרח הנגישות לכל גיל. לכן הוא שייך לרשימה, אבל נמוך יותר בסדר העדיפויות."
+  },
+  {
+    "name": "Long Gia Kitchen – Tofu Workshop",
+    "destination": "hoi_an",
+    "category_he": "משחקיות וסדנאות",
+    "category": "משחקיות וסדנאות",
+    "score": 4,
+    "tags": [
+      "challenging"
+    ],
+    "hours": "לבדיקה",
+    "phone": "",
+    "link": "https://www.google.com/maps?q=Long%20Gia%20Kitchen%20Hoi%20An",
+    "why": "סדנה מעניינת ושונה מאוד, אבל מתאימה יותר לילדים גדולים וסבלניים יותר. לא הייתי בונה עליה עם מתחת לגיל 7.",
+    "reviews": "זו בחירה מעולה למשפחות עם ילדים גדולים יותר שמחפשים חוויה קולינרית מקומית. עם קטנים היא עלולה להיות ארוכה מדי."
+  },
+  {
+    "name": "Lò Rèn Cẩm Đồng – Knife Workshop",
+    "destination": "hoi_an",
+    "category_he": "משחקיות וסדנאות",
+    "category": "משחקיות וסדנאות",
+    "score": 3,
+    "tags": [
+      "challenging"
+    ],
+    "hours": "לבדיקה",
+    "phone": "",
+    "link": "https://www.google.com/maps?q=Lo%20Ren%20Cam%20Dong%20Hoi%20An",
+    "why": "סדנה מעניינת תרבותית, אבל לא מתאימה לילדים קטנים. טובה יותר כפריט נישה למי שממש מחפש מלאכה מסורתית מסוג אחר.",
+    "reviews": "שווה לשמור באתר כי היא ייחודית, אבל חשוב מאוד להבהיר שהיא לא לילדים קטנים ולא לפעילות משפחתית קלילה."
+  },
+  {
+    "name": "Vietnam Kids Play Cafe",
+    "destination": "hoi_an",
+    "category_he": "משחקיות וסדנאות",
+    "category": "משחקיות וסדנאות",
+    "score": 4,
+    "tags": [
+      "ac",
+      "calm"
+    ],
+    "hours": "לבדיקה",
+    "phone": "",
+    "link": "https://www.google.com/maps?q=Coffe-Khu%20vui%20choi%20TRE%20EM%20VIET%20Hoi%20An",
+    "why": "לא אטרקציית 'מאסט', אלא מקום סופר שימושי לשגרה של חודש. משחקייה כזו היא זהב בימים חמים, בימים גשומים או כשפשוט צריך לתת לילדים לפרוק אנרגיה.",
+    "reviews": "בשהות ארוכה הערך של מקום כזה גדול בהרבה מהזוהר שלו. זה מסוג המקומות שאולי לא יראו נוצצים באינסטגרם, אבל בפועל מצילים ימים שלמים."
+  },
+  {
+    "name": "Mini Golf Hoi An",
+    "destination": "hoi_an",
+    "category_he": "משחקיות וסדנאות",
+    "category": "משחקיות וסדנאות",
+    "score": 5,
+    "tags": [
+      "calm"
+    ],
+    "hours": "07:00–20:00 (לבדיקה)",
+    "phone": "",
+    "link": "https://www.google.com/maps?q=Mini%20Golf%20Hoi%20An",
+    "why": "אטרקציה מצוינת לשלב ליד An Bang: קצרה, מהנה, ונותנת הפסקה מהחוף בלי להיכנס למשהו גדול מדי. מתאימה מאוד גם לערב מוקדם.",
+    "reviews": "האתר הרשמי והעמוד הפעיל מציגים את המקום כמתאים לכל הגילאים ובמרחק קצר מהחוף. זו בדיוק סוג הפעילות שעובדת מעולה לשהות ארוכה – כיף לחזור אליה גם יותר מפעם אחת."
+  },
+  {
+    "name": "grilled.il הבית הישראלי",
+    "destination": "hoi_an",
+    "category_he": "מסעדות",
+    "category": "מסעדות",
+    "score": 4,
+    "tags": [
+      "calm"
+    ],
+    "hours": "לבדיקה",
+    "phone": "+84 588 264 590",
+    "link": "https://www.google.com/maps?q=grilled.il%20hoi%20an",
+    "why": "לא כל יום צריך לחפש את הארוחה הכי מעניינת. לפעמים מסעדה ישראלית טובה היא פשוט פתרון חכם ונוח למשפחה – במיוחד בשהות של חודש.",
+    "reviews": "לפי הנוכחות הפעילה והמידע העסקי, זה מקום מבוסס ולא רק פופ־אפ לתיירים. שווה מאוד לשמור באתר כאופציית ביטחון נוחה."
+  },
+  {
+    "name": "Papa Sushi Hội An",
+    "destination": "hoi_an",
+    "category_he": "מסעדות",
+    "category": "מסעדות",
+    "score": 4,
+    "tags": [
+      "calm"
+    ],
+    "hours": "לבדיקה",
+    "phone": "+84 90 542 85 85",
+    "link": "https://www.google.com/maps?q=Papa%20Sushi%20Hoi%20An",
+    "why": "סושי הוא לפעמים פתרון מצוין לילדים ולהורים שרוצים משהו קל, מסודר ולא כבד. טוב במיוחד כארוחה באמצע יום או ערב פשוט.",
+    "reviews": "העמוד הרשמי והביקורות הלא־רשמיות מתארים מקום קטן ומשפחתי עם אוכל אהוב ושירות חם. לא 'חובה קולינרית', אבל בחירה מאוד שימושית."
+  },
+  {
+    "name": "IRINI. HOI AN | Greek Restaurant & Cafe",
+    "destination": "hoi_an",
+    "category_he": "מסעדות",
+    "category": "מסעדות",
+    "score": 4,
+    "tags": [
+      "calm"
+    ],
+    "hours": "לבדיקה",
+    "phone": "",
+    "link": "https://www.google.com/maps?q=IRINI%20Hoi%20An%20Greek%20Restaurant%20Cafe",
+    "why": "גיוון טוב למטבח המקומי כשנמצאים חודש. אוכל ים־תיכוני/יווני הרבה פעמים עובד טוב גם עם ילדים וגם עם הורים שכבר מחפשים משהו אחר.",
+    "reviews": "זה מקום שלא חייב להיות במרכז כל מסלול, אבל כן טוב מאוד כאופציית ארוחה יציבה ונעימה במהלך השהות."
+  },
+  {
+    "name": "Greek Souvlaki An Bang Beach",
+    "destination": "hoi_an",
+    "category_he": "מסעדות",
+    "category": "מסעדות",
+    "score": 4,
+    "tags": [
+      "water",
+      "calm"
+    ],
+    "hours": "לבדיקה",
+    "phone": "",
+    "link": "https://www.google.com/maps?q=Greek%20Souvlaki%20An%20Bang%20Beach",
+    "why": "בחירה טובה במיוחד ליום חוף, כי היא יושבת נכון בתוך האזור של An Bang ונותנת אופציית אוכל מוכרת, פשוטה ונוחה.",
+    "reviews": "לא יעד בפני עצמו, אלא מקום טוב מאוד לשילוב. שווה להכניס כי הוא פותר יפה את שאלת 'איפה אוכלים ליד החוף'."
+  },
+  {
+    "name": "בסיס דה נאנג",
+    "destination": "da_nang",
+    "category_he": "בסיס",
+    "category": "בסיס",
+    "score": null,
+    "tags": [],
+    "hours": "",
+    "phone": "",
+    "link": "https://maps.google.com/?q=Chi+House+Danang",
+    "why": "",
+    "reviews": "",
+    "icon": "🏠"
+  },
+  {
+    "name": "My Khe Beach",
+    "destination": "da_nang",
+    "category_he": "חופים",
+    "category": "חופים",
+    "score": null,
+    "tags": [
+      "water",
+      "calm"
+    ],
+    "hours": "כל היום, עדיף בוקר או אחה״צ",
+    "phone": "",
+    "link": "https://maps.google.com/?q=My+Khe+Beach+Da+Nang",
+    "why": "החוף הכי נוח לשהות הקצרה שלכם. הוא רחב, קל להגיע אליו מ‑Chi House, ויש סביבו הרבה מקומות לשבת, לאכול או פשוט לחזור למלון אם צריך.",
+    "reviews": "מתאים מאוד למשפחות בגלל הגישה הקלה והמרחב. בימים יפים הים רגוע יחסית, אבל בשעות החמות פחות נעים להתעכב הרבה זמן על החול.",
+    "icon": "🏖️"
+  },
+  {
+    "name": "East Sea Park",
+    "destination": "da_nang",
+    "category_he": "פארקים וטיילות",
+    "category": "פארקים וטיילות",
+    "score": null,
+    "tags": [
+      "calm"
+    ],
+    "hours": "כל היום",
+    "phone": "",
+    "link": "https://maps.google.com/?q=East+Sea+Park+Da+Nang",
+    "why": "נקודת עצירה טובה ליד הים להליכה קצרה, יונים, מרחב פתוח ושילוב עם חוף או ארוחה.",
+    "reviews": "לא אטרקציה של יום שלם, אבל מאוד שימושי לשהות של כמה ימים כי אפשר לשלב אותו בקלות בלי מאמץ ובלי התחייבות.",
+    "icon": "🌳"
+  },
+  {
+    "name": "Dragon Bridge",
+    "destination": "da_nang",
+    "category_he": "עיר וערב",
+    "category": "עיר וערב",
+    "score": null,
+    "tags": [
+      "calm"
+    ],
+    "hours": "21:00 בסופי שבוע וחגים",
+    "phone": "",
+    "link": "https://maps.google.com/?q=Dragon+Bridge+Da+Nang",
+    "why": "אחת האטרקציות שהכי שוות לזמן הקצר בעיר: קצרה, מרשימה, ולא דורשת כמעט מאמץ.",
+    "reviews": "מופע האש והמים ב‑21:00 בסופי שבוע ובחגים הוא אחלה ׳וואו׳ לילדים. כן יכול להיות עמוס סביב הגשר, לכן עדיף להגיע קצת מוקדם ולבחור נקודת צפייה נוחה.",
+    "icon": "🐉"
+  },
+  {
+    "name": "Son Tra Peninsula & Linh Ung Pagoda",
+    "destination": "da_nang",
+    "category_he": "טבע ותצפיות",
+    "category": "טבע ותצפיות",
+    "score": null,
+    "tags": [
+      "calm"
+    ],
+    "hours": "מומלץ בוקר או אחה״צ",
+    "phone": "",
+    "link": "https://maps.google.com/?q=Linh+Ung+Pagoda+Son+Tra+Da+Nang",
+    "why": "טיול נהיגה יפה וקל יחסית עם נקודות נוף, פסל Lady Buddha ועצירות קצרות שלא מרגישות כמו מסלול.",
+    "reviews": "עובד טוב עם ילד קטן כי רובו מבוסס רכב ועצירות קצרות. שווה להימנע משעות הצהריים ולזכור שמדובר יותר בנוף ובאווירה מאשר באטרקציה אינטראקטיבית.",
+    "icon": "🛕"
+  },
+  {
+    "name": "Marble Mountains",
+    "destination": "da_nang",
+    "category_he": "טבע ותצפיות",
+    "category": "טבע ותצפיות",
+    "score": null,
+    "tags": [
+      "challenging"
+    ],
+    "hours": "מומלץ מוקדם בבוקר",
+    "phone": "",
+    "link": "https://maps.google.com/?q=Marble+Mountains+Da+Nang",
+    "why": "מקום מיוחד יותר ממה שנדמה: מערות, מקדשים ונקודות תצפית שמרגישות ממש כמו חוויה, בלי לצאת ליום מלא.",
+    "reviews": "יש מעלית שעוזרת מאוד, אבל עדיין יש מדרגות והליכה, ולכן זה עלול להיות מעייף בחום או עם ילד עייף. מתאים אם באים מוקדם ועושים ביקור ממוקד.",
+    "icon": "⛰️"
+  },
+  {
+    "name": "Asia Park / Sun World Da Nang Downtown",
+    "destination": "da_nang",
+    "category_he": "פארקים ואטרקציות",
+    "category": "פארקים ואטרקציות",
+    "score": null,
+    "tags": [],
+    "hours": "מ‑15:00 עד הערב",
+    "phone": "",
+    "link": "https://maps.google.com/?q=Asia+Park+Da+Nang",
+    "why": "אופציית ערב מצוינת אם רוצים משהו קליל וכיפי בלי להתחייב ליום שלם.",
+    "reviews": "היתרון הגדול הוא השעות: זה עובד טוב אחרי מנוחה במלון. מתאים במיוחד אם רוצים לשלב גלגל ענק ואווירת לילה, אבל לא תמיד חייבים להישאר הרבה זמן.",
+    "icon": "🎡"
+  },
+  {
+    "name": "Han Market",
+    "destination": "da_nang",
+    "category_he": "שווקים וקניות",
+    "category": "שווקים וקניות",
+    "score": null,
+    "tags": [
+      "shopping"
+    ],
+    "hours": "בוקר–אחה״צ",
+    "phone": "",
+    "link": "https://maps.google.com/?q=Han+Market+Da+Nang",
+    "why": "שוק טוב להכרת העיר, קניות קטנות והצצה לחיים המקומיים, במיוחד אם רוצים משהו קצר בעיר עצמה.",
+    "reviews": "זה יותר שימושי ממרגש. יכול להיות עמוס ומבלבל, אבל בתור עצירה קצרה של שעה–שעה וחצי הוא מוסיף צבע מקומי נחמד.",
+    "icon": "🛍️"
+  },
+  {
+    "name": "Da Nang Museum of Cham Sculpture",
+    "destination": "da_nang",
+    "category_he": "מוזיאונים ותרבות",
+    "category": "מוזיאונים ותרבות",
+    "score": null,
+    "tags": [
+      "ac",
+      "calm"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://maps.google.com/?q=Da+Nang+Museum+of+Cham+Sculpture",
+    "why": "פתרון טוב ליום חם או גשום ולמי שרוצה עוד רובד תרבותי קליל בלי מאמץ פיזי.",
+    "reviews": "לא מוזיאון שמחזיק הרבה זמן עם ילדים קטנים, אבל דווקא בגלל זה הוא עובד יפה כעצירה קצרה וממוזגת באמצע יום בעיר.",
+    "icon": "🏺"
+  },
+  {
+    "name": "Helio Night Market",
+    "destination": "da_nang",
+    "category_he": "עיר וערב",
+    "category": "עיר וערב",
+    "score": null,
+    "tags": [],
+    "hours": "ערב",
+    "phone": "",
+    "link": "https://maps.google.com/?q=Helio+Night+Market+Da+Nang",
+    "why": "אופציית ערב זורמת לאוכל, אורות ואווירה, בלי לבנות תוכנית מסובכת.",
+    "reviews": "טוב לשילוב עם Asia Park או ערב בעיר. יכול להיות רועש ועמוס, אז עדיף להתייחס אליו כקפיצה קצרה ולא כתוכנית מרכזית לערב שלם.",
+    "icon": "🌃"
+  },
+  {
+    "name": "Ba Na Hills & Golden Bridge",
+    "destination": "da_nang",
+    "category_he": "פארקים ואטרקציות",
+    "category": "פארקים ואטרקציות",
+    "score": null,
+    "tags": [
+      "challenging"
+    ],
+    "hours": "יום מלא",
+    "phone": "",
+    "link": "https://maps.google.com/?q=Ba+Na+Hills+Golden+Bridge",
+    "why": "אחת האטרקציות הכי מפורסמות ומרשימות באזור, עם רכבל ארוך, Golden Bridge והרגשה של יום ׳גדול׳ ומיוחד.",
+    "reviews": "שווה להכניס לאתר כי זו אטרקציית חובה קלאסית באזור, אבל חשוב לדעת שזה יום ארוך, יכול להיות עמוס מאוד, ויש בו לא מעט הליכה. יותר מתאים אם קמים עם הרבה אנרגיה ומקבלים מראש שזה יהיה יום מעייף.",
+    "icon": "🌉"
   }
 ];
 
@@ -1890,6 +2444,7 @@ window.ATTRACTIONS = [
   let currentDestination = "koh_samui";
   if(elDestination && elDestination.value) currentDestination = elDestination.value;
   populateCategories(currentDestination);
+  updateHeaderTitle();
 
   // Tag checkboxes (locked to approved Hebrew tags only)
   const tagsToShow = TAG_ORDER.slice();
@@ -1904,8 +2459,24 @@ window.ATTRACTIONS = [
   const DEST_DEFAULT_MAP = {
     koh_samui: "https://www.google.com/maps?q=The%20Gardens%20by%20Samui%20Beach%20Properties%20Bang%20Rak&output=embed",
     bangkok: "https://www.google.com/maps?q=Gate43%20Airport%20Hotel%20Bangkok&output=embed",
-    krabi: "https://www.google.com/maps?q=Ao%20Nang%20Krabi&output=embed"
+    krabi: "https://www.google.com/maps?q=Ao%20Nang%20Krabi&output=embed",
+    hoi_an: "https://www.google.com/maps?q=Hoi%20An%20Vietnam&output=embed",
+    da_nang: "https://www.google.com/maps?q=Chi%20House%20Danang&output=embed"
   };
+
+  const DEST_TITLES = {
+    koh_samui: "קוסמוי – אטרקציות למשפחה",
+    bangkok: "בנגקוק – אטרקציות למשפחה",
+    krabi: "קראבי – אטרקציות למשפחה",
+    hoi_an: "הוי אן – אטרקציות למשפחה",
+    da_nang: "דה נאנג – אטרקציות למשפחה"
+  };
+
+  function updateHeaderTitle(){
+    const h1 = document.querySelector('.topbar h1');
+    if(h1) h1.textContent = DEST_TITLES[currentDestination] || DEST_TITLES.koh_samui;
+    document.title = DEST_TITLES[currentDestination] || DEST_TITLES.koh_samui;
+  }
 
 
   function escapeHtml(s){
@@ -2286,6 +2857,119 @@ window.ATTRACTIONS = [
       }
     ];
 
+    const hoiAnPlans = [
+      {
+        title: "יום רגוע של הוי אן",
+        short_description: "חוף, קפה יפה ואוכל נוח בלי להתרוצץ.",
+        vibe: "רגוע · חוף · קליל",
+        why: "זה יום שעובד מצוין בשהות ארוכה: מעט מעברים, הרבה גמישות, ואפשר לעצור בכל שלב בלי להרגיש שהיום נהרס.",
+        stops: [
+          {label:"בוקר", name:"An Bang Beach", note:"חוף נוח מאוד למשפחה, עדיף בשעות הנעימות."},
+          {label:"צהריים", name:"Greek Souvlaki An Bang Beach", note:"אופציית אוכל פשוטה ונוחה ליד החוף."},
+          {label:"אחר הצהריים", name:"Roving Chillhouse", note:"עצירת קפה יפה בתוך השדות לסיום רגוע."}
+        ],
+        tips: ["להתחיל מוקדם", "לא למשוך את החוף לשעות הכי חמות", "להשאיר את הקפה לסוף היום"],
+        places: ["An Bang Beach", "Greek Souvlaki An Bang Beach", "Roving Chillhouse"]
+      },
+      {
+        title: "יום יצירה ממוזג",
+        short_description: "שתי סדנאות טובות ליום חם או ליום גשם.",
+        vibe: "ממוזג · יצירתי · רגוע",
+        why: "זה יום מצוין כשלא בא על חוף או על נסיעות. שתי עצירות קצרות יחסית שנותנות ערך אמיתי וגם זיכרון נחמד לקחת הביתה.",
+        stops: [
+          {label:"בוקר", name:"Hoian Vela Candle & Spa", note:"סדנת נרות נעימה ורגועה."},
+          {label:"צהריים", name:"Papa Sushi Hội An", note:"ארוחה קלה באמצע היום."},
+          {label:"אחר הצהריים", name:"Alluvia Chocolate House Hội An", note:"סדנת שוקולד כיפית במיוחד לילדים."}
+        ],
+        tips: ["להזמין סדנאות מראש", "לבדוק גילאים מדויקים לפני ההגעה", "להשאיר זמן ספונטני בין התחנות"],
+        places: ["Hoian Vela Candle & Spa", "Papa Sushi Hội An", "Alluvia Chocolate House Hội An"]
+      },
+      {
+        title: "יום כפרים ומים",
+        short_description: "ירוק, מים וחוויה מקומית בלי יום קשה.",
+        vibe: "טבע · מים · מגוון",
+        why: "השילוב בין Tra Que ל-Cam Thanh נותן טעימה טובה מהצד הכפרי של הוי אן. זה יום עשיר יותר, אבל עדיין לא כזה שמרגיש מעייף מדי אם מתחילים מוקדם.",
+        stops: [
+          {label:"בוקר", name:"Tra Que Vegetable Village", note:"הליכה קצרה, אווירה ירוקה וחוויה כפרית."},
+          {label:"צהריים", name:"ECO Coffee and Restaurant", note:"עצירה קלה לפני המים."},
+          {label:"אחר הצהריים", name:"Cam Thanh Coconut Village", note:"סירות הסל והיער של הקוקוסים."}
+        ],
+        tips: ["להתחיל מוקדם", "לבחור מפעיל רגוע בסירות", "לא להעמיס עוד פעילות אחר כך"],
+        places: ["Tra Que Vegetable Village", "ECO Coffee and Restaurant", "Cam Thanh Coconut Village"]
+      },
+      {
+        title: "יום קל לעיר העתיקה",
+        short_description: "הוי אן הקלאסית, אבל בקצב נוח למשפחה.",
+        vibe: "עיר · תרבות · קליל",
+        why: "העיר העתיקה יכולה להיות קסומה מאוד עם ילדים אם לא הופכים אותה למרתון. השילוב הזה עובד טוב במיוחד בשעות נעימות ועם עצירה ממוזגת באמצע.",
+        stops: [
+          {label:"בוקר", name:"Hoi An Ancient Town", note:"שיטוט קצר ונעים בשעות הפחות חמות."},
+          {label:"צהריים", name:"Precious Heritage Art Gallery Museum", note:"עצירה רגועה וממוזגת יחסית."},
+          {label:"ערב", name:"Hoi An Memories Show", note:"אופציונלי לערב מיוחד פעם אחת במהלך השהות."}
+        ],
+        tips: ["להעדיף בוקר או ערב לעיר העתיקה", "לא להיכנס ליותר מדי נקודות ביום אחד", "את המופע לשמור ליום עם הרבה אנרגיה"],
+        places: ["Hoi An Ancient Town", "Precious Heritage Art Gallery Museum", "Hoi An Memories Show"]
+      },
+      {
+        title: "יום גשם / יום עייפים",
+        short_description: "פתרון טוב ליום שלא בא לצאת להרפתקה.",
+        vibe: "ממוזג · פשוט · שימושי",
+        why: "זה יום שבנוי על מקומות שמצילים שהות ארוכה: משחקייה, יצירה ואוכל פשוט. לא נוצץ, אבל מאוד שימושי בפועל.",
+        stops: [
+          {label:"בוקר", name:"Vietnam Kids Play Cafe", note:"זמן לפרוק אנרגיה בתוך מקום סגור."},
+          {label:"צהריים", name:"grilled.il הבית הישראלי", note:"אוכל מוכר וקל."},
+          {label:"אחר הצהריים", name:"PHAP Studio – Painting Workshop", note:"יצירה רגועה לסיום."}
+        ],
+        tips: ["לבדוק שעות פתיחה באותו יום", "להשאיר גמישות אם הילדים זורמים על המשחקייה", "לא צריך להספיק הכול"],
+        places: ["Vietnam Kids Play Cafe", "grilled.il הבית הישראלי", "PHAP Studio – Painting Workshop"]
+      }
+    ];
+
+    const daNangPlans = [
+      {
+        title: "יום קליל של הגעה + ערב בעיר",
+        short_description: "חוף קרוב, מנוחה טובה וערב עם קצת וואו בלי להעמיס.",
+        vibe: "רגוע · ים · ערב",
+        why: "זה היום הכי נכון לפתוח איתו את דה נאנג: מעט מעברים, קרוב מאוד למלון, והרבה גמישות לפי האנרגיה של כולם אחרי הדרך.",
+        stops: [
+          {label:"בוקר / צהריים", name:"My Khe Beach", note:"קפיצה קלה לים או הליכה קצרה ליד החוף."},
+          {label:"אחה״צ", name:"Chi House Danang", note:"מנוחה, בריכה או זמן שקט במלון."},
+          {label:"ערב", name:"Dragon Bridge", note:"אם זה סוף שבוע או חג – להגיע קצת לפני 21:00."},
+          {label:"סיום", name:"Helio Night Market", note:"אוכל ואווירת ערב אם נשאר כוח."}
+        ],
+        tips: ["לא לבנות על יותר מדי ביום ההגעה", "לבדוק אם יש מופע אש ומים באותו ערב", "אם עייפים – אפשר להסתפק רק בחוף ובארוחת ערב"],
+        places: ["My Khe Beach", "Chi House Danang", "Dragon Bridge", "Helio Night Market"]
+      },
+      {
+        title: "יום נוף וטבע קל יחסית",
+        short_description: "מערות, תצפיות ונהיגה יפה – בלי יום קשה מדי אם מתחילים מוקדם.",
+        vibe: "טבע · נוף · מגוון",
+        why: "זה יום שנותן תחושת טיול אמיתית אבל עדיין נשאר בשליטה. יש בו שילוב טוב בין חוויה, נוף והפסקות, בלי להרגיש שנכנסתם למרתון.",
+        stops: [
+          {label:"בוקר", name:"Marble Mountains", note:"לעשות ממוקד ולהשתמש במעלית."},
+          {label:"צהריים", name:"Da Nang Museum of Cham Sculpture", note:"עצירה ממוזגת וקצרה אם רוצים."},
+          {label:"אחה״צ", name:"Son Tra Peninsula & Linh Ung Pagoda", note:"נסיעה יפה ועצירות תצפית."},
+          {label:"ערב", name:"Asia Park / Sun World Da Nang Downtown", note:"אופציית סיום כיפית אם נשארת אנרגיה."}
+        ],
+        tips: ["להגיע מוקדם ל‑Marble Mountains", "לא לנסות להספיק הכל בכל תחנה", "אם יש עייפות – לדלג על המוזיאון או על הפארק בערב"],
+        places: ["Marble Mountains", "Da Nang Museum of Cham Sculpture", "Son Tra Peninsula & Linh Ung Pagoda", "Asia Park / Sun World Da Nang Downtown"]
+      },
+      {
+        title: "יום גדול – לבחור Ba Na Hills או My Son",
+        short_description: "זה היום של האטרקציה הגדולה – פארק מפורסם או אתר עתיקות מרשים.",
+        vibe: "יום מלא · מרשים · יותר מאמץ",
+        why: "בשלושה ימים אין טעם לעשות גם Ba Na Hills וגם My Son אלא אם ממש חשוב לכם. עדיף לבחור אחד לפי מצב הרוח: Ba Na ליום ׳וואו׳ תיירותי, או My Son ליום תרבותי ושקט יותר.",
+        stops: [
+          {label:"אופציה 1", name:"Ba Na Hills & Golden Bridge", note:"יום ארוך, יפה ועמוס יותר."},
+          {label:"אופציה 2", name:"My Son Sanctuary", note:"מרשים מאוד, אבל חם יותר ועם פחות ׳אקשן׳ לילדים."},
+          {label:"סיום", name:"My Khe Beach", note:"אם נשאר כוח – עצירת ים קצרה או ארוחה קרובה למלון."}
+        ],
+        tips: ["לבחור רק אחת מהאופציות", "לצאת מוקדם", "להתחשב במזג האוויר", "עם ילד עייף – עדיף להעדיף יום רגוע יותר בעיר"],
+        places: ["Ba Na Hills & Golden Bridge", "My Son Sanctuary", "My Khe Beach"]
+      }
+    ];
+
+
     // Curated full-day options per destination
     const plans = [];
     if(currentDestination === "krabi"){
@@ -2297,6 +2981,26 @@ window.ATTRACTIONS = [
         plans.push(krabiPlans[0], krabiPlans[2]);
       } else {
         plans.push(...krabiPlans);
+      }
+    } else if(currentDestination === "hoi_an"){
+      if(mode === "hot"){
+        plans.push(hoiAnPlans[1], hoiAnPlans[4], hoiAnPlans[0]);
+      } else if(mode === "rain"){
+        plans.push(hoiAnPlans[4], hoiAnPlans[1]);
+      } else if(mode === "tired"){
+        plans.push(hoiAnPlans[0], hoiAnPlans[4]);
+      } else {
+        plans.push(...hoiAnPlans);
+      }
+    } else if(currentDestination === "da_nang"){
+      if(mode === "hot"){
+        plans.push(daNangPlans[0], daNangPlans[1]);
+      } else if(mode === "rain"){
+        plans.push(daNangPlans[0]);
+      } else if(mode === "tired"){
+        plans.push(daNangPlans[0], daNangPlans[2]);
+      } else {
+        plans.push(...daNangPlans);
       }
     } else if(currentDestination === "bangkok"){
       plans.push({
@@ -2470,6 +3174,7 @@ window.ATTRACTIONS = [
     elDestination.addEventListener("change", ()=>{
       currentDestination = elDestination.value || "koh_samui";
       populateCategories(currentDestination);
+      updateHeaderTitle();
       // reset category selection when switching destination
       elCategory.value = "";
       resetAll();
