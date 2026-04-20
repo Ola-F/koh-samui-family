@@ -2443,8 +2443,6 @@ window.ATTRACTIONS = [
 
   let currentDestination = "koh_samui";
   if(elDestination && elDestination.value) currentDestination = elDestination.value;
-  populateCategories(currentDestination);
-  updateHeaderTitle();
 
   // Tag checkboxes (locked to approved Hebrew tags only)
   const tagsToShow = TAG_ORDER.slice();
@@ -2471,6 +2469,9 @@ window.ATTRACTIONS = [
     hoi_an: "הוי אן – אטרקציות למשפחה",
     da_nang: "דה נאנג – אטרקציות למשפחה"
   };
+
+  populateCategories(currentDestination);
+  updateHeaderTitle();
 
   function updateHeaderTitle(){
     const h1 = document.querySelector('.topbar h1');
