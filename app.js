@@ -2576,6 +2576,20 @@ window.ATTRACTIONS = [
     "icon": "🏎️"
   },
   {
+    "name": "בסיס דאלאת",
+    "destination": "dalat",
+    "category_he": "בסיס",
+    "category": "בסיס",
+    "score": null,
+    "tags": [],
+    "hours": "",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Da%20Lat%20Vietnam",
+    "why": "",
+    "reviews": "",
+    "icon": "🏠"
+  },
+  {
     "name": "Crazy House",
     "destination": "dalat",
     "category_he": "אטרקציות",
@@ -2584,12 +2598,42 @@ window.ATTRACTIONS = [
     "tags": [
       "rain"
     ],
-    "hours": "09:00-18:00",
+    "hours": "09:00–18:00",
     "phone": "",
-    "link": "https://maps.google.com/?q=Crazy+House+Dalat",
-    "why": "מבנה מיוחד ומלא מעברים וחדרים שילדים מאוד נהנים לחקור.",
-    "reviews": "אחת האטרקציות הכי זכורות בדאלאת אבל דורשת השגחה בגלל מדרגות ומעברים צרים.",
+    "link": "https://www.google.com/maps/search/?api=1&query=Crazy%20House%20Dalat",
+    "why": "אחת האטרקציות הכי מיוחדות בדאלאת: מבנה אגדתי עם מדרגות, גשרים, חדרים מוזרים ופינות חקירה שילדים בדרך כלל מאוד אוהבים.",
+    "reviews": "חוויה מאוד זכורה ומשעשעת, אבל לא מקום לשחרר בו ילד קטן לבד. יש מדרגות, מעברים צרים ונקודות שדורשות השגחה צמודה.",
     "icon": "🏠"
+  },
+  {
+    "name": "Xuan Huong Lake",
+    "destination": "dalat",
+    "category_he": "טבע ונופים",
+    "category": "טבע ונופים",
+    "score": 4,
+    "tags": [
+      "calm"
+    ],
+    "hours": "כל היום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Xuan%20Huong%20Lake%20Dalat",
+    "why": "אגם מרכזי ונעים להליכה רגועה, סיבוב קצר, סירות פדלים או עצירה קלה בין אטרקציות בעיר.",
+    "reviews": "לא אטרקציה גדולה בפני עצמה, אבל שימושי מאוד כעוגן רגוע במרכז. מתאים במיוחד לבוקר או אחר הצהריים.",
+    "icon": "🛶"
+  },
+  {
+    "name": "Dalat Night Market",
+    "destination": "dalat",
+    "category_he": "תרבות ועיר",
+    "category": "תרבות ועיר",
+    "score": 4,
+    "tags": [],
+    "hours": "מ־18:00 בערב",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Dalat%20Night%20Market",
+    "why": "שוק ערב גדול עם אוכל רחוב, תותים, קינוחים, צעצועים ואווירה מקומית צבעונית.",
+    "reviews": "שווה לערב קצר, אבל יכול להיות עמוס מאוד. עדיף להגיע מוקדם יחסית ולא לבנות על שיטוט ארוך עם ילדים עייפים.",
+    "icon": "🌃"
   },
   {
     "name": "Datanla Waterfall & Alpine Coaster",
@@ -2600,12 +2644,125 @@ window.ATTRACTIONS = [
     "tags": [
       "water"
     ],
-    "hours": "08:00-17:00",
+    "hours": "07:00–17:00",
     "phone": "",
-    "link": "https://maps.google.com/?q=Datanla+Waterfall+Dalat",
-    "why": "המפל הכי נוח למשפחות באזור עם מזחלות ותחושה של יום טבע בלי מסלול קשה.",
-    "reviews": "ה-Alpine Coaster הוא גולת הכותרת. מומלץ להגיע מוקדם.",
+    "link": "https://www.google.com/maps/search/?api=1&query=Datanla%20Waterfall%20Alpine%20Coaster%20Dalat",
+    "why": "המפל הכי מתאים למשפחות באזור, בעיקר בזכות ה-Alpine Coaster שהופך את הביקור לחוויה ולא רק למסלול.",
+    "reviews": "אחת ההמלצות החזקות בדאלאת עם ילדים. מומלץ להגיע בבוקר, לקחת בחשבון תורים ולבדוק מראש מגבלות גיל/גובה למזחלות.",
     "icon": "🌊"
+  },
+  {
+    "name": "Robin Hill Cable Car",
+    "destination": "dalat",
+    "category_he": "אטרקציות",
+    "category": "אטרקציות",
+    "score": 4,
+    "tags": [
+      "calm"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Robin%20Hill%20Cable%20Car%20Dalat",
+    "why": "רכבל נעים עם תצפית יפה על העיר והעמקים, ומתאים מאוד לשילוב עם Truc Lam ו-Tuyen Lam Lake.",
+    "reviews": "חוויה קצרה ונוחה יחסית עם ילדים. טובה במיוחד ביום עם ראות טובה, פחות אם מזג האוויר סגור או גשום.",
+    "icon": "🚡"
+  },
+  {
+    "name": "Truc Lam Zen Monastery",
+    "destination": "dalat",
+    "category_he": "תרבות ועיר",
+    "category": "תרבות ועיר",
+    "score": 4,
+    "tags": [
+      "calm"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Truc%20Lam%20Zen%20Monastery%20Dalat",
+    "why": "מנזר יפה ושקט בקצה הרכבל, עם גנים מטופחים ואווירה רגועה. טוב כעצירה קצרה ולא עמוסה.",
+    "reviews": "לא מקום שמחזיק יום שלם עם ילדים, אבל משתלב מצוין עם הרכבל והאגם. מתאים אם שומרים על ביקור קצר.",
+    "icon": "⛩️"
+  },
+  {
+    "name": "Tuyen Lam Lake",
+    "destination": "dalat",
+    "category_he": "טבע ונופים",
+    "category": "טבע ונופים",
+    "score": 4,
+    "tags": [
+      "calm",
+      "water"
+    ],
+    "hours": "כל היום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Tuyen%20Lam%20Lake%20Dalat",
+    "why": "אגם שקט ופסטורלי ליד המנזר, עם נוף, בתי קפה ואפשרות לעצירה רגועה.",
+    "reviews": "הכי נכון לשלב אותו כחלק מיום רכבל/מנזר/Clay Tunnel ולא כיעד בודד. טוב למנוחה והורדת קצב.",
+    "icon": "🌅"
+  },
+  {
+    "name": "Clay Sculpture Tunnel",
+    "destination": "dalat",
+    "category_he": "אטרקציות",
+    "category": "אטרקציות",
+    "score": 4,
+    "tags": [
+      "rain"
+    ],
+    "hours": "07:30–17:00",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Clay%20Sculpture%20Tunnel%20Dalat",
+    "why": "פארק פסלי חימר גדול ופוטוגני, עם הרבה נקודות צילום ומסלול יחסית ברור.",
+    "reviews": "נחמד מאוד לשילוב עם Tuyen Lam Lake. לא חובה אם יש עומס או גשם חזק, אבל מתאים כתחנה משפחתית קלה יחסית.",
+    "icon": "🗿"
+  },
+  {
+    "name": "Dalat Railway Station",
+    "destination": "dalat",
+    "category_he": "תרבות ועיר",
+    "category": "תרבות ועיר",
+    "score": 4,
+    "tags": [
+      "calm"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Dalat%20Railway%20Station",
+    "why": "תחנת רכבת היסטורית וצבעונית, עם אפשרות לרכבת קצרה לכיוון Trai Mat ולinh Phuoc Pagoda.",
+    "reviews": "מתאים כעצירה קצרה, בעיקר אם משלבים נסיעה ברכבת. בלי הרכבת זה נחמד אבל לא חובה.",
+    "icon": "🚂"
+  },
+  {
+    "name": "Linh Phuoc Pagoda",
+    "destination": "dalat",
+    "category_he": "תרבות ועיר",
+    "category": "תרבות ועיר",
+    "score": 4,
+    "tags": [
+      "calm"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Linh%20Phuoc%20Pagoda%20Dalat",
+    "why": "מקדש צבעוני ומרשים עם פסיפסים ופרטים מיוחדים, בדרך כלל משולב עם נסיעת הרכבת ל-Trai Mat.",
+    "reviews": "מעניין ויפה ויזואלית, אבל עם ילדים קטנים כדאי לשמור על ביקור קצר ולא להפוך את זה ליום מקדשים.",
+    "icon": "🛕"
+  },
+  {
+    "name": "Bao Dai Summer Palace",
+    "destination": "dalat",
+    "category_he": "תרבות ועיר",
+    "category": "תרבות ועיר",
+    "score": 3,
+    "tags": [
+      "rain"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Bao%20Dai%20Summer%20Palace%20Dalat",
+    "why": "ארמון הקיץ של הקיסר האחרון, מתאים למי שרוצה קצת היסטוריה מקומית בתוך ביקור קצר.",
+    "reviews": "פחות אטרקציה לילדים ויותר עצירת תרבות למבוגרים. להוסיף אם אתם באזור, לא הייתי נוסעת במיוחד עם ילדים קטנים.",
+    "icon": "🏛️"
   },
   {
     "name": "Puppy Farm",
@@ -2616,12 +2773,60 @@ window.ATTRACTIONS = [
     "tags": [
       "calm"
     ],
-    "hours": "08:00-17:00",
+    "hours": "08:00–17:00",
     "phone": "",
-    "link": "https://maps.google.com/?q=Puppy+Farm+Dalat",
-    "why": "חווה פופולרית עם כלבים, קפיברות, ארנבים וגינות.",
-    "reviews": "מאוד מתאים לילדים קטנים. יכול להיות עמוס בצהריים.",
+    "link": "https://www.google.com/maps/search/?api=1&query=Puppy%20Farm%20Dalat",
+    "why": "חווה מאוד פופולרית למשפחות עם כלבים, קפיברות, ארנבים, גינות, תותים ואזורים פתוחים.",
+    "reviews": "מהאטרקציות שהכי חוזרות בהמלצות משפחות. להגיע מוקדם כדי להימנע מעומס, במיוחד בעונות תיירות ובסופי שבוע.",
     "icon": "🐶"
+  },
+  {
+    "name": "Dalat Blue Mountain Farm",
+    "destination": "dalat",
+    "category_he": "אטרקציות",
+    "category": "אטרקציות",
+    "score": 5,
+    "tags": [
+      "calm"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Dalat%20Blue%20Mountain%20Farm",
+    "why": "חווה עם קפה, בעלי חיים, תותים, סיור חקלאי ואווירה מאוד נעימה לילדים. אחת ההמלצות הכי רלוונטיות לשהות משפחתית בדאלאת.",
+    "reviews": "מההמלצות ששלחת עולה שזו חוויה אישית ומוצלחת במיוחד, עם מדריכים שמסבירים לילדים על חיות וגידולים. מתאים יותר כסיור מתואם מראש.",
+    "icon": "🐐"
+  },
+  {
+    "name": "Mongo Land Dalat",
+    "destination": "dalat",
+    "category_he": "אטרקציות",
+    "category": "אטרקציות",
+    "score": 4,
+    "tags": [
+      "calm"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Mongo%20Land%20Dalat",
+    "why": "מתחם צבעוני עם חיות, אזורי צילום, גינות ואטרקציות קלילות בסגנון פארק משפחתי.",
+    "reviews": "מתאים לילדים ומאוד פוטוגני, אבל יכול להרגיש תיירותי. טוב אם משלבים עם עוד חווה או קפה באזור.",
+    "icon": "🦙"
+  },
+  {
+    "name": "Zoodoo Dalat",
+    "destination": "dalat",
+    "category_he": "אטרקציות",
+    "category": "אטרקציות",
+    "score": 4,
+    "tags": [
+      "calm"
+    ],
+    "hours": "בתיאום מראש",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Zoodoo%20Dalat",
+    "why": "חוות חיות בסגנון יותר מסודר, עם אלפקות, קנגורו וחיות שילדים יכולים לראות מקרוב.",
+    "reviews": "חוויה טובה מאוד למשפחות, אבל מרוחקת יחסית מהמרכז ולכן מתאימה רק אם בונים סביבה חצי יום ולא כקפיצה קצרה.",
+    "icon": "🦘"
   },
   {
     "name": "Valley of Love",
@@ -2632,15 +2837,63 @@ window.ATTRACTIONS = [
     "tags": [
       "calm"
     ],
-    "hours": "08:00-17:00",
+    "hours": "07:00–17:00",
     "phone": "",
-    "link": "https://maps.google.com/?q=Valley+of+Love+Dalat",
-    "why": "פארק גדול עם גנים, אגם ואזורים פתוחים.",
-    "reviews": "מתויר אבל ילדים נהנים מהמקום.",
-    "icon": "🌿"
+    "link": "https://www.google.com/maps/search/?api=1&query=Valley%20of%20Love%20Dalat",
+    "why": "פארק גדול עם גנים, אגם, פסלים, מתקנים ונקודות צילום. מתאים למשפחה שרוצה יום קליל בלי מסלול טבע מאתגר.",
+    "reviews": "מתויר ומעט קיטשי, אבל ילדים נהנים מהמרחב ומהאטרקציות הקטנות. עדיף להגיע מוקדם ולא באמצע היום.",
+    "icon": "💚"
   },
   {
-    "name": "Clay Tunnel",
+    "name": "Dalat Flower Garden",
+    "destination": "dalat",
+    "category_he": "טבע ונופים",
+    "category": "טבע ונופים",
+    "score": 3,
+    "tags": [
+      "calm"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Dalat%20Flower%20Garden",
+    "why": "גן פרחים במרכז העיר, מתאים לסיבוב קצר וצילומים.",
+    "reviews": "נחמד אם נמצאים בסביבה, אבל פחות חווייתי לילדים לעומת חוות, מפלים או פארקים עם פעילות.",
+    "icon": "🌸"
+  },
+  {
+    "name": "Van Thanh Flower Village",
+    "destination": "dalat",
+    "category_he": "טבע ונופים",
+    "category": "טבע ונופים",
+    "score": 4,
+    "tags": [
+      "calm"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Van%20Thanh%20Flower%20Village%20Dalat",
+    "why": "כפר פרחים וחממות באזור יפה, מתאים למי שרוצה לראות את הצד החקלאי והצבעוני של דאלאת.",
+    "reviews": "יותר מעניין אם משלבים עם קפה/חווה סמוכה. כיעד יחיד יכול להיות קצר מדי לילדים.",
+    "icon": "💐"
+  },
+  {
+    "name": "Fresh Garden Dalat",
+    "destination": "dalat",
+    "category_he": "טבע ונופים",
+    "category": "טבע ונופים",
+    "score": 4,
+    "tags": [
+      "calm"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Fresh%20Garden%20Dalat",
+    "why": "גן פרחים גדול ופוטוגני עם פסלים, נוף וקפה. מתאים ליום רגוע בלי הרבה מאמץ.",
+    "reviews": "יפה ונעים, אבל בעיקר מקום לצילומים וסיבוב. לא הייתי בונה עליו יום שלם עם ילדים.",
+    "icon": "🌷"
+  },
+  {
+    "name": "Dalat Fairytale Land",
     "destination": "dalat",
     "category_he": "אטרקציות",
     "category": "אטרקציות",
@@ -2648,12 +2901,157 @@ window.ATTRACTIONS = [
     "tags": [
       "rain"
     ],
-    "hours": "07:00-17:00",
+    "hours": "שעות יום",
     "phone": "",
-    "link": "https://maps.google.com/?q=Clay+Tunnel+Dalat",
-    "why": "אזור פסלי בוץ פוטוגני שאפשר לשלב עם האגם.",
-    "reviews": "עצירה טובה ולא יום שלם.",
-    "icon": "🗿"
+    "link": "https://www.google.com/maps/search/?api=1&query=Dalat%20Fairytale%20Land",
+    "why": "מתחם אגדות קטן וצבעוני, קרוב יחסית לאזור Vinh Tien ולכפר הפרחים, מתאים לילדים בזכות האווירה והדמויות.",
+    "reviews": "יותר מקום חמוד ופוטוגני מאשר אטרקציית חובה. עובד טוב כשמשלבים עם עוד תחנה באזור.",
+    "icon": "🧚"
+  },
+  {
+    "name": "Langbiang Mountain",
+    "destination": "dalat",
+    "category_he": "טבע ונופים",
+    "category": "טבע ונופים",
+    "score": 4,
+    "tags": [
+      "challenging"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Langbiang%20Mountain%20Dalat",
+    "why": "תצפית מפורסמת על האזור, עם אפשרות לעלות בג׳יפ במקום טרק. מתאים אם רוצים נוף רחב ותחושת הרים.",
+    "reviews": "עם ילדים קטנים עדיף לא לעשות מסלול רגלי. הג׳יפים חווייתיים אבל יכולים להיות עמוסים ותיירותיים.",
+    "icon": "⛰️"
+  },
+  {
+    "name": "Làng Cù Lần",
+    "destination": "dalat",
+    "category_he": "טבע ונופים",
+    "category": "טבע ונופים",
+    "score": 4,
+    "tags": [
+      "calm"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Lang%20Cu%20Lan%20Dalat",
+    "why": "כפר/פארק טבעי מחוץ לעיר עם נוף, גשרים, מים ואווירה כפרית.",
+    "reviews": "יכול להיות יפה מאוד, אבל דורש נסיעה ולא תמיד מצדיק אם יש לכם רק מעט ימים. מתאים ביום נופים רחב יותר.",
+    "icon": "🌲"
+  },
+  {
+    "name": "Elephant Waterfall",
+    "destination": "dalat",
+    "category_he": "טבע ונופים",
+    "category": "טבע ונופים",
+    "score": 3,
+    "tags": [
+      "water",
+      "challenging"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Elephant%20Waterfall%20Dalat",
+    "why": "מפל עוצמתי ומרשים באזור מערב דאלאת.",
+    "reviews": "להכניס לאתר, אבל עם אזהרה ברורה: פחות מתאים לילדים קטנים בגלל מדרגות, רטיבות והליכה שעלולה להיות מחליקה.",
+    "icon": "💦"
+  },
+  {
+    "name": "Linh An Pagoda",
+    "destination": "dalat",
+    "category_he": "תרבות ועיר",
+    "category": "תרבות ועיר",
+    "score": 4,
+    "tags": [
+      "calm"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Linh%20An%20Pagoda%20Dalat",
+    "why": "פגודה גדולה ומרשימה ליד Elephant Waterfall, עם פסל בודהה ענק ואווירה מיוחדת.",
+    "reviews": "שווה לשלב אם כבר נוסעים לאזור המפלים והקפה. פחות הייתי נוסעת במיוחד רק לזה עם ילדים קטנים.",
+    "icon": "🛕"
+  },
+  {
+    "name": "Me Linh Coffee Garden",
+    "destination": "dalat",
+    "category_he": "בתי קפה לילדים",
+    "category": "בתי קפה לילדים",
+    "score": 4,
+    "tags": [
+      "calm"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Me%20Linh%20Coffee%20Garden%20Dalat",
+    "why": "בית קפה עם נוף פנורמי למטעים, מתאים לעצירה ביום מערב דאלאת.",
+    "reviews": "הנוף הוא העיקר. טוב להורים, לילדים פחות יש פעילות משמעותית, לכן עדיף לשלב ולא להפוך ליעד מרכזי.",
+    "icon": "☕"
+  },
+  {
+    "name": "Happy Hill Coffee",
+    "destination": "dalat",
+    "category_he": "בתי קפה לילדים",
+    "category": "בתי קפה לילדים",
+    "score": 4,
+    "tags": [
+      "calm"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Happy%20Hill%20Coffee%20Dalat",
+    "why": "קפה פוטוגני בטבע, טוב לעצירה רגועה ולתמונות באזור האגם.",
+    "reviews": "נחמד מאוד אם אתם באזור Tuyen Lam, פחות חובה אם צריך לנסוע במיוחד.",
+    "icon": "☕"
+  },
+  {
+    "name": "Langfarm Center",
+    "destination": "dalat",
+    "category_he": "תרבות ועיר",
+    "category": "תרבות ועיר",
+    "score": 4,
+    "tags": [
+      "rain"
+    ],
+    "hours": "שעות יום וערב",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Langfarm%20Center%20Dalat",
+    "why": "חנות/מרכז טעימות של מוצרים מקומיים כמו תותים מיובשים, ריבות ופירות. טוב לעצירה קצרה וקניות.",
+    "reviews": "נחמד מאוד כתוספת לשוק או למרכז העיר, במיוחד אם רוצים לקנות מתנות או נשנושים מקומיים.",
+    "icon": "🍓"
+  },
+  {
+    "name": "Silk Factory Dalat",
+    "destination": "dalat",
+    "category_he": "תרבות ועיר",
+    "category": "תרבות ועיר",
+    "score": 3,
+    "tags": [
+      "rain"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Silk%20Factory%20Dalat",
+    "why": "ביקור במפעל משי מקומי, מתאים אם רוצים פעילות קצרה עם ערך תרבותי בדרך לאזור כפרים/פרחים.",
+    "reviews": "יותר מעניין למבוגרים מאשר לילדים קטנים, אבל יכול להיות עצירה קצרה טובה אם זה על הדרך.",
+    "icon": "🧵"
+  },
+  {
+    "name": "Strawberry Farm Dalat",
+    "destination": "dalat",
+    "category_he": "אטרקציות",
+    "category": "אטרקציות",
+    "score": 4,
+    "tags": [
+      "calm"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Strawberry%20Farm%20Dalat",
+    "why": "קטיף/ביקור בחוות תותים, חוויה פשוטה וכיפית לילדים שמתאימה מאוד לאופי של דאלאת.",
+    "reviews": "שווה לבחור חווה עם ביקורות עדכניות ולבדוק אם יש קטיף בפועל באותו יום. לא כל החוות נותנות אותה חוויה.",
+    "icon": "🍓"
   },
   {
     "name": "Joy Dalat Kids Café",
@@ -2662,15 +3060,48 @@ window.ATTRACTIONS = [
     "category": "בתי קפה לילדים",
     "score": 4,
     "tags": [
-      "ac",
-      "rain"
+      "rain",
+      "ac"
     ],
-    "hours": "09:00-21:00",
+    "hours": "שעות יום",
     "phone": "",
-    "link": "https://maps.google.com/?q=Joy+Dalat+Kids+Cafe",
-    "why": "קפה עם משחקים, חול ואזורי ילדים.",
-    "reviews": "מעולה ליום גשם או הפוגה באמצע יום.",
+    "link": "https://www.google.com/maps/search/?api=1&query=Joy%20Dalat%20Kids%20Cafe%20Playground",
+    "why": "בית קפה לילדים עם אזור משחק וחול, מתאים מאוד להפוגה ביום גשם או ביום קר.",
+    "reviews": "שימושי מאוד למשפחות כי ההורים יכולים לשבת והילדים משחקים. לבדוק שעות לפני הגעה.",
     "icon": "☕"
+  },
+  {
+    "name": "Dang Dan Cafe & Kids House",
+    "destination": "dalat",
+    "category_he": "בתי קפה לילדים",
+    "category": "בתי קפה לילדים",
+    "score": 4,
+    "tags": [
+      "rain",
+      "ac"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Dang%20Dan%20Cafe%20Kids%20House%20Dalat",
+    "why": "קפה עם אזור משחק לילדים, מכוניות קטנות ופינות ישיבה להורים.",
+    "reviews": "מתאים להפוגה ולא כיעד גדול. טוב במיוחד לשהות ארוכה כשצריך מקום קבוע לחזור אליו.",
+    "icon": "☕"
+  },
+  {
+    "name": "Dream House Dalat",
+    "destination": "dalat",
+    "category_he": "בתי קפה לילדים",
+    "category": "בתי קפה לילדים",
+    "score": 3,
+    "tags": [
+      "calm"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Dream%20House%20Dalat%20cafe%20kids",
+    "why": "בית קפה עם אווירה משפחתית וחיות/אזור ילדים, מתאים לעצירה קלה.",
+    "reviews": "נחמד אם קרוב אליכם, אבל פחות חזק מאטרקציות הילדים המרכזיות. להכניס כאופציה ולא כ-must.",
+    "icon": "🐾"
   },
   {
     "name": "Ladalat Kids Playground",
@@ -2679,29 +3110,66 @@ window.ATTRACTIONS = [
     "category": "משחקיות",
     "score": 4,
     "tags": [
-      "ac",
-      "rain"
+      "rain",
+      "ac"
     ],
-    "hours": "09:00-20:00",
+    "hours": "שעות יום",
     "phone": "",
-    "link": "https://maps.google.com/?q=Ladalat+Kids+Playground",
-    "why": "משחקייה גדולה וממוזגת בתוך מתחם מלון.",
-    "reviews": "פתרון טוב לימים קרים או גשומים.",
+    "link": "https://www.google.com/maps/search/?api=1&query=Ladalat%20Kids%20Playground",
+    "why": "משחקייה גדולה יחסית בתוך מתחם מלון, טובה במיוחד ליום גשם או להוצאת אנרגיה.",
+    "reviews": "פתרון פרקטי מאוד ולא בהכרח חוויית חובה. מתאים לילדים קטנים כשצריך מקום סגור ונוח.",
     "icon": "🧸"
   },
   {
-    "name": "Dalat Night Market",
+    "name": "Titan Kids Playground Dalat",
     "destination": "dalat",
-    "category_he": "תרבות ועיר",
-    "category": "תרבות ועיר",
-    "score": 4,
-    "tags": [],
-    "hours": "ערב",
+    "category_he": "משחקיות",
+    "category": "משחקיות",
+    "score": 3,
+    "tags": [
+      "rain",
+      "ac"
+    ],
+    "hours": "שעות יום",
     "phone": "",
-    "link": "https://maps.google.com/?q=Dalat+Night+Market",
-    "why": "שוק ערב גדול עם אוכל רחוב ואווירה.",
-    "reviews": "יכול להיות עמוס מאוד בערב.",
-    "icon": "🌃"
+    "link": "https://www.google.com/maps/search/?api=1&query=Titan%20Kids%20Playground%20Dalat",
+    "why": "משחקייה מקומית סגורה, מתאימה ליום גשם או שעה-שעתיים של משחק.",
+    "reviews": "לא אטרקציה ייחודית, אבל שימושית מאוד אם נמצאים באזור ורוצים פתרון לילדים.",
+    "icon": "🧸"
+  },
+  {
+    "name": "Yoyo Play Kids Dalat",
+    "destination": "dalat",
+    "category_he": "משחקיות",
+    "category": "משחקיות",
+    "score": 3,
+    "tags": [
+      "rain",
+      "ac"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Yoyo%20Play%20Kids%20Dalat",
+    "why": "משחקייה מקומית נוספת שיכולה להתאים לשעת משחק קצרה.",
+    "reviews": "להשתמש כאופציה גמישה לפי מיקום ומזג אוויר, לא כיעד מרכזי.",
+    "icon": "🧸"
+  },
+  {
+    "name": "Herbal Spa Dalat",
+    "destination": "dalat",
+    "category_he": "ספא",
+    "category": "ספא",
+    "score": 4,
+    "tags": [
+      "rain",
+      "ac"
+    ],
+    "hours": "שעות יום וערב",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Herbal%20Spa%20Dalat",
+    "why": "ספא להורים בלבד, מתאים אם יש חלון קצר להתאווררות בלי הילדים.",
+    "reviews": "לא אטרקציה משפחתית, אבל חשוב להכניס לאתר כי בשהות ארוכה זה מידע שימושי להורים.",
+    "icon": "💆‍♀️"
   }
 ];
 
@@ -3316,6 +3784,93 @@ window.ATTRACTIONS = [
     ];
 
 
+    const dalatPlans = [
+      {
+        title: "יום קלאסי במרכז דאלאת",
+        short_description: "אטרקציות קרובות יחסית, בלי נסיעות ארוכות.",
+        vibe: "עיר · קליל · מתאים ליום ראשון",
+        why: "יום טוב לפתיחה כי הכול יחסית נגיש, יש שילוב של אטרקציה מיוחדת, אגם, שוק ותחנת רכבת, ואפשר לקצר בכל שלב.",
+        stops: [
+          {label:"בוקר", name:"Crazy House", note:"להגיע מוקדם ולהשגיח במדרגות."},
+          {label:"צהריים", name:"Xuan Huong Lake", note:"הליכה קצרה או סירות פדלים."},
+          {label:"אחה״צ", name:"Dalat Railway Station", note:"עצירה צבעונית ואפשרות לרכבת קצרה."},
+          {label:"ערב", name:"Dalat Night Market", note:"שוק ערב, אוכל רחוב וקינוחים."}
+        ],
+        tips: ["לא למשוך את Crazy House אם הילדים מתעייפים", "השוק יכול להיות עמוס", "להשאיר את הערב גמיש"],
+        places: ["Crazy House", "Xuan Huong Lake", "Dalat Railway Station", "Dalat Night Market"]
+      },
+      {
+        title: "יום רכבל, אגם ומפלים",
+        short_description: "היום הכי מאוזן לטבע קל וחוויה לילדים.",
+        vibe: "טבע · מים · רכבל",
+        why: "זה אחד הימים הכי חזקים בדאלאת: רכבל, מנזר, אגם ומפל עם Alpine Coaster, בלי להפוך את זה לטרק קשה.",
+        stops: [
+          {label:"בוקר", name:"Robin Hill Cable Car", note:"רכבל עם נוף לעיר ולעמקים."},
+          {label:"המשך", name:"Truc Lam Zen Monastery", note:"עצירה רגועה וקצרה."},
+          {label:"צהריים", name:"Tuyen Lam Lake", note:"קפה או עצירה ליד האגם."},
+          {label:"אחה״צ", name:"Datanla Waterfall & Alpine Coaster", note:"המזחלות הן גולת הכותרת."}
+        ],
+        tips: ["לבדוק מזג אוויר לפני הרכבל", "להגיע לדאטנלה לא מאוחר מדי", "לא להוסיף עוד מפל באותו יום"],
+        places: ["Robin Hill Cable Car", "Truc Lam Zen Monastery", "Tuyen Lam Lake", "Datanla Waterfall & Alpine Coaster"]
+      },
+      {
+        title: "יום חוות וחיות",
+        short_description: "יום חווייתי לילדים עם חיות, תותים וקפה.",
+        vibe: "חיות · חווה · ילדים",
+        why: "זה היום הכי מתאים לילדים קטנים: הרבה חיות, מרחב פתוח, תותים ואטרקציות שמרגישות טבעיות ולא עירוניות.",
+        stops: [
+          {label:"בוקר", name:"Puppy Farm", note:"להגיע מוקדם לפני עומס."},
+          {label:"צהריים", name:"Dalat Blue Mountain Farm", note:"סיור חווה, חיות וקפה."},
+          {label:"אופציונלי", name:"Strawberry Farm Dalat", note:"קטיף או קנייה של תותים אם יש כוח."}
+        ],
+        tips: ["לתאם מראש את Blue Mountain Farm", "להביא בגדים נוחים", "זה יום שיכול להתארך אז לא להעמיס ערב"],
+        places: ["Puppy Farm", "Dalat Blue Mountain Farm", "Strawberry Farm Dalat"]
+      },
+      {
+        title: "יום נופים ופרחים",
+        short_description: "יום יפה ופוטוגני עם גנים, פרחים ותצפיות.",
+        vibe: "נוף · פרחים · רגוע",
+        why: "מתאים ליום שבו רוצים לראות את הצד היפה והצבעוני של דאלאת בלי הרבה מאמץ פיזי.",
+        stops: [
+          {label:"בוקר", name:"Valley of Love", note:"פארק גדול עם גנים ואגם."},
+          {label:"צהריים", name:"Fresh Garden Dalat", note:"גן פרחים וקפה."},
+          {label:"אחה״צ", name:"Van Thanh Flower Village", note:"כפר פרחים וחממות."}
+        ],
+        tips: ["להתחיל מוקדם", "לבחור רק 2 תחנות אם הילדים עייפים", "מתאים פחות לגשם חזק"],
+        places: ["Valley of Love", "Fresh Garden Dalat", "Van Thanh Flower Village"]
+      },
+      {
+        title: "יום מערב דאלאת",
+        short_description: "יום טיול ארוך יותר עם קפה, מפל ופגודה.",
+        vibe: "יום מלא · נוף · יותר נסיעה",
+        why: "מתאים אם רוצים יום מחוץ למרכז עם תחושה של טיול אמיתי. לא הייתי עושה אותו ביום עייף.",
+        stops: [
+          {label:"בוקר", name:"Me Linh Coffee Garden", note:"קפה עם נוף למטעים."},
+          {label:"המשך", name:"Elephant Waterfall", note:"מרשים אבל פחות מתאים לילדים קטנים – בזהירות."},
+          {label:"צהריים", name:"Linh An Pagoda", note:"פגודה גדולה ליד האזור."},
+          {label:"אופציונלי", name:"Silk Factory Dalat", note:"עצירה תרבותית קצרה אם זה על הדרך."}
+        ],
+        tips: ["לא מומלץ ביום גשום", "להיזהר מאוד באזור המפל", "אפשר לוותר על Elephant Waterfall עם ילד קטן"],
+        places: ["Me Linh Coffee Garden", "Elephant Waterfall", "Linh An Pagoda", "Silk Factory Dalat"]
+      },
+      {
+        title: "יום גשם / יום רגוע",
+        short_description: "מקומות סגורים, משחקיות וקפה לילדים.",
+        vibe: "גשם · משחקיות · קל",
+        why: "דאלאת יכולה להיות קרירה וגשומה, וזה יום שנועד להציל תוכנית בלי להסתובב בחוץ יותר מדי.",
+        stops: [
+          {label:"בוקר", name:"Joy Dalat Kids Café", note:"קפה עם אזור משחק לילדים."},
+          {label:"צהריים", name:"Ladalat Kids Playground", note:"משחקייה סגורה להוצאת אנרגיה."},
+          {label:"אחה״צ", name:"Langfarm Center", note:"טעימות וקניות של מוצרים מקומיים."},
+          {label:"ערב", name:"Dalat Night Market", note:"רק אם הגשם נרגע ויש כוח."}
+        ],
+        tips: ["לבדוק שעות של המשחקיות לפני הגעה", "לשמור את היום הזה כגיבוי", "לא חייבים לעשות את כל התחנות"],
+        places: ["Joy Dalat Kids Café", "Ladalat Kids Playground", "Langfarm Center", "Dalat Night Market"]
+      }
+    ];
+
+
+
     // Curated full-day options per destination
     const plans = [];
     if(currentDestination === "krabi"){
@@ -3347,6 +3902,16 @@ window.ATTRACTIONS = [
         plans.push(daNangPlans[0], daNangPlans[2]);
       } else {
         plans.push(...daNangPlans);
+      }
+    } else if(currentDestination === "dalat"){
+      if(mode === "rain"){
+        plans.push(dalatPlans[5], dalatPlans[0]);
+      } else if(mode === "tired"){
+        plans.push(dalatPlans[0], dalatPlans[3], dalatPlans[5]);
+      } else if(mode === "hot"){
+        plans.push(dalatPlans[1], dalatPlans[2], dalatPlans[5]);
+      } else {
+        plans.push(...dalatPlans);
       }
     } else if(currentDestination === "bangkok"){
       plans.push({
