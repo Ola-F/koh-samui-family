@@ -2574,6 +2574,134 @@ window.ATTRACTIONS = [
     "why": "פעילות ערב פשוטה ומהירה לילדים: השכרת כלי רכב חשמליים קטנים באזור פתוח. טוב במיוחד כשרוצים להוציא אנרגיה אחרי יום רגוע.",
     "reviews": "ההמלצה מציינת שהפעילות מתאימה גם לילדים קטנים ומהירה מאוד לביצוע. זו לא אטרקציית חובה, אבל שימושית מאוד לשהות ארוכה.",
     "icon": "🏎️"
+  },
+  {
+    "name": "Crazy House",
+    "destination": "dalat",
+    "category_he": "אטרקציות",
+    "category": "אטרקציות",
+    "score": 5,
+    "tags": [
+      "rain"
+    ],
+    "hours": "09:00-18:00",
+    "phone": "",
+    "link": "https://maps.google.com/?q=Crazy+House+Dalat",
+    "why": "מבנה מיוחד ומלא מעברים וחדרים שילדים מאוד נהנים לחקור.",
+    "reviews": "אחת האטרקציות הכי זכורות בדאלאת אבל דורשת השגחה בגלל מדרגות ומעברים צרים.",
+    "icon": "🏠"
+  },
+  {
+    "name": "Datanla Waterfall & Alpine Coaster",
+    "destination": "dalat",
+    "category_he": "טבע ונופים",
+    "category": "טבע ונופים",
+    "score": 5,
+    "tags": [
+      "water"
+    ],
+    "hours": "08:00-17:00",
+    "phone": "",
+    "link": "https://maps.google.com/?q=Datanla+Waterfall+Dalat",
+    "why": "המפל הכי נוח למשפחות באזור עם מזחלות ותחושה של יום טבע בלי מסלול קשה.",
+    "reviews": "ה-Alpine Coaster הוא גולת הכותרת. מומלץ להגיע מוקדם.",
+    "icon": "🌊"
+  },
+  {
+    "name": "Puppy Farm",
+    "destination": "dalat",
+    "category_he": "אטרקציות",
+    "category": "אטרקציות",
+    "score": 5,
+    "tags": [
+      "calm"
+    ],
+    "hours": "08:00-17:00",
+    "phone": "",
+    "link": "https://maps.google.com/?q=Puppy+Farm+Dalat",
+    "why": "חווה פופולרית עם כלבים, קפיברות, ארנבים וגינות.",
+    "reviews": "מאוד מתאים לילדים קטנים. יכול להיות עמוס בצהריים.",
+    "icon": "🐶"
+  },
+  {
+    "name": "Valley of Love",
+    "destination": "dalat",
+    "category_he": "טבע ונופים",
+    "category": "טבע ונופים",
+    "score": 4,
+    "tags": [
+      "calm"
+    ],
+    "hours": "08:00-17:00",
+    "phone": "",
+    "link": "https://maps.google.com/?q=Valley+of+Love+Dalat",
+    "why": "פארק גדול עם גנים, אגם ואזורים פתוחים.",
+    "reviews": "מתויר אבל ילדים נהנים מהמקום.",
+    "icon": "🌿"
+  },
+  {
+    "name": "Clay Tunnel",
+    "destination": "dalat",
+    "category_he": "אטרקציות",
+    "category": "אטרקציות",
+    "score": 4,
+    "tags": [
+      "rain"
+    ],
+    "hours": "07:00-17:00",
+    "phone": "",
+    "link": "https://maps.google.com/?q=Clay+Tunnel+Dalat",
+    "why": "אזור פסלי בוץ פוטוגני שאפשר לשלב עם האגם.",
+    "reviews": "עצירה טובה ולא יום שלם.",
+    "icon": "🗿"
+  },
+  {
+    "name": "Joy Dalat Kids Café",
+    "destination": "dalat",
+    "category_he": "בתי קפה לילדים",
+    "category": "בתי קפה לילדים",
+    "score": 4,
+    "tags": [
+      "ac",
+      "rain"
+    ],
+    "hours": "09:00-21:00",
+    "phone": "",
+    "link": "https://maps.google.com/?q=Joy+Dalat+Kids+Cafe",
+    "why": "קפה עם משחקים, חול ואזורי ילדים.",
+    "reviews": "מעולה ליום גשם או הפוגה באמצע יום.",
+    "icon": "☕"
+  },
+  {
+    "name": "Ladalat Kids Playground",
+    "destination": "dalat",
+    "category_he": "משחקיות",
+    "category": "משחקיות",
+    "score": 4,
+    "tags": [
+      "ac",
+      "rain"
+    ],
+    "hours": "09:00-20:00",
+    "phone": "",
+    "link": "https://maps.google.com/?q=Ladalat+Kids+Playground",
+    "why": "משחקייה גדולה וממוזגת בתוך מתחם מלון.",
+    "reviews": "פתרון טוב לימים קרים או גשומים.",
+    "icon": "🧸"
+  },
+  {
+    "name": "Dalat Night Market",
+    "destination": "dalat",
+    "category_he": "תרבות ועיר",
+    "category": "תרבות ועיר",
+    "score": 4,
+    "tags": [],
+    "hours": "ערב",
+    "phone": "",
+    "link": "https://maps.google.com/?q=Dalat+Night+Market",
+    "why": "שוק ערב גדול עם אוכל רחוב ואווירה.",
+    "reviews": "יכול להיות עמוס מאוד בערב.",
+    "icon": "🌃"
   }
 ];
 
@@ -2674,7 +2802,8 @@ window.ATTRACTIONS = [
     bangkok: "https://www.google.com/maps?q=Gate43%20Airport%20Hotel%20Bangkok&output=embed",
     krabi: "https://www.google.com/maps?q=Ao%20Nang%20Krabi&output=embed",
     hoi_an: "https://www.google.com/maps?q=Hoi%20An%20Vietnam&output=embed",
-    da_nang: "https://www.google.com/maps?q=Chi%20House%20Danang&output=embed"
+    da_nang: "https://www.google.com/maps?q=Chi%20House%20Danang&output=embed",
+    dalat: "https://www.google.com/maps?q=Dalat%20Vietnam&output=embed"
   };
 
   const DEST_TITLES = {
@@ -2682,7 +2811,8 @@ window.ATTRACTIONS = [
     bangkok: "בנגקוק – אטרקציות למשפחה",
     krabi: "קראבי – אטרקציות למשפחה",
     hoi_an: "הוי אן – אטרקציות למשפחה",
-    da_nang: "דה נאנג – אטרקציות למשפחה"
+    da_nang: "דה נאנג – אטרקציות למשפחה",
+    dalat: "דאלאת – אטרקציות למשפחה"
   };
 
   populateCategories(currentDestination);
