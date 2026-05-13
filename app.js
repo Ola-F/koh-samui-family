@@ -3170,6 +3170,214 @@ window.ATTRACTIONS = [
     "why": "ספא להורים בלבד, מתאים אם יש חלון קצר להתאווררות בלי הילדים.",
     "reviews": "לא אטרקציה משפחתית, אבל חשוב להכניס לאתר כי בשהות ארוכה זה מידע שימושי להורים.",
     "icon": "💆‍♀️"
+  },
+  {
+    "name": "QUÊ Garden",
+    "destination": "dalat",
+    "category_he": "טבע ונופים",
+    "category": "טבע ונופים",
+    "score": 4,
+    "tags": [
+      "calm"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=QU%C3%8A%20Garden%20Dalat",
+    "why": "המלצה משפחתית שנוספה לדאלאת.",
+    "reviews": "מתאים בעיקר לשילוב גמיש לפי מזג האוויר והמיקום.",
+    "icon": "🌿"
+  },
+  {
+    "name": "Dalat City Flower Garden",
+    "destination": "dalat",
+    "category_he": "טבע ונופים",
+    "category": "טבע ונופים",
+    "score": 4,
+    "tags": [
+      "calm"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Dalat%20City%20Flower%20Garden%20Dalat",
+    "why": "המלצה משפחתית שנוספה לדאלאת.",
+    "reviews": "מתאים בעיקר לשילוב גמיש לפי מזג האוויר והמיקום.",
+    "icon": "🌸"
+  },
+  {
+    "name": "Dalat Flower Plateau Ecotourism Area",
+    "destination": "dalat",
+    "category_he": "טבע ונופים",
+    "category": "טבע ונופים",
+    "score": 4,
+    "tags": [
+      "calm"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Dalat%20Flower%20Plateau%20Ecotourism%20Area%20Dalat",
+    "why": "המלצה משפחתית שנוספה לדאלאת.",
+    "reviews": "מתאים בעיקר לשילוב גמיש לפי מזג האוויר והמיקום.",
+    "icon": "🌺"
+  },
+  {
+    "name": "Lumiere Da Lat - Light Garden",
+    "destination": "dalat",
+    "category_he": "אטרקציות",
+    "category": "אטרקציות",
+    "score": 4,
+    "tags": [
+      "calm"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Lumiere%20Da%20Lat%20-%20Light%20Garden%20Dalat",
+    "why": "המלצה משפחתית שנוספה לדאלאת.",
+    "reviews": "מתאים בעיקר לשילוב גמיש לפי מזג האוויר והמיקום.",
+    "icon": "💡"
+  },
+  {
+    "name": "Khu vui chơi trẻ em Oh My Kids Coffee",
+    "destination": "dalat",
+    "category_he": "בתי קפה לילדים",
+    "category": "בתי קפה לילדים",
+    "score": 4,
+    "tags": [
+      "rain"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Khu%20vui%20ch%C6%A1i%20tr%E1%BA%BB%20em%20Oh%20My%20Kids%20Coffee%20Dalat",
+    "why": "המלצה משפחתית שנוספה לדאלאת.",
+    "reviews": "מתאים בעיקר לשילוב גמיש לפי מזג האוויר והמיקום.",
+    "icon": "☕"
+  },
+  {
+    "name": "Fresh PlayGround - Khu Trò Chơi Vận Động",
+    "destination": "dalat",
+    "category_he": "משחקיות",
+    "category": "משחקיות",
+    "score": 4,
+    "tags": [
+      "rain"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Fresh%20PlayGround%20-%20Khu%20Tr%C3%B2%20Ch%C6%A1i%20V%E1%BA%ADn%20%C4%90%E1%BB%99ng%20Dalat",
+    "why": "המלצה משפחתית שנוספה לדאלאת.",
+    "reviews": "מתאים בעיקר לשילוב גמיש לפי מזג האוויר והמיקום.",
+    "icon": "🧸"
+  },
+  {
+    "name": "Duck Ducking Beach Xuan Huong Lake",
+    "destination": "dalat",
+    "category_he": "בתי קפה לילדים",
+    "category": "בתי קפה לילדים",
+    "score": 4,
+    "tags": [
+      "rain"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Duck%20Ducking%20Beach%20Xuan%20Huong%20Lake%20Dalat",
+    "why": "המלצה משפחתית שנוספה לדאלאת.",
+    "reviews": "מתאים בעיקר לשילוב גמיש לפי מזג האוויר והמיקום.",
+    "icon": "🦆"
+  },
+  {
+    "name": "Khu Vui Chơi",
+    "destination": "dalat",
+    "category_he": "משחקיות",
+    "category": "משחקיות",
+    "score": 4,
+    "tags": [
+      "rain"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Khu%20Vui%20Ch%C6%A1i%20Dalat",
+    "why": "המלצה משפחתית שנוספה לדאלאת.",
+    "reviews": "מתאים בעיקר לשילוב גמיש לפי מזג האוויר והמיקום.",
+    "icon": "🧸"
+  },
+  {
+    "name": "Tiệm Gốm Ung Dung",
+    "destination": "dalat",
+    "category_he": "אטרקציות",
+    "category": "אטרקציות",
+    "score": 4,
+    "tags": [
+      "calm"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Ti%E1%BB%87m%20G%E1%BB%91m%20Ung%20Dung%20Dalat",
+    "why": "המלצה משפחתית שנוספה לדאלאת.",
+    "reviews": "מתאים בעיקר לשילוב גמיש לפי מזג האוויר והמיקום.",
+    "icon": "🎨"
+  },
+  {
+    "name": "Cafe Sân",
+    "destination": "dalat",
+    "category_he": "בתי קפה לילדים",
+    "category": "בתי קפה לילדים",
+    "score": 4,
+    "tags": [
+      "rain"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Cafe%20S%C3%A2n%20Dalat",
+    "why": "המלצה משפחתית שנוספה לדאלאת.",
+    "reviews": "מתאים בעיקר לשילוב גמיש לפי מזג האוויר והמיקום.",
+    "icon": "☕"
+  },
+  {
+    "name": "Sữa BéBé - Kids Cafe",
+    "destination": "dalat",
+    "category_he": "בתי קפה לילדים",
+    "category": "בתי קפה לילדים",
+    "score": 4,
+    "tags": [
+      "rain"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=S%E1%BB%AFa%20B%C3%A9B%C3%A9%20-%20Kids%20Cafe%20Dalat",
+    "why": "המלצה משפחתית שנוספה לדאלאת.",
+    "reviews": "מתאים בעיקר לשילוב גמיש לפי מזג האוויר והמיקום.",
+    "icon": "🍼"
+  },
+  {
+    "name": "MIKI kid & Coffee",
+    "destination": "dalat",
+    "category_he": "בתי קפה לילדים",
+    "category": "בתי קפה לילדים",
+    "score": 4,
+    "tags": [
+      "rain"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=MIKI%20kid%20%26%20Coffee%20Dalat",
+    "why": "המלצה משפחתית שנוספה לדאלאת.",
+    "reviews": "מתאים בעיקר לשילוב גמיש לפי מזג האוויר והמיקום.",
+    "icon": "☕"
+  },
+  {
+    "name": "Như Ý Family - Cafe Kids",
+    "destination": "dalat",
+    "category_he": "בתי קפה לילדים",
+    "category": "בתי קפה לילדים",
+    "score": 4,
+    "tags": [
+      "rain"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Nh%C6%B0%20%C3%9D%20Family%20-%20Cafe%20Kids%20Dalat",
+    "why": "המלצה משפחתית שנוספה לדאלאת.",
+    "reviews": "מתאים בעיקר לשילוב גמיש לפי מזג האוויר והמיקום.",
+    "icon": "☕"
   }
 ];
 
