@@ -3411,23 +3411,6 @@ window.ATTRACTIONS = [
     "icon": "🏙️"
   },
   {
-    "name": "KizCiti",
-    "destination": "hcmc",
-    "category_he": "משחקיות וסדנאות",
-    "category": "משחקיות וסדנאות",
-    "score": 4,
-    "tags": [
-      "ac",
-      "rain"
-    ],
-    "hours": "שעות משתנות",
-    "phone": "",
-    "link": "https://www.google.com/maps/search/?api=1&query=KizCiti%20Ho%20Chi%20Minh%20City",
-    "why": "מתחם משחקי תפקידים לילדים בסגנון עיר מקצועות. טוב במיוחד אם Vietopia לא מסתדר מבחינת מיקום או שעות.",
-    "reviews": "מתאים לילדים שאוהבים משחקי דמיון ותחנות פעילות. פחות נוצץ מ-Vietopia, אבל עדיין אופציה טובה ליום חם או גשום.",
-    "icon": "👮"
-  },
-  {
     "name": "Kiwooza Planet – Thiso Mall Sala",
     "destination": "hcmc",
     "category_he": "משחקיות וסדנאות",
@@ -3464,40 +3447,6 @@ window.ATTRACTIONS = [
     "icon": "🧸"
   },
   {
-    "name": "Jump Arena",
-    "destination": "hcmc",
-    "category_he": "משחקיות וסדנאות",
-    "category": "משחקיות וסדנאות",
-    "score": 4,
-    "tags": [
-      "ac",
-      "rain"
-    ],
-    "hours": "שעות משתנות",
-    "phone": "",
-    "link": "https://www.google.com/maps/search/?api=1&query=Jump%20Arena%20Ho%20Chi%20Minh%20City",
-    "why": "מתחם טרמפולינות ופעילות גופנית שמתאים לימים שבהם הילדים צריכים לפרוק אנרגיה.",
-    "reviews": "מעולה לילדים פעילים, בעיקר לאמה. עם ילד קטן צריך לבדוק אזורי גיל/גובה ולהשגיח, כי חלק מהמתקנים מתאימים יותר לגדולים.",
-    "icon": "🤸"
-  },
-  {
-    "name": "Snow Town Saigon",
-    "destination": "hcmc",
-    "category_he": "משחקיות וסדנאות",
-    "category": "משחקיות וסדנאות",
-    "score": 4,
-    "tags": [
-      "ac",
-      "rain"
-    ],
-    "hours": "שעות משתנות",
-    "phone": "",
-    "link": "https://www.google.com/maps/search/?api=1&query=Snow%20Town%20Saigon",
-    "why": "מתחם שלג מקורה עם מגלשות ופעילות חורפית באמצע עיר טרופית. חוויה שונה ומצחיקה לילדים.",
-    "reviews": "ילדים נהנים מה novelty של השלג. כדאי להגיע עם בגדים מתאימים ולבדוק מראש אם כל האזורים פעילים.",
-    "icon": "❄️"
-  },
-  {
     "name": "Tinker Box",
     "destination": "hcmc",
     "category_he": "משחקיות וסדנאות",
@@ -3531,23 +3480,6 @@ window.ATTRACTIONS = [
     "why": "מתחם משחקים מקורה שמתאים ליום גשם או להפוגה של כמה שעות.",
     "reviews": "טוב במיוחד כשמחפשים מקום סגור עם מגוון פעילויות. פחות יעד חובה אם כבר הייתם במשחקיות הגדולות יותר.",
     "icon": "🏕️"
-  },
-  {
-    "name": "Artinus 3D Art Museum",
-    "destination": "hcmc",
-    "category_he": "משחקיות וסדנאות",
-    "category": "משחקיות וסדנאות",
-    "score": 4,
-    "tags": [
-      "ac",
-      "rain"
-    ],
-    "hours": "שעות משתנות",
-    "phone": "",
-    "link": "https://www.google.com/maps/search/?api=1&query=Artinus%203D%20Art%20Museum%20Ho%20Chi%20Minh",
-    "why": "מוזיאון אשליות ותלת־ממד שבו הילדים משתתפים בתמונות ולא רק מסתכלים. מתאים ליום ממוזג קצר יחסית.",
-    "reviews": "ילדים בדרך כלל נהנים מהצילומים ומהאינטראקטיביות. פחות עמוק תרבותית, אבל כיף וקל.",
-    "icon": "🖼️"
   },
   {
     "name": "OH MY KIDS Premium Kids Cafe",
@@ -3633,23 +3565,6 @@ window.ATTRACTIONS = [
     "why": "קידס קפה קטן ונעים, מתאים במיוחד לילדים צעירים ולזמן משחק קצר.",
     "reviews": "טוב כאופציה קרובה וגמישה, פחות כיעד מרכזי של חצי יום.",
     "icon": "🐱"
-  },
-  {
-    "name": "Kids Cafe Ho Chi Minh",
-    "destination": "hcmc",
-    "category_he": "בתי קפה לילדים",
-    "category": "בתי קפה לילדים",
-    "score": 4,
-    "tags": [
-      "ac",
-      "rain"
-    ],
-    "hours": "שעות משתנות",
-    "phone": "",
-    "link": "https://www.google.com/maps/search/?api=1&query=Kids%20Cafe%20Ho%20Chi%20Minh%20City",
-    "why": "אופציה כללית נוספת לקפה עם משחקייה לילדים, בעיקר לפי קרבה למיקום שלכם.",
-    "reviews": "שווה להשאיר באתר כפתרון גמיש, אבל לבחור בפועל לפי אזור הלינה והביקורות הכי עדכניות.",
-    "icon": "☕"
   },
   {
     "name": "Saigon Zoo & Botanical Gardens",
@@ -3944,38 +3859,6 @@ window.ATTRACTIONS = [
     "icon": "☕"
   },
   {
-    "name": "Oromia Coffee",
-    "destination": "hcmc",
-    "category_he": "בתי קפה ונקודות עצירה",
-    "category": "בתי קפה ונקודות עצירה",
-    "score": 4,
-    "tags": [
-      "calm"
-    ],
-    "hours": "שעות יום",
-    "phone": "",
-    "link": "https://www.google.com/maps/search/?api=1&query=Oromia%20Coffee%20Ho%20Chi%20Minh",
-    "why": "בית קפה יפה ושקט יחסית, טוב להורים כשרוצים עצירה נעימה ולא קניון.",
-    "reviews": "לא מקום ילדים מובהק, אבל שווה כנקודת עצירה קצרה אם קרוב למסלול.",
-    "icon": "☕"
-  },
-  {
-    "name": "Little Hanoi Egg Coffee",
-    "destination": "hcmc",
-    "category_he": "בתי קפה ונקודות עצירה",
-    "category": "בתי קפה ונקודות עצירה",
-    "score": 4,
-    "tags": [
-      "calm"
-    ],
-    "hours": "שעות יום",
-    "phone": "",
-    "link": "https://www.google.com/maps/search/?api=1&query=Little%20Hanoi%20Egg%20Coffee%20Ho%20Chi%20Minh",
-    "why": "עצירת קפה וייטנאמית קלאסית, טובה להורים ולחוויה קטנה של Egg Coffee.",
-    "reviews": "מתאים כעצירה קצרה בעיר, לא כאטרקציית ילדים.",
-    "icon": "☕"
-  },
-  {
     "name": "Independence Palace",
     "destination": "hcmc",
     "category_he": "תרבות ועיר",
@@ -4139,6 +4022,23 @@ window.ATTRACTIONS = [
     "why": "קניון נוח לשילוב עם Crescent Lake ו-Starlight Bridge, טוב לאוכל ומיזוג.",
     "reviews": "מקום פרקטי מאוד ליום רגוע באזור District 7. לא חובה אם לא נמצאים באזור.",
     "icon": "🏬"
+  },
+  {
+    "name": "Beehive Premium Kids Cafe",
+    "destination": "hcmc",
+    "category_he": "בתי קפה לילדים",
+    "category": "בתי קפה לילדים",
+    "score": 5,
+    "tags": [
+      "ac",
+      "rain"
+    ],
+    "hours": "שעות משתנות, מומלץ לבדוק לפני הגעה",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Beehive%20Premium%20Kids%20Cafe%20Ho%20Chi%20Minh",
+    "why": "Kids Cafe מושקע במיוחד עם אזורי משחק איכותיים לילדים וישיבה נוחה להורים. מתאים מאוד ליום חם או גשום, או כשצריך פעילות רגועה ולא עוד קניון.",
+    "reviews": "נראה כאחת האפשרויות החזקות בקטגוריית בתי הקפה לילדים בעיר, ולכן עדיף להשאיר אותו במקום המלצות כלליות או מקומות פחות עדכניים.",
+    "icon": "🐝"
   }
 ];
 
