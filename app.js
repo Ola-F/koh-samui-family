@@ -3378,6 +3378,767 @@ window.ATTRACTIONS = [
     "why": "המלצה משפחתית שנוספה לדאלאת.",
     "reviews": "מתאים בעיקר לשילוב גמיש לפי מזג האוויר והמיקום.",
     "icon": "☕"
+  },
+  {
+    "name": "בסיס הו צ׳י מין",
+    "destination": "hcmc",
+    "category_he": "בסיס",
+    "category": "בסיס",
+    "score": null,
+    "tags": [],
+    "hours": "",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Ho%20Chi%20Minh%20City%20Vietnam",
+    "why": "",
+    "reviews": "",
+    "icon": "🏠"
+  },
+  {
+    "name": "Vietopia",
+    "destination": "hcmc",
+    "category_he": "משחקיות וסדנאות",
+    "category": "משחקיות וסדנאות",
+    "score": 5,
+    "tags": [
+      "ac",
+      "rain"
+    ],
+    "hours": "שעות משתנות, מומלץ לבדוק לפני הגעה",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Vietopia%20Ho%20Chi%20Minh%20City",
+    "why": "עיר ילדים ענקית שבה הילדים מתנסים במקצועות שונים כמו רופא, כבאי, טייס ועוד. זו אחת האטרקציות הכי חזקות לשבוע בעיר כי היא מחזיקה כמה שעות ונותנת חוויה אמיתית ולא רק משחקייה.",
+    "reviews": "חוזר הרבה בהמלצות משפחות. רוב המבקרים מתארים בילוי של כמה שעות טובות, במיוחד לילדים בגילאי גן ובית ספר יסודי. כדאי להגיע כשיש מספיק אנרגיה ולא בסוף יום עמוס.",
+    "icon": "🏙️"
+  },
+  {
+    "name": "KizCiti",
+    "destination": "hcmc",
+    "category_he": "משחקיות וסדנאות",
+    "category": "משחקיות וסדנאות",
+    "score": 4,
+    "tags": [
+      "ac",
+      "rain"
+    ],
+    "hours": "שעות משתנות",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=KizCiti%20Ho%20Chi%20Minh%20City",
+    "why": "מתחם משחקי תפקידים לילדים בסגנון עיר מקצועות. טוב במיוחד אם Vietopia לא מסתדר מבחינת מיקום או שעות.",
+    "reviews": "מתאים לילדים שאוהבים משחקי דמיון ותחנות פעילות. פחות נוצץ מ-Vietopia, אבל עדיין אופציה טובה ליום חם או גשום.",
+    "icon": "👮"
+  },
+  {
+    "name": "Kiwooza Planet – Thiso Mall Sala",
+    "destination": "hcmc",
+    "category_he": "משחקיות וסדנאות",
+    "category": "משחקיות וסדנאות",
+    "score": 5,
+    "tags": [
+      "ac",
+      "rain",
+      "mall"
+    ],
+    "hours": "לפי שעות הקניון",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Kiwooza%20Planet%20Thiso%20Mall%20Sala%20Ho%20Chi%20Minh",
+    "why": "אחת המשחקיות הכי מושקעות בעיר, בתוך קניון נוח ומודרני. יש אזורי טיפוס, משחקי תפקידים, פעילות לפי גיל ואפשרות נוחה לאוכל לפני או אחרי.",
+    "reviews": "מומלצת מאוד למשפחות בגלל הניקיון, המיזוג והמיקום הנוח. טובה במיוחד ליום גשם או לשעות החמות.",
+    "icon": "🪐"
+  },
+  {
+    "name": "tiNiWorld Thiso Mall",
+    "destination": "hcmc",
+    "category_he": "משחקיות וסדנאות",
+    "category": "משחקיות וסדנאות",
+    "score": 4,
+    "tags": [
+      "ac",
+      "rain",
+      "mall"
+    ],
+    "hours": "לפי שעות הקניון",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=tiNiWorld%20Thiso%20Mall%20Sala%20Ho%20Chi%20Minh",
+    "why": "משחקייה מוכרת ונוחה בתוך קניון, מתאימה להפוגה של שעה-שעתיים בלי לתכנן יום שלם.",
+    "reviews": "פתרון טוב מאוד כשצריך משהו בטוח, ממוזג וקל עם ילדים. פחות אטרקציה ייחודית ויותר מקום פרקטי לשגרה עירונית.",
+    "icon": "🧸"
+  },
+  {
+    "name": "Jump Arena",
+    "destination": "hcmc",
+    "category_he": "משחקיות וסדנאות",
+    "category": "משחקיות וסדנאות",
+    "score": 4,
+    "tags": [
+      "ac",
+      "rain"
+    ],
+    "hours": "שעות משתנות",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Jump%20Arena%20Ho%20Chi%20Minh%20City",
+    "why": "מתחם טרמפולינות ופעילות גופנית שמתאים לימים שבהם הילדים צריכים לפרוק אנרגיה.",
+    "reviews": "מעולה לילדים פעילים, בעיקר לאמה. עם ילד קטן צריך לבדוק אזורי גיל/גובה ולהשגיח, כי חלק מהמתקנים מתאימים יותר לגדולים.",
+    "icon": "🤸"
+  },
+  {
+    "name": "Snow Town Saigon",
+    "destination": "hcmc",
+    "category_he": "משחקיות וסדנאות",
+    "category": "משחקיות וסדנאות",
+    "score": 4,
+    "tags": [
+      "ac",
+      "rain"
+    ],
+    "hours": "שעות משתנות",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Snow%20Town%20Saigon",
+    "why": "מתחם שלג מקורה עם מגלשות ופעילות חורפית באמצע עיר טרופית. חוויה שונה ומצחיקה לילדים.",
+    "reviews": "ילדים נהנים מה novelty של השלג. כדאי להגיע עם בגדים מתאימים ולבדוק מראש אם כל האזורים פעילים.",
+    "icon": "❄️"
+  },
+  {
+    "name": "Tinker Box",
+    "destination": "hcmc",
+    "category_he": "משחקיות וסדנאות",
+    "category": "משחקיות וסדנאות",
+    "score": 5,
+    "tags": [
+      "ac",
+      "rain",
+      "calm"
+    ],
+    "hours": "בתיאום / לפי פעילות",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Tinker%20Box%20Ho%20Chi%20Minh%20City",
+    "why": "מרכז יצירה, חקר ו-STEM לילדים. מתאים במיוחד לילדים סקרנים שאוהבים לבנות, ליצור ולפתור דברים.",
+    "reviews": "אופציה איכותית יותר ממשחקייה רגילה. כדאי לבדוק מראש אילו פעילויות מתקיימות ובאיזה גילאים.",
+    "icon": "🧪"
+  },
+  {
+    "name": "KIDS CAMP PLUS",
+    "destination": "hcmc",
+    "category_he": "משחקיות וסדנאות",
+    "category": "משחקיות וסדנאות",
+    "score": 4,
+    "tags": [
+      "ac",
+      "rain"
+    ],
+    "hours": "שעות משתנות",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=KIDS%20CAMP%20PLUS%20Ho%20Chi%20Minh%20City",
+    "why": "מתחם משחקים מקורה שמתאים ליום גשם או להפוגה של כמה שעות.",
+    "reviews": "טוב במיוחד כשמחפשים מקום סגור עם מגוון פעילויות. פחות יעד חובה אם כבר הייתם במשחקיות הגדולות יותר.",
+    "icon": "🏕️"
+  },
+  {
+    "name": "Artinus 3D Art Museum",
+    "destination": "hcmc",
+    "category_he": "משחקיות וסדנאות",
+    "category": "משחקיות וסדנאות",
+    "score": 4,
+    "tags": [
+      "ac",
+      "rain"
+    ],
+    "hours": "שעות משתנות",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Artinus%203D%20Art%20Museum%20Ho%20Chi%20Minh",
+    "why": "מוזיאון אשליות ותלת־ממד שבו הילדים משתתפים בתמונות ולא רק מסתכלים. מתאים ליום ממוזג קצר יחסית.",
+    "reviews": "ילדים בדרך כלל נהנים מהצילומים ומהאינטראקטיביות. פחות עמוק תרבותית, אבל כיף וקל.",
+    "icon": "🖼️"
+  },
+  {
+    "name": "OH MY KIDS Premium Kids Cafe",
+    "destination": "hcmc",
+    "category_he": "בתי קפה לילדים",
+    "category": "בתי קפה לילדים",
+    "score": 5,
+    "tags": [
+      "ac",
+      "rain"
+    ],
+    "hours": "שעות משתנות",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=OH%20MY%20KIDS%20Premium%20Kids%20Cafe%20Ho%20Chi%20Minh",
+    "why": "קידס קפה איכותי שמשלב ישיבה להורים עם משחקייה לילדים. טוב במיוחד לשהות עירונית של שבוע כשצריך מקום נוח לחזור אליו.",
+    "reviews": "מהמקומות החזקים בקטגוריית Kids Cafe. מתאים במיוחד לילדים צעירים ולימים שבהם לא רוצים להסתובב בחוץ.",
+    "icon": "☕"
+  },
+  {
+    "name": "Lullaby Premium Kids Cafe",
+    "destination": "hcmc",
+    "category_he": "בתי קפה לילדים",
+    "category": "בתי קפה לילדים",
+    "score": 5,
+    "tags": [
+      "ac",
+      "rain"
+    ],
+    "hours": "שעות משתנות",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Lullaby%20Premium%20Kids%20Cafe%20Ho%20Chi%20Minh",
+    "why": "Kids Cafe מושקע ונעים שמתאים במיוחד לילדים קטנים, עם אזורי משחק ומקום נוח להורים.",
+    "reviews": "נראה כמו אופציה חזקה ליום גשם או לזמן מנוחה עירוני. כדאי לבדוק שעות ועומסים בסופי שבוע.",
+    "icon": "🍼"
+  },
+  {
+    "name": "Kawaii Family & Kids Cafe",
+    "destination": "hcmc",
+    "category_he": "בתי קפה לילדים",
+    "category": "בתי קפה לילדים",
+    "score": 4,
+    "tags": [
+      "ac",
+      "rain"
+    ],
+    "hours": "שעות משתנות",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Kawaii%20Family%20Kids%20Cafe%20Ho%20Chi%20Minh",
+    "why": "בית קפה משפחתי עם אזורי משחק, מתאים להפוגה נוחה באמצע יום.",
+    "reviews": "פתרון טוב למשפחות עם ילדים קטנים. לא בהכרח יעד מרכזי, אבל שימושי מאוד כשצריך מזגן ומשחק.",
+    "icon": "🎀"
+  },
+  {
+    "name": "Penguin Kidsplay & Cafe",
+    "destination": "hcmc",
+    "category_he": "בתי קפה לילדים",
+    "category": "בתי קפה לילדים",
+    "score": 4,
+    "tags": [
+      "ac",
+      "rain"
+    ],
+    "hours": "שעות משתנות",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Penguin%20Kidsplay%20Cafe%20Ho%20Chi%20Minh",
+    "why": "משחקייה עם קפה להורים, טובה להפוגה של שעה-שעתיים ביום עירוני.",
+    "reviews": "מתאים בעיקר לילדים צעירים. כדאי לבדוק מיקום ביחס לאזור הלינה כדי שלא לנסוע במיוחד רחוק.",
+    "icon": "🐧"
+  },
+  {
+    "name": "Meow Meow Kidsplay Cafe",
+    "destination": "hcmc",
+    "category_he": "בתי קפה לילדים",
+    "category": "בתי קפה לילדים",
+    "score": 4,
+    "tags": [
+      "ac",
+      "rain"
+    ],
+    "hours": "שעות משתנות",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Meow%20Meow%20Kidsplay%20Cafe%20Ho%20Chi%20Minh",
+    "why": "קידס קפה קטן ונעים, מתאים במיוחד לילדים צעירים ולזמן משחק קצר.",
+    "reviews": "טוב כאופציה קרובה וגמישה, פחות כיעד מרכזי של חצי יום.",
+    "icon": "🐱"
+  },
+  {
+    "name": "Kids Cafe Ho Chi Minh",
+    "destination": "hcmc",
+    "category_he": "בתי קפה לילדים",
+    "category": "בתי קפה לילדים",
+    "score": 4,
+    "tags": [
+      "ac",
+      "rain"
+    ],
+    "hours": "שעות משתנות",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Kids%20Cafe%20Ho%20Chi%20Minh%20City",
+    "why": "אופציה כללית נוספת לקפה עם משחקייה לילדים, בעיקר לפי קרבה למיקום שלכם.",
+    "reviews": "שווה להשאיר באתר כפתרון גמיש, אבל לבחור בפועל לפי אזור הלינה והביקורות הכי עדכניות.",
+    "icon": "☕"
+  },
+  {
+    "name": "Saigon Zoo & Botanical Gardens",
+    "destination": "hcmc",
+    "category_he": "טבע וכפרים",
+    "category": "טבע וכפרים",
+    "score": 5,
+    "tags": [
+      "calm"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Saigon%20Zoo%20and%20Botanical%20Gardens",
+    "why": "גן חיות וגן בוטני במרכז העיר, עם הרבה ירוק ותחושה של הפסקה מהעיר. מתאים מאוד לחצי יום עם ילדים.",
+    "reviews": "חוזר בהמלצות למשפחות בגלל השילוב של חיות, פארק ומיקום נוח. כדאי להגיע בבוקר לפני החום והעומס.",
+    "icon": "🦁"
+  },
+  {
+    "name": "Mekong Delta Day Tour",
+    "destination": "hcmc",
+    "category_he": "טבע וכפרים",
+    "category": "טבע וכפרים",
+    "score": 5,
+    "tags": [
+      "water",
+      "challenging"
+    ],
+    "hours": "יום מלא",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Mekong%20Delta%20day%20tour%20from%20Ho%20Chi%20Minh%20City",
+    "why": "טיול יום קלאסי מחוץ לעיר עם שיט, תעלות, כפרים מקומיים וחוויה שונה לגמרי מהעיר.",
+    "reviews": "שווה אם אתם רוצים יום יציאה אמיתי. עם ילד קטן חשוב לבחור סיור לא ארוך מדי, עם רכב נוח וקצב רגוע.",
+    "icon": "🛶"
+  },
+  {
+    "name": "Can Gio Monkey Island",
+    "destination": "hcmc",
+    "category_he": "טבע וכפרים",
+    "category": "טבע וכפרים",
+    "score": 4,
+    "tags": [
+      "challenging"
+    ],
+    "hours": "יום מלא",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Can%20Gio%20Monkey%20Island%20Ho%20Chi%20Minh",
+    "why": "טיול טבע מחוץ לעיר עם קופים, מנגרובים ואווירה שונה. מתאים אם רוצים לברוח מהעיר ליום אחד.",
+    "reviews": "יכול להיות כיף מאוד, אבל זה יום יותר לוגיסטי וארוך. הקופים עלולים להיות אגרסיביים סביב אוכל, לכן צריך לשמור היטב על הילדים והציוד.",
+    "icon": "🐒"
+  },
+  {
+    "name": "Vinhomes Central Park",
+    "destination": "hcmc",
+    "category_he": "פארקים ואטרקציות",
+    "category": "פארקים ואטרקציות",
+    "score": 5,
+    "tags": [
+      "calm"
+    ],
+    "hours": "כל היום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Vinhomes%20Central%20Park%20Ho%20Chi%20Minh",
+    "why": "פארק גדול, ירוק ונוח מאוד למשפחות, עם מדשאות, אזורי משחק, נוף לנהר וקירבה ל-Landmark 81.",
+    "reviews": "מקום מעולה ליום רגוע או אחה״צ. לא אטרקציית חובה תיירותית, אבל אחד המקומות הכי שימושיים עם ילדים בעיר.",
+    "icon": "🌳"
+  },
+  {
+    "name": "Landmark 81 SkyView",
+    "destination": "hcmc",
+    "category_he": "פארקים ואטרקציות",
+    "category": "פארקים ואטרקציות",
+    "score": 4,
+    "tags": [
+      "ac"
+    ],
+    "hours": "שעות משתנות",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Landmark%2081%20SkyView",
+    "why": "תצפית גבוהה ומרשימה על העיר, טובה לשילוב עם Vinhomes Central Park ו-Vincom Landmark 81.",
+    "reviews": "מרשים במיוחד בשקיעה או בערב. לא חובה עם ילדים קטנים, אבל אם אתם באזור זה יכול להיות רגע וואו קצר.",
+    "icon": "🏙️"
+  },
+  {
+    "name": "Saigon WaterBus",
+    "destination": "hcmc",
+    "category_he": "פארקים ואטרקציות",
+    "category": "פארקים ואטרקציות",
+    "score": 5,
+    "tags": [
+      "water",
+      "calm"
+    ],
+    "hours": "לפי לוח זמנים",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Saigon%20WaterBus%20Ho%20Chi%20Minh",
+    "why": "דרך קלה וכיפית לראות את העיר מהנהר בלי להתחייב לשייט יקר או ארוך.",
+    "reviews": "ילדים נהנים מעצם השיט. מומלץ לבדוק לוח זמנים ולהגיע קצת לפני, במיוחד בסופי שבוע.",
+    "icon": "⛴️"
+  },
+  {
+    "name": "Suoi Tien Theme Park",
+    "destination": "hcmc",
+    "category_he": "פארקים ואטרקציות",
+    "category": "פארקים ואטרקציות",
+    "score": 5,
+    "tags": [
+      "water"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Suoi%20Tien%20Theme%20Park%20Ho%20Chi%20Minh",
+    "why": "פארק שעשועים/מים ענק, צבעוני וייחודי מאוד לוייטנאם. מתאים ליום גדול ומלא עם ילדים.",
+    "reviews": "חוויה מאוד מקומית וגדולה. יכול להיות חם ועמוס, לכן כדאי להגיע מוקדם ולבחור מראש אזורים שמתאימים לגילאים.",
+    "icon": "🎢"
+  },
+  {
+    "name": "Dam Sen Cultural Park",
+    "destination": "hcmc",
+    "category_he": "פארקים ואטרקציות",
+    "category": "פארקים ואטרקציות",
+    "score": 4,
+    "tags": [
+      "water"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Dam%20Sen%20Cultural%20Park%20Ho%20Chi%20Minh",
+    "why": "פארק גדול עם מתקנים, גנים, אגם ואפשרות לשלב גם פארק מים באזור.",
+    "reviews": "יותר מקומי ופחות מלוטש מחלק מהאטרקציות החדשות, אבל טוב ליום מלא אם רוצים הרבה פעילות במקום אחד.",
+    "icon": "🎡"
+  },
+  {
+    "name": "The Global City",
+    "destination": "hcmc",
+    "category_he": "פארקים ואטרקציות",
+    "category": "פארקים ואטרקציות",
+    "score": 5,
+    "tags": [
+      "calm"
+    ],
+    "hours": "בעיקר אחה״צ/ערב",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=The%20Global%20City%20Ho%20Chi%20Minh",
+    "why": "מתחם מודרני עם תעלות, אזורי הליכה, אירועים, מזרקות ואווירה נעימה למשפחות.",
+    "reviews": "טוב במיוחד לאחה״צ או ערב קליל. זה לא פארק שעשועים קלאסי, אלא מתחם נעים להסתובבות עם ילדים.",
+    "icon": "🌆"
+  },
+  {
+    "name": "The Global City Playground",
+    "destination": "hcmc",
+    "category_he": "משחקיות וסדנאות",
+    "category": "משחקיות וסדנאות",
+    "score": 4,
+    "tags": [
+      "calm"
+    ],
+    "hours": "בעיקר אחה״צ/ערב",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=The%20Global%20City%20Playground%20Ho%20Chi%20Minh",
+    "why": "אזור משחקים בתוך/ליד מתחם The Global City, טוב לשילוב עם סיבוב במתחם.",
+    "reviews": "נחמד כתחנה לילדים, לא יעד בפני עצמו. עובד טוב כשנמצאים באזור או משלבים עם Thiso Mall Sala.",
+    "icon": "🛝"
+  },
+  {
+    "name": "Sala Park",
+    "destination": "hcmc",
+    "category_he": "פארקים ואטרקציות",
+    "category": "פארקים ואטרקציות",
+    "score": 4,
+    "tags": [
+      "calm"
+    ],
+    "hours": "כל היום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Sala%20Park%20Ho%20Chi%20Minh",
+    "why": "פארק מטופח ונעים באזור מודרני, מתאים לעצירה קצרה, טיול רגלי או הוצאת אנרגיה לילדים.",
+    "reviews": "מקום שימושי יותר מאשר אטרקציה גדולה. טוב במיוחד אם נמצאים באזור Sala / Thiso Mall.",
+    "icon": "🌿"
+  },
+  {
+    "name": "Crescent Lake & Starlight Bridge",
+    "destination": "hcmc",
+    "category_he": "פארקים ואטרקציות",
+    "category": "פארקים ואטרקציות",
+    "score": 5,
+    "tags": [
+      "calm"
+    ],
+    "hours": "אחה״צ/ערב",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Crescent%20Lake%20Starlight%20Bridge%20Ho%20Chi%20Minh",
+    "why": "טיילת יפה ונעימה עם אגם, גשר מואר ואווירה טובה לערב רגוע עם ילדים.",
+    "reviews": "בחירה מצוינת לערב לא עמוס. הכי מתאים לשלב עם Crescent Mall או ארוחת ערב באזור.",
+    "icon": "🌉"
+  },
+  {
+    "name": "Bach Dang Riverside Park",
+    "destination": "hcmc",
+    "category_he": "פארקים ואטרקציות",
+    "category": "פארקים ואטרקציות",
+    "score": 4,
+    "tags": [
+      "calm",
+      "water"
+    ],
+    "hours": "כל היום, עדיף אחה״צ/ערב",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Bach%20Dang%20Riverside%20Park%20Ho%20Chi%20Minh",
+    "why": "טיילת נעימה לאורך הנהר עם נוף לסירות ולבניינים הגבוהים. טובה כעצירה קצרה או לפני/אחרי WaterBus.",
+    "reviews": "מקום טוב להרגיש את העיר בלי להיכנס למוזיאון או קניון. עדיף בשעות פחות חמות.",
+    "icon": "🚤"
+  },
+  {
+    "name": "Cái Tổ Chim",
+    "destination": "hcmc",
+    "category_he": "בתי קפה ונקודות עצירה",
+    "category": "בתי קפה ונקודות עצירה",
+    "score": 4,
+    "tags": [
+      "calm"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Cai%20To%20Chim%20141P%20Vo%20Nguyen%20Giap%20Thu%20Duc",
+    "why": "בית קפה-גן גדול עם פרחים, בריכות, מפלים מלאכותיים ופינות צילום. מתאים בדיוק כנוקדת עצירה יפה ולא כאטרקציה של חצי יום.",
+    "reviews": "שווה לשלב אם נמצאים באזור Thu Duc. הילדים יכולים להסתובב ולחקור, אבל זה בעיקר מקום יפה לקפה ותמונות.",
+    "icon": "🌺"
+  },
+  {
+    "name": "Vườn Thiên Giới",
+    "destination": "hcmc",
+    "category_he": "בתי קפה ונקודות עצירה",
+    "category": "בתי קפה ונקודות עצירה",
+    "score": 4,
+    "tags": [
+      "calm"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Vuon%20Thien%20Gioi%2080%20Street%2036%20Thu%20Duc",
+    "why": "בית קפה/גן קונספטואלי עם מערות מלאכותיות, מים וגינות טרופיות. טוב לעצירה קצרה ומיוחדת.",
+    "reviews": "מומלץ כתחנה של שעה-שעתיים באזור, לא כיעד מרכזי של יום שלם.",
+    "icon": "🌴"
+  },
+  {
+    "name": "Chuyện Của Tùng",
+    "destination": "hcmc",
+    "category_he": "בתי קפה ונקודות עצירה",
+    "category": "בתי קפה ונקודות עצירה",
+    "score": 3,
+    "tags": [
+      "calm"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Chuyen%20Cua%20Tung%2082%20Street%2036%20Thu%20Duc",
+    "why": "בית קפה בגינה בסגנון כפרי, מתאים לעצירה רגועה להורים יותר מאשר אטרקציית ילדים.",
+    "reviews": "נחמד אם אתם באזור בתי הקפה הקונספטואליים. פחות הייתי נוסע במיוחד רק בשבילו.",
+    "icon": "🏡"
+  },
+  {
+    "name": "Nhà Có Một Vườn Hoa",
+    "destination": "hcmc",
+    "category_he": "בתי קפה ונקודות עצירה",
+    "category": "בתי קפה ונקודות עצירה",
+    "score": 4,
+    "tags": [
+      "calm"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Nha%20Co%20Mot%20Vuon%20Hoa%20141P%20Vo%20Nguyen%20Giap%20Thu%20Duc",
+    "why": "בית קפה עם גני פרחים ועיצוב עונתי, מתאים לעצירה קצרה יפה בין אטרקציות באזור.",
+    "reviews": "הערך הוא בעיקר ויזואלי ואווירה. טוב לשעה רגועה, לא ליום שלם.",
+    "icon": "🌸"
+  },
+  {
+    "name": "Blank Lounge – Landmark 81",
+    "destination": "hcmc",
+    "category_he": "בתי קפה ונקודות עצירה",
+    "category": "בתי קפה ונקודות עצירה",
+    "score": 4,
+    "tags": [
+      "ac",
+      "calm"
+    ],
+    "hours": "שעות משתנות",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Blank%20Lounge%20Landmark%2081",
+    "why": "נקודת עצירה גבוהה ומרשימה בתוך Landmark 81, טובה לקפה/קינוח עם נוף.",
+    "reviews": "מתאים יותר להורים ולילדים שיודעים לשבת קצת. טוב לשילוב עם הפארק והקניון, לא כיעד עצמאי לילדים.",
+    "icon": "☕"
+  },
+  {
+    "name": "Oromia Coffee",
+    "destination": "hcmc",
+    "category_he": "בתי קפה ונקודות עצירה",
+    "category": "בתי קפה ונקודות עצירה",
+    "score": 4,
+    "tags": [
+      "calm"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Oromia%20Coffee%20Ho%20Chi%20Minh",
+    "why": "בית קפה יפה ושקט יחסית, טוב להורים כשרוצים עצירה נעימה ולא קניון.",
+    "reviews": "לא מקום ילדים מובהק, אבל שווה כנקודת עצירה קצרה אם קרוב למסלול.",
+    "icon": "☕"
+  },
+  {
+    "name": "Little Hanoi Egg Coffee",
+    "destination": "hcmc",
+    "category_he": "בתי קפה ונקודות עצירה",
+    "category": "בתי קפה ונקודות עצירה",
+    "score": 4,
+    "tags": [
+      "calm"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Little%20Hanoi%20Egg%20Coffee%20Ho%20Chi%20Minh",
+    "why": "עצירת קפה וייטנאמית קלאסית, טובה להורים ולחוויה קטנה של Egg Coffee.",
+    "reviews": "מתאים כעצירה קצרה בעיר, לא כאטרקציית ילדים.",
+    "icon": "☕"
+  },
+  {
+    "name": "Independence Palace",
+    "destination": "hcmc",
+    "category_he": "תרבות ועיר",
+    "category": "תרבות ועיר",
+    "score": 4,
+    "tags": [
+      "calm"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Independence%20Palace%20Ho%20Chi%20Minh",
+    "why": "אתר היסטורי מרכזי שאפשר לבקר בו יחסית קצר, עם אולמות, חצרות ומרחבים גדולים.",
+    "reviews": "יותר נגיש לילדים ממוזיאון כבד, אבל עדיין לא אטרקציית ילדים. טוב אם רוצים להכניס קצת היסטוריה בלי להעמיס.",
+    "icon": "🏛️"
+  },
+  {
+    "name": "Vietnam History Museum",
+    "destination": "hcmc",
+    "category_he": "תרבות ועיר",
+    "category": "תרבות ועיר",
+    "score": 3,
+    "tags": [
+      "ac",
+      "rain"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Vietnam%20History%20Museum%20Ho%20Chi%20Minh",
+    "why": "מוזיאון קטן יחסית שיכול להתאים ליום גשם או לשילוב עם גן החיות הסמוך.",
+    "reviews": "לא חובה עם ילדים קטנים, אבל אם נמצאים ליד Saigon Zoo אפשר לשלב ביקור קצר.",
+    "icon": "🏺"
+  },
+  {
+    "name": "Ao Dai Museum",
+    "destination": "hcmc",
+    "category_he": "תרבות ועיר",
+    "category": "תרבות ועיר",
+    "score": 4,
+    "tags": [
+      "calm"
+    ],
+    "hours": "שעות יום",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Ao%20Dai%20Museum%20Ho%20Chi%20Minh",
+    "why": "מוזיאון ייחודי לבגד הלאומי הווייטנאמי, במתחם יפה ורגוע יותר ממוזיאון עירוני כבד.",
+    "reviews": "מתאים אם אתם רוצים חוויה תרבותית שונה ועדינה. פחות מרכזי, ולכן כדאי לשלב עם משהו באזור ולא לנסוע במיוחד ביום קצר.",
+    "icon": "👘"
+  },
+  {
+    "name": "Cu Chi Tunnels",
+    "destination": "hcmc",
+    "category_he": "תרבות ועיר",
+    "category": "תרבות ועיר",
+    "score": 4,
+    "tags": [
+      "challenging"
+    ],
+    "hours": "חצי יום / יום מלא",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Cu%20Chi%20Tunnels",
+    "why": "אתר היסטורי מפורסם מאוד מחוץ לעיר. חשוב להכניס לאתר כי הוא יעד קלאסי, אבל הוא לא בהכרח מתאים לכל ילד.",
+    "reviews": "מעניין למבוגרים ולילדים גדולים, אבל עלול להיות קשה, חם ופחות מתאים לילדים רגישים או קטנים. לבחור רק אם זה חשוב לכם.",
+    "icon": "🕳️"
+  },
+  {
+    "name": "Nguyen Hue Walking Street",
+    "destination": "hcmc",
+    "category_he": "עיר וערב",
+    "category": "עיר וערב",
+    "score": 5,
+    "tags": [
+      "calm"
+    ],
+    "hours": "אחה״צ/ערב",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Nguyen%20Hue%20Walking%20Street%20Ho%20Chi%20Minh",
+    "why": "מדרחוב מרכזי, רחב ונוח לשיטוט ערב עם ילדים, אורות, גלידה ואווירה עירונית.",
+    "reviews": "אחד המקומות הכי פשוטים ונוחים לערב קצר. בסופי שבוע יכול להיות עמוס אבל עדיין נעים.",
+    "icon": "🚶"
+  },
+  {
+    "name": "Ben Thanh Market",
+    "destination": "hcmc",
+    "category_he": "עיר וערב",
+    "category": "עיר וערב",
+    "score": 4,
+    "tags": [
+      "shopping"
+    ],
+    "hours": "שעות יום וערב בסביבה",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Ben%20Thanh%20Market%20Ho%20Chi%20Minh",
+    "why": "שוק מרכזי, צבעוני ותיירותי. טוב לסיבוב קצר, טעימות וקניות קטנות.",
+    "reviews": "יכול להיות עמוס ולחוץ עם ילדים, לכן עדיף להגיע לזמן קצר ובשעה נוחה.",
+    "icon": "🛍️"
+  },
+  {
+    "name": "Takashimaya Food Hall",
+    "destination": "hcmc",
+    "category_he": "עיר וערב",
+    "category": "עיר וערב",
+    "score": 4,
+    "tags": [
+      "ac",
+      "mall"
+    ],
+    "hours": "לפי שעות הקניון",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Takashimaya%20Ho%20Chi%20Minh%20Food%20Hall",
+    "why": "אופציית אוכל וקניון נוחה מאוד במרכז העיר, עם מיזוג, שירותים ומבחר גדול.",
+    "reviews": "לא אטרקציה, אבל נקודת עצירה מאוד פרקטית עם ילדים באמצע יום עירוני.",
+    "icon": "🍱"
+  },
+  {
+    "name": "Vincom Landmark 81",
+    "destination": "hcmc",
+    "category_he": "עיר וערב",
+    "category": "עיר וערב",
+    "score": 4,
+    "tags": [
+      "ac",
+      "mall"
+    ],
+    "hours": "לפי שעות הקניון",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Vincom%20Landmark%2081%20Ho%20Chi%20Minh",
+    "why": "קניון נוח וממוזג מתחת ל-Landmark 81, טוב לשילוב עם הפארק והתצפית.",
+    "reviews": "מקום פרקטי מאוד למשפחה: אוכל, שירותים, חנויות ומזגן. לא יעד בפני עצמו לכל היום.",
+    "icon": "🏬"
+  },
+  {
+    "name": "Thiso Mall Sala",
+    "destination": "hcmc",
+    "category_he": "עיר וערב",
+    "category": "עיר וערב",
+    "score": 5,
+    "tags": [
+      "ac",
+      "mall"
+    ],
+    "hours": "לפי שעות הקניון",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Thiso%20Mall%20Sala%20Ho%20Chi%20Minh",
+    "why": "קניון מודרני ונוח במיוחד למשפחות באזור Sala, עם משחקיות ואוכל.",
+    "reviews": "אחת הנקודות הכי שימושיות למשפחה בעיר כי אפשר לשלב משחקייה, אוכל ומזגן במקום אחד.",
+    "icon": "🏬"
+  },
+  {
+    "name": "Crescent Mall",
+    "destination": "hcmc",
+    "category_he": "עיר וערב",
+    "category": "עיר וערב",
+    "score": 4,
+    "tags": [
+      "ac",
+      "mall"
+    ],
+    "hours": "לפי שעות הקניון",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Crescent%20Mall%20Ho%20Chi%20Minh",
+    "why": "קניון נוח לשילוב עם Crescent Lake ו-Starlight Bridge, טוב לאוכל ומיזוג.",
+    "reviews": "מקום פרקטי מאוד ליום רגוע באזור District 7. לא חובה אם לא נמצאים באזור.",
+    "icon": "🏬"
   }
 ];
 
@@ -3479,7 +4240,8 @@ window.ATTRACTIONS = [
     krabi: "https://www.google.com/maps?q=Ao%20Nang%20Krabi&output=embed",
     hoi_an: "https://www.google.com/maps?q=Hoi%20An%20Vietnam&output=embed",
     da_nang: "https://www.google.com/maps?q=Chi%20House%20Danang&output=embed",
-    dalat: "https://www.google.com/maps?q=Dalat%20Vietnam&output=embed"
+    dalat: "https://www.google.com/maps?q=Dalat%20Vietnam&output=embed",
+    hcmc: "https://www.google.com/maps?q=Ho%20Chi%20Minh%20City%20Vietnam&output=embed"
   };
 
   const DEST_TITLES = {
@@ -3488,7 +4250,8 @@ window.ATTRACTIONS = [
     krabi: "קראבי – אטרקציות למשפחה",
     hoi_an: "הוי אן – אטרקציות למשפחה",
     da_nang: "דה נאנג – אטרקציות למשפחה",
-    dalat: "דאלאת – אטרקציות למשפחה"
+    dalat: "דאלאת – אטרקציות למשפחה",
+    hcmc: "הו צ׳י מין – אטרקציות למשפחה"
   };
 
   populateCategories(currentDestination);
@@ -4079,6 +4842,104 @@ window.ATTRACTIONS = [
 
 
 
+
+    const hcmcPlans = [
+      {
+        title: "יום ראשון רגוע בעיר",
+        short_description: "פארק גדול, קניון נוח ותצפית אם נשאר כוח.",
+        vibe: "רגוע · עיר · קל",
+        why: "יום טוב לפתיחה כי הוא לא דורש הרבה לוגיסטיקה ונותן שילוב של חוץ, מזגן ואוכל נוח.",
+        stops: [
+          {label:"בוקר", name:"Vinhomes Central Park", note:"מרחב פתוח, הליכה קלה ומשחק."},
+          {label:"צהריים", name:"Vincom Landmark 81", note:"אוכל, מזגן ומנוחה."},
+          {label:"אופציונלי", name:"Landmark 81 SkyView", note:"תצפית קצרה אם הילדים זורמים."}
+        ],
+        tips: ["להתחיל בחוץ לפני החום", "להשאיר את התצפית כאופציה", "אפשר לקצר בקלות"],
+        places: ["Vinhomes Central Park", "Vincom Landmark 81", "Landmark 81 SkyView"]
+      },
+      {
+        title: "יום ילדים מקורה",
+        short_description: "עיר ילדים או משחקייה גדולה + קניון נוח.",
+        vibe: "גשום · ממוזג · ילדים",
+        why: "זה היום ששומר לכם על שפיות כשחם או גשום: מקום אחד גדול לילדים, אוכל ומזגן.",
+        stops: [
+          {label:"בוקר", name:"Vietopia", note:"פעילות מרכזית של כמה שעות."},
+          {label:"צהריים", name:"Thiso Mall Sala", note:"אוכל ומנוחה בקניון."},
+          {label:"אחה״צ", name:"Kiwooza Planet – Thiso Mall Sala", note:"אם עדיין יש אנרגיה."}
+        ],
+        tips: ["לא חייבים גם Vietopia וגם Kiwooza באותו יום", "לבדוק שעות מראש", "להביא גרביים למשחקיות"],
+        places: ["Vietopia", "Thiso Mall Sala", "Kiwooza Planet – Thiso Mall Sala"]
+      },
+      {
+        title: "יום גן חיות ומרכז העיר",
+        short_description: "חיות בבוקר, מדרחוב ונהר לקראת ערב.",
+        vibe: "חיות · עיר · ערב",
+        why: "יום מאוזן שמתחיל בפעילות לילדים ומסתיים במקומות עירוניים קלים בלי מוזיאון כבד.",
+        stops: [
+          {label:"בוקר", name:"Saigon Zoo & Botanical Gardens", note:"להגיע מוקדם לפני החום."},
+          {label:"צהריים", name:"Vietnam History Museum", note:"רק אם יש כוח, קרוב לגן החיות."},
+          {label:"אחה״צ", name:"Bach Dang Riverside Park", note:"הליכה קצרה ליד הנהר."},
+          {label:"ערב", name:"Nguyen Hue Walking Street", note:"גלידה, אורות ואווירה."}
+        ],
+        tips: ["אפשר לוותר על המוזיאון", "להגיע לגן החיות מוקדם", "בערב לא למשוך יותר מדי"],
+        places: ["Saigon Zoo & Botanical Gardens", "Vietnam History Museum", "Bach Dang Riverside Park", "Nguyen Hue Walking Street"]
+      },
+      {
+        title: "יום Sala ו-Global City",
+        short_description: "קניון, משחקייה, פארק ומתחם ערב מודרני.",
+        vibe: "מודרני · נוח · משפחתי",
+        why: "יום קל מאוד מבחינת לוגיסטיקה, עם הרבה נקודות עצירה קצרות שמתאימות למשפחה בעיר גדולה.",
+        stops: [
+          {label:"בוקר", name:"Sala Park", note:"סיבוב ירוק קצר."},
+          {label:"צהריים", name:"Thiso Mall Sala", note:"אוכל ומזגן."},
+          {label:"אחה״צ", name:"The Global City Playground", note:"משחקים לילדים."},
+          {label:"ערב", name:"The Global City", note:"סיבוב ערב קליל."}
+        ],
+        tips: ["טוב במיוחד ליום חם", "לא חייבים להספיק הכול", "לבדוק אירועים ב-Global City"],
+        places: ["Sala Park", "Thiso Mall Sala", "The Global City Playground", "The Global City"]
+      },
+      {
+        title: "יום District 7 רגוע",
+        short_description: "אגם, קניון וגשר מואר לערב.",
+        vibe: "רגוע · ערב · משפחתי",
+        why: "יום נעים ופחות אינטנסיבי, טוב במיוחד אם רוצים לצאת מהמרכז הצפוף אבל לא לנסוע רחוק מדי.",
+        stops: [
+          {label:"בוקר/צהריים", name:"Crescent Mall", note:"אוכל, מזגן וקצת קניות."},
+          {label:"אחה״צ", name:"Crescent Lake & Starlight Bridge", note:"הליכה רגועה סביב האגם."},
+          {label:"ערב", name:"Starlight Bridge", note:"יפה יותר כשהאורות נדלקים."}
+        ],
+        tips: ["להגיע לקראת אחה״צ", "זה יום רגוע ולא יום אטרקציות", "מתאים אחרי יום עמוס"],
+        places: ["Crescent Mall", "Crescent Lake & Starlight Bridge", "Starlight Bridge"]
+      },
+      {
+        title: "יום בתי קפה מיוחדים ב-Thu Duc",
+        short_description: "נקודות עצירה יפות וקפה, לא אטרקציות כבדות.",
+        vibe: "קפה · פרחים · קצר",
+        why: "היום הזה טוב כשרוצים משהו יפה וקל בלי להיכנס למוזיאון או משחקייה. כל מקום הוא עצירה קצרה, לא יעד של חצי יום.",
+        stops: [
+          {label:"בוקר", name:"Cái Tổ Chim", note:"גן קפה עם פרחים ומים."},
+          {label:"המשך", name:"Vườn Thiên Giới", note:"מערות, מים וגנים."},
+          {label:"אופציונלי", name:"Nhà Có Một Vườn Hoa", note:"קפה פרחים נוסף אם הילדים זורמים."}
+        ],
+        tips: ["לא צריך לעשות את כל המקומות", "מתאים לשעתיים-שלוש", "לשלב עם Thiso Mall או Global City אם נמצאים באזור"],
+        places: ["Cái Tổ Chim", "Vườn Thiên Giới", "Nhà Có Một Vườn Hoa"]
+      },
+      {
+        title: "טיול יום מחוץ לעיר",
+        short_description: "לבחור אחד: מקונג, קו צ׳י או קאן ג׳יו.",
+        vibe: "יום מלא · יותר לוגיסטיקה",
+        why: "בשבוע בעיר אפשר לבחור יום אחד מחוץ להו צ׳י מין. לא הייתי עושה יותר מאחד עם ילדים קטנים.",
+        stops: [
+          {label:"אופציה 1", name:"Mekong Delta Day Tour", note:"הכי משפחתי וקלאסי."},
+          {label:"אופציה 2", name:"Cu Chi Tunnels", note:"יותר היסטורי ופחות לילדים קטנים."},
+          {label:"אופציה 3", name:"Can Gio Monkey Island", note:"טבע וקופים, אבל דורש זהירות."}
+        ],
+        tips: ["לבחור רק אחד", "לסגור סיור פרטי/קטן אם אפשר", "לוודא מזגן ורכב נוח"],
+        places: ["Mekong Delta Day Tour", "Cu Chi Tunnels", "Can Gio Monkey Island"]
+      }
+    ];
+
+
     // Curated full-day options per destination
     const plans = [];
     if(currentDestination === "krabi"){
@@ -4120,6 +4981,16 @@ window.ATTRACTIONS = [
         plans.push(dalatPlans[1], dalatPlans[2], dalatPlans[5]);
       } else {
         plans.push(...dalatPlans);
+      }
+    } else if(currentDestination === "hcmc"){
+      if(mode === "rain"){
+        plans.push(hcmcPlans[1], hcmcPlans[0], hcmcPlans[5]);
+      } else if(mode === "tired"){
+        plans.push(hcmcPlans[0], hcmcPlans[4], hcmcPlans[5]);
+      } else if(mode === "hot"){
+        plans.push(hcmcPlans[1], hcmcPlans[3], hcmcPlans[0]);
+      } else {
+        plans.push(...hcmcPlans);
       }
     } else if(currentDestination === "bangkok"){
       plans.push({
