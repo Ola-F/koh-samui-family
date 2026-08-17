@@ -4219,7 +4219,2210 @@ window.ATTRACTIONS = [
     "reviews": "יפה במיוחד, אבל הנסיעה ארוכה יותר ולכן עדיף להקדיש לה יום ולא לשלב יותר מדי תחנות.",
     "icon": "⛰️",
     "distance_min": "כ־60–75 דק׳"
+  },
+{
+  "name": "Lotte World Adventure",
+  "destination": "seoul",
+  "category_he": "משחקיות ואטרקציות לילדים",
+  "category": "משחקיות ואטרקציות לילדים",
+  "score": 5,
+  "tags": [
+    "ac",
+    "active"
+  ],
+  "hours": "א׳–ה׳ 10:00–21:00, ו׳–ש׳ 10:00–22:00 (לבדוק ביום הביקור)",
+  "price": "מבוגר כ־₩61,000 ≈ ₪128 · ילד כ־₩47,000 ≈ ₪99",
+  "address": "240 Olympic-ro, Songpa-gu, Seoul",
+  "why": "פארק שעשועים ענק שחלק גדול ממנו מקורה, עם מתקנים לילדים צעירים וגדולים, מופעים ואזור חיצוני. מתאים ליום שלם ונותן פתרון מצוין גם ליום חם מאוד.",
+  "reviews": "מהאטרקציות המשפחתיות הבולטות בסיאול; העומס יכול להיות משמעותי ולכן כדאי להגיע מוקדם.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Lotte%20World%20Adventure%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Lotte%20World%20Adventure",
+  "icon": "🎢",
+  "transit": {
+    "home1": {
+      "drive": "כ־50–60 דק׳",
+      "line": "קו 2/8",
+      "station": "Jamsil Station",
+      "ride": "כ־55–65 דק׳",
+      "walk": "כ־5 דק׳"
+    },
+    "home2": {
+      "drive": "כ־20–25 דק׳",
+      "line": "קו 2/8",
+      "station": "Jamsil Station",
+      "ride": "כ־25–30 דק׳",
+      "walk": "כ־5 דק׳"
+    }
+  },
+  "ages": "כל המשפחה; מגבלות גובה לפי מתקן"
+},
+{
+  "name": "KidZania Seoul",
+  "destination": "seoul",
+  "category_he": "משחקיות ואטרקציות לילדים",
+  "category": "משחקיות ואטרקציות לילדים",
+  "score": 5,
+  "tags": [
+    "ac",
+    "reserve"
+  ],
+  "hours": "לפי סשנים; מומלץ להזמין מראש",
+  "price": "משתנה לפי גיל וסשן, לרוב כ־₩20,000–55,000 ≈ ₪42–116",
+  "address": "240 Olympic-ro, Songpa-gu, Seoul",
+  "why": "עיר ילדים שבה מתנסים במקצועות כמו טייסים, כבאים, רופאים ושפים. זו פעילות חזקה במיוחד לילדים בגיל בית ספר, עם מספיק אפשרויות גם לצעירים יותר בהתאם לגובה.",
+  "reviews": "משפחות אוהבות את רמת ההשקעה וההתנסות האמיתית; כדאי לבדוק מראש אילו פעילויות מתאימות לגיל 4.",
+  "link": "https://www.google.com/maps/search/?api=1&query=KidZania%20Seoul%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/KidZania%20Seoul",
+  "icon": "🧑‍🚒",
+  "transit": {
+    "home1": {
+      "drive": "כ־50–60 דק׳",
+      "line": "קו 2/8",
+      "station": "Jamsil Station",
+      "ride": "כ־55–65 דק׳",
+      "walk": "כ־5 דק׳"
+    },
+    "home2": {
+      "drive": "כ־20–25 דק׳",
+      "line": "קו 2/8",
+      "station": "Jamsil Station",
+      "ride": "כ־25–30 דק׳",
+      "walk": "כ־5 דק׳"
+    }
+  },
+  "ages": "בעיקר 4–16"
+},
+{
+  "name": "Seoul Children's Museum",
+  "destination": "seoul",
+  "category_he": "משחקיות ואטרקציות לילדים",
+  "category": "משחקיות ואטרקציות לילדים",
+  "score": 5,
+  "tags": [
+    "ac",
+    "reserve"
+  ],
+  "hours": "10:00–18:00 · סגור שני",
+  "price": "₩4,000 ≈ ₪8.5 לאדם מגיל 36 חודשים",
+  "address": "216 Neungdong-ro, Gwangjin-gu, Seoul",
+  "why": "מוזיאון ילדים אינטראקטיבי עם יותר ממאה תחנות משחק והתנסות בנושאי גוף, טבע, מדע, דמיון וחברה. אחד המקומות המתאימים ביותר לשני הגילים שלכם.",
+  "reviews": "נחשב לתמורה מעולה למחיר; מומלץ להזמין מראש כי הסשנים הפופולריים מתמלאים.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Seoul%20Children%27s%20Museum%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Seoul%20Children%27s%20Museum",
+  "icon": "🧠",
+  "transit": {
+    "home1": {
+      "drive": "כ־45–55 דק׳",
+      "line": "קו 7",
+      "station": "Children’s Grand Park Station",
+      "ride": "כ־50 דק׳",
+      "walk": "כ־3–5 דק׳"
+    },
+    "home2": {
+      "drive": "כ־5–10 דק׳",
+      "line": "קו 7",
+      "station": "Children’s Grand Park Station",
+      "ride": "כ־5 דק׳",
+      "walk": "כ־3–5 דק׳"
+    }
+  },
+  "ages": "כ־3–9"
+},
+{
+  "name": "Children's Grand Park Amusement Park",
+  "destination": "seoul",
+  "category_he": "משחקיות ואטרקציות לילדים",
+  "category": "משחקיות ואטרקציות לילדים",
+  "score": 4,
+  "tags": [
+    "active"
+  ],
+  "hours": "לפי שעות הפארק/המתקנים",
+  "price": "כניסה לאזור חינם; מתקנים בתשלום",
+  "address": "216 Neungdong-ro, Gwangjin-gu, Seoul",
+  "why": "לונה פארק קטן בתוך Children’s Grand Park עם קרוסלות ומתקנים שאפשר לבחור נקודתית. מתאים לשילוב עם המוזיאון והפארק בלי להתחייב ליום פארק שעשועים מלא.",
+  "reviews": "היתרון הוא הגמישות: אפשר לעשות כמה מתקנים בלבד ולשלב עם שאר המתחם.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Children%27s%20Grand%20Park%20Amusement%20Park%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Children%27s%20Grand%20Park%20Amusement%20Park",
+  "icon": "🎠",
+  "transit": {
+    "home1": {
+      "drive": "כ־45–55 דק׳",
+      "line": "קו 7",
+      "station": "Children’s Grand Park Station",
+      "ride": "כ־50 דק׳",
+      "walk": "כ־5 דק׳"
+    },
+    "home2": {
+      "drive": "כ־5–10 דק׳",
+      "line": "קו 7",
+      "station": "Children’s Grand Park Station",
+      "ride": "כ־5 דק׳",
+      "walk": "כ־5 דק׳"
+    }
+  },
+  "ages": "משפחות"
+},
+{
+  "name": "Diki Diki",
+  "destination": "seoul",
+  "category_he": "משחקיות ואטרקציות לילדים",
+  "category": "משחקיות ואטרקציות לילדים",
+  "score": 4,
+  "tags": [
+    "ac",
+    "active"
+  ],
+  "hours": "לפי שעות DDP; לבדוק לפני הגעה",
+  "price": "כ־₩15,000 ≈ ₪32",
+  "address": "281 Eulji-ro, Jung-gu, Seoul",
+  "why": "מרכז משחק מקורה בתוך DDP עם טיפוס, תנועה, משחקי דמיון ויצירה. פתרון טוב במיוחד ליום חם שבו הילדים צריכים פעילות פיזית בתוך מזגן.",
+  "reviews": "מתאים יותר לבילוי של כמה שעות מאשר ליום שלם; נוח לשלב עם DDP ואוכל באזור.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Diki%20Diki%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Diki%20Diki",
+  "icon": "🛝",
+  "transit": {
+    "home1": {
+      "drive": "כ־35–45 דק׳",
+      "line": "קו 2/4/5",
+      "station": "Dongdaemun History & Culture Park Station",
+      "ride": "כ־40 דק׳",
+      "walk": "כ־5 דק׳"
+    },
+    "home2": {
+      "drive": "כ־25–35 דק׳",
+      "line": "קו 2/4/5",
+      "station": "Dongdaemun History & Culture Park Station",
+      "ride": "כ־30 דק׳",
+      "walk": "כ־5 דק׳"
+    }
+  },
+  "ages": "ילדים צעירים"
+},
+{
+  "name": "Champion 1250 – I'Park Mall",
+  "destination": "seoul",
+  "category_he": "משחקיות ואטרקציות לילדים",
+  "category": "משחקיות ואטרקציות לילדים",
+  "score": 4,
+  "tags": [
+    "ac",
+    "active"
+  ],
+  "hours": "לפי שעות I’Park Mall",
+  "price": "כ־₩20,000–30,000 ≈ ₪42–63",
+  "address": "55 Hangang-daero 23-gil, Yongsan-gu, Seoul",
+  "why": "משחקיית פרימיום עם הרבה טיפוס, מסלולים ומתקנים מוטוריים. מעולה כשצריך להוציא אנרגיה בלי להיות בחוץ בחום.",
+  "reviews": "היתרון הוא המיקום בתוך קניון גדול עם אוכל ושירותים, מה שהופך את היום לקל מאוד לוגיסטית.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Champion%201250%20%E2%80%93%20I%27Park%20Mall%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Champion%201250%20%E2%80%93%20I%27Park%20Mall",
+  "icon": "🧗",
+  "transit": {
+    "home1": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 1 / Gyeongui-Jungang",
+      "station": "Yongsan Station",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־3 דק׳"
+    },
+    "home2": {
+      "drive": "כ־35–45 דק׳",
+      "line": "קו 1 / Gyeongui-Jungang",
+      "station": "Yongsan Station",
+      "ride": "כ־40 דק׳",
+      "walk": "כ־3 דק׳"
+    }
+  },
+  "ages": "ילדים"
+},
+{
+  "name": "Smart Brick Kids Cafe",
+  "destination": "seoul",
+  "category_he": "משחקיות ואטרקציות לילדים",
+  "category": "משחקיות ואטרקציות לילדים",
+  "score": 4,
+  "tags": [
+    "ac"
+  ],
+  "hours": "לבדיקה",
+  "price": "לבדיקה",
+  "address": "Sinsa-dong, Gangnam-gu, Seoul",
+  "why": "Kids Café עם דגש על LEGO וקוביות בנייה לצד אזורי משחק וטיפוס. הוא נותן שכבה יצירתית יותר ממשחקייה רגילה.",
+  "reviews": "המידע המקוון מוגבל יחסית, ולכן כדאי לבדוק שעות ומחיר ב-Naver לפני הגעה.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Smart%20Brick%20Kids%20Cafe%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Smart%20Brick%20Kids%20Cafe",
+  "icon": "🧱",
+  "transit": {
+    "home1": {
+      "drive": "כ־45–55 דק׳",
+      "line": "קו 3",
+      "station": "Sinsa Station",
+      "ride": "כ־50 דק׳",
+      "walk": "כ־8–12 דק׳"
+    },
+    "home2": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 3",
+      "station": "Sinsa Station",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־8–12 דק׳"
+    }
+  },
+  "ages": "ילדים"
+},
+{
+  "name": "National Children's Science Center",
+  "destination": "seoul",
+  "category_he": "מוזיאונים ומדע",
+  "category": "מוזיאונים ומדע",
+  "score": 5,
+  "tags": [
+    "ac"
+  ],
+  "hours": "09:30–17:30 בקירוב; לבדוק",
+  "price": "כ־₩2,000 ≈ ₪4",
+  "address": "215 Changgyeonggung-ro, Jongno-gu, Seoul",
+  "why": "מוזיאון מדע שנבנה לילדים עם ניסויים ותצוגות אינטראקטיביות בתחומי גוף, חלל, טבע וטכנולוגיה. זו אחת הפעילויות הזולות והאיכותיות ביותר ברשימה.",
+  "reviews": "מתאים במיוחד לילדים סקרנים; אפשר לשלב עם Changgyeonggung שנמצא ממש ליד.",
+  "link": "https://www.google.com/maps/search/?api=1&query=National%20Children%27s%20Science%20Center%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/National%20Children%27s%20Science%20Center",
+  "icon": "🔬",
+  "transit": {
+    "home1": {
+      "drive": "כ־35–45 דק׳",
+      "line": "קו 4",
+      "station": "Hyehwa Station",
+      "ride": "כ־40 דק׳",
+      "walk": "כ־8–10 דק׳"
+    },
+    "home2": {
+      "drive": "כ־25–35 דק׳",
+      "line": "קו 4",
+      "station": "Hyehwa Station",
+      "ride": "כ־30 דק׳",
+      "walk": "כ־8–10 דק׳"
+    }
+  },
+  "ages": "ילדים"
+},
+{
+  "name": "Children's Museum – National Museum of Korea",
+  "destination": "seoul",
+  "category_he": "מוזיאונים ומדע",
+  "category": "מוזיאונים ומדע",
+  "score": 5,
+  "tags": [
+    "ac",
+    "free",
+    "reserve"
+  ],
+  "hours": "09:30–17:20 בסשנים",
+  "price": "חינם · חובה להזמין מראש",
+  "address": "137 Seobinggo-ro, Yongsan-gu, Seoul",
+  "why": "מוזיאון hands-on שמחבר ילדים להיסטוריה ולתרבות הקוריאנית דרך משחק והתנסות. התוכן מכוון בעיקר לגילי 5–9 ולכן מתאים במיוחד למשפחה שלכם.",
+  "reviews": "חינם אבל הביקוש גבוה; מומלץ להזמין ברגע שהחלון נפתח.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Children%27s%20Museum%20%E2%80%93%20National%20Museum%20of%20Korea%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Children%27s%20Museum%20%E2%80%93%20National%20Museum%20of%20Korea",
+  "icon": "🏺",
+  "transit": {
+    "home1": {
+      "drive": "כ־35–45 דק׳",
+      "line": "קו 4 / Gyeongui-Jungang",
+      "station": "Ichon Station",
+      "ride": "כ־40 דק׳",
+      "walk": "כ־5–10 דק׳"
+    },
+    "home2": {
+      "drive": "כ־40–50 דק׳",
+      "line": "קו 4 / Gyeongui-Jungang",
+      "station": "Ichon Station",
+      "ride": "כ־45 דק׳",
+      "walk": "כ־5–10 דק׳"
+    }
+  },
+  "ages": "בעיקר 5–9"
+},
+{
+  "name": "National Museum of Korea",
+  "destination": "seoul",
+  "category_he": "מוזיאונים ומדע",
+  "category": "מוזיאונים ומדע",
+  "score": 4,
+  "tags": [
+    "ac",
+    "free"
+  ],
+  "hours": "10:00–18:00 בקירוב; ימים מסוימים ארוך יותר",
+  "price": "תצוגת הקבע חינם",
+  "address": "137 Seobinggo-ro, Yongsan-gu, Seoul",
+  "why": "המוזיאון הלאומי הגדול של קוריאה עם ארכאולוגיה, אמנות והיסטוריה. עם הילדים עדיף לבחור אגף אחד או שניים ולשלב עם מוזיאון הילדים באותו מתחם.",
+  "reviews": "מקום מרשים מאוד אך עצום; ביקור ממוקד עובד טוב יותר למשפחה.",
+  "link": "https://www.google.com/maps/search/?api=1&query=National%20Museum%20of%20Korea%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/National%20Museum%20of%20Korea",
+  "icon": "🏛️",
+  "transit": {
+    "home1": {
+      "drive": "כ־35–45 דק׳",
+      "line": "קו 4 / Gyeongui-Jungang",
+      "station": "Ichon Station",
+      "ride": "כ־40 דק׳",
+      "walk": "כ־5–10 דק׳"
+    },
+    "home2": {
+      "drive": "כ־40–50 דק׳",
+      "line": "קו 4 / Gyeongui-Jungang",
+      "station": "Ichon Station",
+      "ride": "כ־45 דק׳",
+      "walk": "כ־5–10 דק׳"
+    }
   }
+},
+{
+  "name": "War Memorial of Korea",
+  "destination": "seoul",
+  "category_he": "מוזיאונים ומדע",
+  "category": "מוזיאונים ומדע",
+  "score": 4,
+  "tags": [
+    "ac",
+    "free"
+  ],
+  "hours": "09:30–18:00 בקירוב · סגור שני",
+  "price": "חינם",
+  "address": "29 Itaewon-ro, Yongsan-gu, Seoul",
+  "why": "מוזיאון גדול עם מטוסים, טנקים וכלי רכב אמיתיים בחוץ ותערוכות בפנים. החלק החיצוני יכול להיות מעניין במיוחד לילדים שאוהבים מכונות וכלי תחבורה.",
+  "reviews": "חינם ומגוון, אבל נושא המוזיאון כבד יותר ולכן אפשר להתמקד בחלקים הטכנולוגיים והחיצוניים.",
+  "link": "https://www.google.com/maps/search/?api=1&query=War%20Memorial%20of%20Korea%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/War%20Memorial%20of%20Korea",
+  "icon": "✈️",
+  "transit": {
+    "home1": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 4/6",
+      "station": "Samgakji Station",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־5 דק׳"
+    },
+    "home2": {
+      "drive": "כ־35–45 דק׳",
+      "line": "קו 4/6",
+      "station": "Samgakji Station",
+      "ride": "כ־40 דק׳",
+      "walk": "כ־5 דק׳"
+    }
+  }
+},
+{
+  "name": "Seoul Museum of Craft Art – Children's Museum",
+  "destination": "seoul",
+  "category_he": "מוזיאונים ומדע",
+  "category": "מוזיאונים ומדע",
+  "score": 5,
+  "tags": [
+    "ac",
+    "free",
+    "reserve"
+  ],
+  "hours": "10:00–18:00 · סגור שני",
+  "price": "חינם",
+  "address": "4 Yulgok-ro 3-gil, Jongno-gu, Seoul",
+  "why": "מתחם שבו ילדים חוקרים חומרים ומלאכות דרך יצירה והתנסות ולא רק מסתכלים על מוצגים. יושב מצוין בתוך יום Bukchon/Insadong.",
+  "reviews": "אחד המקומות המבוקשים למשפחות; כדאי להזמין תוכניות ילדים מראש כשאפשר.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Seoul%20Museum%20of%20Craft%20Art%20%E2%80%93%20Children%27s%20Museum%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Seoul%20Museum%20of%20Craft%20Art%20%E2%80%93%20Children%27s%20Museum",
+  "icon": "🧵",
+  "transit": {
+    "home1": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 3",
+      "station": "Anguk Station",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־3–5 דק׳"
+    },
+    "home2": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 3",
+      "station": "Anguk Station",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־3–5 דק׳"
+    }
+  },
+  "ages": "ילדים"
+},
+{
+  "name": "National Folk Museum of Korea",
+  "destination": "seoul",
+  "category_he": "מוזיאונים ומדע",
+  "category": "מוזיאונים ומדע",
+  "score": 4,
+  "tags": [
+    "ac",
+    "free"
+  ],
+  "hours": "09:00–18:00 בקירוב",
+  "price": "חינם",
+  "address": "37 Samcheong-ro, Jongno-gu, Seoul",
+  "why": "מוזיאון שממחיש איך אנשים חיו בקוריאה בעבר: בתים, בגדים, אוכל ומסורות. הוא שימושי במיוחד כחלק מביקור ב-Gyeongbokgung.",
+  "reviews": "נוח להיכנס לביקור קצר וממוקד במקום לנסות לראות הכול.",
+  "link": "https://www.google.com/maps/search/?api=1&query=National%20Folk%20Museum%20of%20Korea%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/National%20Folk%20Museum%20of%20Korea",
+  "icon": "🏠",
+  "transit": {
+    "home1": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 3",
+      "station": "Gyeongbokgung Station",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־10–15 דק׳"
+    },
+    "home2": {
+      "drive": "כ־35–45 דק׳",
+      "line": "קו 3",
+      "station": "Gyeongbokgung Station",
+      "ride": "כ־40 דק׳",
+      "walk": "כ־10–15 דק׳"
+    }
+  }
+},
+{
+  "name": "Children's Museum – National Folk Museum",
+  "destination": "seoul",
+  "category_he": "מוזיאונים ומדע",
+  "category": "מוזיאונים ומדע",
+  "score": 5,
+  "tags": [
+    "ac",
+    "free",
+    "reserve"
+  ],
+  "hours": "לפי סשנים; לבדוק",
+  "price": "חינם",
+  "address": "37 Samcheong-ro, Jongno-gu, Seoul",
+  "why": "אגף ילדים אינטראקטיבי שעוסק בחיי היום־יום ובתרבות קוריאנית דרך משחק והתנסות. דרך טובה להפוך יום של ארמון ותרבות למעניין גם לילדים.",
+  "reviews": "חינם אך כדאי לבדוק אם נדרש רישום לסשן בתאריך הביקור.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Children%27s%20Museum%20%E2%80%93%20National%20Folk%20Museum%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Children%27s%20Museum%20%E2%80%93%20National%20Folk%20Museum",
+  "icon": "🪁",
+  "transit": {
+    "home1": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 3",
+      "station": "Gyeongbokgung Station",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־10–15 דק׳"
+    },
+    "home2": {
+      "drive": "כ־35–45 דק׳",
+      "line": "קו 3",
+      "station": "Gyeongbokgung Station",
+      "ride": "כ־40 דק׳",
+      "walk": "כ־10–15 דק׳"
+    }
+  },
+  "ages": "ילדים"
+},
+{
+  "name": "Seoul Museum of History",
+  "destination": "seoul",
+  "category_he": "מוזיאונים ומדע",
+  "category": "מוזיאונים ומדע",
+  "score": 4,
+  "tags": [
+    "ac",
+    "free"
+  ],
+  "hours": "09:00–18:00 בקירוב · סגור שני",
+  "price": "חינם",
+  "address": "55 Saemunan-ro, Jongno-gu, Seoul",
+  "why": "מוזיאון שמספר את התפתחות סיאול באמצעות מפות, דגמים ותצוגות של העיר. מתאים יותר לילדה הגדולה ומשתלב היטב עם Donuimun Museum Village.",
+  "reviews": "מקום איכותי וחינמי; עדיף ביקור ממוקד של שעה–שעתיים.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Seoul%20Museum%20of%20History%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Seoul%20Museum%20of%20History",
+  "icon": "🏙️",
+  "transit": {
+    "home1": {
+      "drive": "כ־25–35 דק׳",
+      "line": "קו 5",
+      "station": "Gwanghwamun Station",
+      "ride": "כ־30 דק׳",
+      "walk": "כ־8–10 דק׳"
+    },
+    "home2": {
+      "drive": "כ־35–45 דק׳",
+      "line": "קו 5",
+      "station": "Gwanghwamun Station",
+      "ride": "כ־40 דק׳",
+      "walk": "כ־8–10 דק׳"
+    }
+  }
+},
+{
+  "name": "Hanseong Baekje Museum",
+  "destination": "seoul",
+  "category_he": "מוזיאונים ומדע",
+  "category": "מוזיאונים ומדע",
+  "score": 4,
+  "tags": [
+    "ac",
+    "free"
+  ],
+  "hours": "09:00–18:00 בקירוב · סגור שני",
+  "price": "חינם",
+  "address": "71 Wiryeseong-daero, Songpa-gu, Seoul",
+  "why": "מוזיאון ארכאולוגי מודרני על ממלכת Baekje עם דגמים וממצאים. בגלל שהוא בתוך אזור Olympic Park הוא תוספת טובה ליום חם בלי נסיעה נוספת.",
+  "reviews": "יותר מעניין לילדים גדולים, אבל חינם ונוח לשילוב.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Hanseong%20Baekje%20Museum%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Hanseong%20Baekje%20Museum",
+  "icon": "🏺",
+  "transit": {
+    "home1": {
+      "drive": "כ־50–60 דק׳",
+      "line": "קו 8",
+      "station": "Mongchontoseong Station",
+      "ride": "כ־55 דק׳",
+      "walk": "כ־10 דק׳"
+    },
+    "home2": {
+      "drive": "כ־20–30 דק׳",
+      "line": "קו 8",
+      "station": "Mongchontoseong Station",
+      "ride": "כ־25 דק׳",
+      "walk": "כ־10 דק׳"
+    }
+  }
+},
+{
+  "name": "Hello Museum – Art Dongdong",
+  "destination": "seoul",
+  "category_he": "סדנאות וחוויות",
+  "category": "סדנאות וחוויות",
+  "score": 5,
+  "tags": [
+    "ac",
+    "reserve"
+  ],
+  "hours": "לפי לוח התוכניות",
+  "price": "Art Dongdong כ־₩35,000 ≈ ₪74 לילד",
+  "address": "Seongdong-gu, Seoul",
+  "why": "תערוכה + משחק אמנותי + יצירה עצמאית מודרכת במשך כ־90 דקות. זו חוויה אמנותית פעילה ולא רק ביקור במוזיאון.",
+  "reviews": "Art Dongdong מיועד לגילי 5–10; כדאי לבדוק תוכניות אחרות לילדים צעירים יותר.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Hello%20Museum%20%E2%80%93%20Art%20Dongdong%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Hello%20Museum%20%E2%80%93%20Art%20Dongdong",
+  "icon": "🎨",
+  "transit": {
+    "home1": {
+      "drive": "כ־40–50 דק׳",
+      "line": "קו 2",
+      "station": "Seongsu Station",
+      "ride": "כ־45 דק׳",
+      "walk": "כ־8–12 דק׳"
+    },
+    "home2": {
+      "drive": "כ־15–20 דק׳",
+      "line": "קו 2",
+      "station": "Seongsu Station",
+      "ride": "כ־20 דק׳",
+      "walk": "כ־8–12 דק׳"
+    }
+  },
+  "ages": "Art Dongdong: 5–10"
+},
+{
+  "name": "Ssamziegil Experience Workshops",
+  "destination": "seoul",
+  "category_he": "סדנאות וחוויות",
+  "category": "סדנאות וחוויות",
+  "score": 5,
+  "tags": [
+    "ac",
+    "reserve"
+  ],
+  "hours": "המתחם לרוב 10:00–20:30",
+  "price": "משתנה לפי היצירה",
+  "address": "44 Insadong-gil, Jongno-gu, Seoul",
+  "why": "במתחם יש כמה סטודיואים לבחירה: קרמיקה, Hanji, אם-הפנינה, קופסאות, מנורות ועוד. מאפשר לבחור במקום פעילות שמתאימה למצב הרוח ולגיל הילדים.",
+  "reviews": "אחד המקומות הנוחים ביותר לשלב סדנה בתוך יום Insadong בלי לוגיסטיקה מורכבת.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Ssamziegil%20Experience%20Workshops%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Ssamziegil%20Experience%20Workshops",
+  "icon": "🪭",
+  "transit": {
+    "home1": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 3",
+      "station": "Anguk Station",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־8–10 דק׳"
+    },
+    "home2": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 3",
+      "station": "Anguk Station",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־8–10 דק׳"
+    }
+  },
+  "ages": "משפחות"
+},
+{
+  "name": "Namsangol Traditional Craft Experiences",
+  "destination": "seoul",
+  "category_he": "סדנאות וחוויות",
+  "category": "סדנאות וחוויות",
+  "score": 5,
+  "tags": [
+    "reserve"
+  ],
+  "hours": "לפי תוכנית עונתית",
+  "price": "משתנה לפי הסדנה",
+  "address": "28 Toegye-ro 34-gil, Jung-gu, Seoul",
+  "why": "סדנאות בתוך בתי Hanok מסורתיים: Hanji, Bojagi, אם-הפנינה, קשתות ולעיתים אוכל וקינוחים קוריאניים. הסביבה עצמה היא חלק מהחוויה.",
+  "reviews": "התוכניות משתנות ולכן כדאי לבחור מראש סדנה שמתאימה לילדים ולתאריך.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Namsangol%20Traditional%20Craft%20Experiences%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Namsangol%20Traditional%20Craft%20Experiences",
+  "icon": "🪡",
+  "transit": {
+    "home1": {
+      "drive": "כ־35–45 דק׳",
+      "line": "קו 3/4",
+      "station": "Chungmuro Station",
+      "ride": "כ־40 דק׳",
+      "walk": "כ־5 דק׳"
+    },
+    "home2": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 3/4",
+      "station": "Chungmuro Station",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־5 דק׳"
+    }
+  },
+  "ages": "משפחות"
+},
+{
+  "name": "OME Cooking Lab",
+  "destination": "seoul",
+  "category_he": "סדנאות וחוויות",
+  "category": "סדנאות וחוויות",
+  "score": 5,
+  "tags": [
+    "ac",
+    "reserve"
+  ],
+  "hours": "לפי class",
+  "price": "משתנה לפי class",
+  "address": "Dongdaemun-gu, Seoul",
+  "why": "חוויה מלאה של ביקור בשוק, בחירת חומרי גלם, בישול אוכל קוריאני וארוחה משותפת. הפעילות מיועדת גם לזרים ומתקיימת באנגלית.",
+  "reviews": "הסשן ארוך יחסית, סביב 3 שעות, ולכן כדאי לבחור יום שבו הילדים באנרגיה טובה.",
+  "link": "https://www.google.com/maps/search/?api=1&query=OME%20Cooking%20Lab%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/OME%20Cooking%20Lab",
+  "icon": "🍳",
+  "transit": {
+    "home1": {
+      "drive": "כ־35–45 דק׳",
+      "line": "קו 1/2",
+      "station": "Jegi-dong / Dongdaemun area",
+      "ride": "כ־40 דק׳",
+      "walk": "כ־5–10 דק׳"
+    },
+    "home2": {
+      "drive": "כ־20–30 דק׳",
+      "line": "קו 1/2",
+      "station": "Jegi-dong / Dongdaemun area",
+      "ride": "כ־25 דק׳",
+      "walk": "כ־5–10 דק׳"
+    }
+  },
+  "ages": "כל הגילים לפי class"
+},
+{
+  "name": "HANSIK Space E:eum",
+  "destination": "seoul",
+  "category_he": "סדנאות וחוויות",
+  "category": "סדנאות וחוויות",
+  "score": 4,
+  "tags": [
+    "ac",
+    "reserve"
+  ],
+  "hours": "לפי לוח סדנאות",
+  "price": "חלק מהתוכניות כ־₩10,000–15,000 ≈ ₪21–32",
+  "address": "Jongno-gu, Seoul",
+  "why": "סדנאות בישול קוריאני קצרות יותר סביב קימצ’י, tteokbokki, עוגות אורז ועוד. דרך נגישה להתנסות באוכל קוריאני בלי להקדיש חצי יום.",
+  "reviews": "התוכן והגיל משתנים בין הסדנאות, לכן צריך לבחור ספציפית לפי התאריך.",
+  "link": "https://www.google.com/maps/search/?api=1&query=HANSIK%20Space%20E%3Aeum%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/HANSIK%20Space%20E%3Aeum",
+  "icon": "🥟",
+  "transit": {
+    "home1": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 3",
+      "station": "Anguk Station",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־5–10 דק׳"
+    },
+    "home2": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 3",
+      "station": "Anguk Station",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־5–10 דק׳"
+    }
+  },
+  "ages": "לפי סדנה"
+},
+{
+  "name": "Bukchon Woodwork Workshop",
+  "destination": "seoul",
+  "category_he": "סדנאות וחוויות",
+  "category": "סדנאות וחוויות",
+  "score": 5,
+  "tags": [
+    "reserve"
+  ],
+  "hours": "בדרך כלל 10:00–17:00; לבדוק",
+  "price": "לפי הפריט",
+  "address": "112 Gyedong-gil, Jongno-gu, Seoul",
+  "why": "התנסות בנגרות מסורתית ובהכנת פריט כמו מגש או מקלות אכילה. פעילות מוחשית עם חומר אמיתי ותוצר שאפשר לקחת הביתה.",
+  "reviews": "שווה במיוחד לילדים שאוהבים עבודת ידיים; צריך לבדוק גיל מינימום לכל פעילות.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Bukchon%20Woodwork%20Workshop%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Bukchon%20Woodwork%20Workshop",
+  "icon": "🪵",
+  "transit": {
+    "home1": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 3",
+      "station": "Anguk Station",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־12–15 דק׳"
+    },
+    "home2": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 3",
+      "station": "Anguk Station",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־12–15 דק׳"
+    }
+  },
+  "ages": "לבדוק לפי פעילות"
+},
+{
+  "name": "Bukchon Hanji Workshop",
+  "destination": "seoul",
+  "category_he": "סדנאות וחוויות",
+  "category": "סדנאות וחוויות",
+  "score": 5,
+  "tags": [
+    "reserve"
+  ],
+  "hours": "בתיאום",
+  "price": "משתנה לפי הפריט",
+  "address": "Bukchon, Jongno-gu, Seoul",
+  "why": "יצירה מנייר Hanji קוריאני מסורתי – למשל מנורה, מראה או קופסה. בסוף נשארת גם מזכרת יפה מהמסע.",
+  "reviews": "פעילות משפחתית טובה שמחברת מלאכה מסורתית לעשייה בידיים.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Bukchon%20Hanji%20Workshop%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Bukchon%20Hanji%20Workshop",
+  "icon": "📜",
+  "transit": {
+    "home1": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 3",
+      "station": "Anguk Station",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־10–15 דק׳"
+    },
+    "home2": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 3",
+      "station": "Anguk Station",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־10–15 דק׳"
+    }
+  },
+  "ages": "משפחות"
+},
+{
+  "name": "Bukchon Dancheong Workshop",
+  "destination": "seoul",
+  "category_he": "סדנאות וחוויות",
+  "category": "סדנאות וחוויות",
+  "score": 4,
+  "tags": [
+    "reserve"
+  ],
+  "hours": "בתיאום",
+  "price": "משתנה",
+  "address": "Bukchon, Jongno-gu, Seoul",
+  "why": "לומדים על הציורים הצבעוניים המסורתיים שעל מקדשים וארמונות ואז מציירים Dancheong בעצמכם. עובד מצוין אחרי ביקור בארמון.",
+  "reviews": "פעילות תרבותית-יצירתית חזקה יותר לילדים שאוהבים ציור וישיבה.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Bukchon%20Dancheong%20Workshop%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Bukchon%20Dancheong%20Workshop",
+  "icon": "🎨",
+  "transit": {
+    "home1": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 3",
+      "station": "Anguk Station",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־10–15 דק׳"
+    },
+    "home2": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 3",
+      "station": "Anguk Station",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־10–15 דק׳"
+    }
+  },
+  "ages": "משפחות"
+},
+{
+  "name": "Hong Byeokheon Hanji Doll Workshop",
+  "destination": "seoul",
+  "category_he": "סדנאות וחוויות",
+  "category": "סדנאות וחוויות",
+  "score": 4,
+  "tags": [
+    "reserve"
+  ],
+  "hours": "בתיאום",
+  "price": "כ־₩7,000–13,000 ≈ ₪15–28",
+  "address": "Bukchon, Jongno-gu, Seoul",
+  "why": "סדנה קטנה וממוקדת להכנת בובת Hanji או פריט נייר קוריאני שאפשר לקחת הביתה. מתאימה כשמחפשים פעילות יצירה קצרה בתוך יום Bukchon.",
+  "reviews": "זולה יחסית לסדנאות אחרות ומוסיפה תוכן מקומי אמיתי.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Hong%20Byeokheon%20Hanji%20Doll%20Workshop%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Hong%20Byeokheon%20Hanji%20Doll%20Workshop",
+  "icon": "🪆",
+  "transit": {
+    "home1": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 3",
+      "station": "Anguk Station",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־10–15 דק׳"
+    },
+    "home2": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 3",
+      "station": "Anguk Station",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־10–15 דק׳"
+    }
+  },
+  "ages": "משפחות"
+},
+{
+  "name": "Ceradu Ceramics Studio",
+  "destination": "seoul",
+  "category_he": "סדנאות וחוויות",
+  "category": "סדנאות וחוויות",
+  "score": 5,
+  "tags": [
+    "ac",
+    "reserve"
+  ],
+  "hours": "בתיאום",
+  "price": "משתנה לפי הפעילות",
+  "address": "Gangnam-gu, Seoul",
+  "why": "אפשר לבחור בין אובניים, בנייה ביד או ציור על כלי מוכן, ולכן קל להתאים את הפעילות לרמת הקושי של כל ילד.",
+  "reviews": "צביעת כלי פשוטה נגישה יותר לילדים צעירים; אובניים מתאימים יותר לסבלניים/גדולים.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Ceradu%20Ceramics%20Studio%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Ceradu%20Ceramics%20Studio",
+  "icon": "🏺",
+  "transit": {
+    "home1": {
+      "drive": "כ־45–55 דק׳",
+      "line": "קו 3",
+      "station": "Sinsa / Apgujeong area",
+      "ride": "כ־50 דק׳",
+      "walk": "כ־8–12 דק׳"
+    },
+    "home2": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 3",
+      "station": "Sinsa / Apgujeong area",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־8–12 דק׳"
+    }
+  },
+  "ages": "לפי פעילות"
+},
+{
+  "name": "Seoul Folk Flea Market Traditional Arts & Crafts Studio",
+  "destination": "seoul",
+  "category_he": "סדנאות וחוויות",
+  "category": "סדנאות וחוויות",
+  "score": 4,
+  "tags": [
+    "ac",
+    "reserve"
+  ],
+  "hours": "לפי תוכנית",
+  "price": "לפי פעילות",
+  "address": "21 Cheonho-daero 4-gil, Dongdaemun-gu, Seoul",
+  "why": "מרכז שמציע התנסות במלאכות קוריאניות מסורתיות ולא רק צפייה בשוק. שווה לבחור רק אם יש בתאריכים שלכם פעילות שמתאימה לילדים.",
+  "reviews": "היתרון הוא השילוב עם שוק מקומי; לוח התוכניות משתנה.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Seoul%20Folk%20Flea%20Market%20Traditional%20Arts%20%26%20Crafts%20Studio%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Seoul%20Folk%20Flea%20Market%20Traditional%20Arts%20%26%20Crafts%20Studio",
+  "icon": "🧶",
+  "transit": {
+    "home1": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 1/2",
+      "station": "Sinseol-dong Station",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־5 דק׳"
+    },
+    "home2": {
+      "drive": "כ־15–25 דק׳",
+      "line": "קו 1/2",
+      "station": "Sinseol-dong Station",
+      "ride": "כ־20 דק׳",
+      "walk": "כ־5 דק׳"
+    }
+  },
+  "ages": "לפי תוכנית"
+},
+{
+  "name": "Kids K-pop Dance Class",
+  "destination": "seoul",
+  "category_he": "סדנאות וחוויות",
+  "category": "סדנאות וחוויות",
+  "score": 4,
+  "tags": [
+    "ac",
+    "active",
+    "reserve"
+  ],
+  "hours": "לפי class",
+  "price": "משתנה לפי ספק",
+  "address": "Hongdae, Mapo-gu, Seoul",
+  "why": "שיעור חד-פעמי שבו הילדים לומדים חלק מכוריאוגרפיית K-pop בסטודיו. חוויה מאוד סיאולית ושונה ממוזיאון או יצירה.",
+  "reviews": "כדאי לבחור ספק עם מסלול ילדים ייעודי ושיעור באנגלית.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Kids%20K-pop%20Dance%20Class%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Kids%20K-pop%20Dance%20Class",
+  "icon": "💃",
+  "transit": {
+    "home1": {
+      "drive": "כ־20–30 דק׳",
+      "line": "קו 2 / AREX",
+      "station": "Hongik University Station",
+      "ride": "כ־25 דק׳",
+      "walk": "כ־5–10 דק׳"
+    },
+    "home2": {
+      "drive": "כ־45–55 דק׳",
+      "line": "קו 2 / AREX",
+      "station": "Hongik University Station",
+      "ride": "כ־50 דק׳",
+      "walk": "כ־5–10 דק׳"
+    }
+  },
+  "ages": "לפי ספק"
+},
+{
+  "name": "Sweet Park – Lotte Children's Food Experience Center",
+  "destination": "seoul",
+  "category_he": "סדנאות וחוויות",
+  "category": "סדנאות וחוויות",
+  "score": 5,
+  "tags": [
+    "ac",
+    "free",
+    "reserve"
+  ],
+  "hours": "ב׳–ו׳ 10:00–18:00 · שבת עד 14:00 · סגור ראשון/חגים",
+  "price": "חינם",
+  "address": "201 Magokjungang-ro, Gangseo-gu, Seoul",
+  "why": "מרכז hands-on של Lotte בנושא ייצור ופיתוח מזון, עם תחנות אינטראקטיביות וחינוך לבריאות השיניים. אחד הגילויים הטובים ברשימה כי הוא איכותי, חינמי ומתאים לשני הילדים.",
+  "reviews": "המיקום במערב העיר מתאים במיוחד לתקופת בית 1; כדאי לבדוק מערכת הזמנות לפני ההגעה.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Sweet%20Park%20%E2%80%93%20Lotte%20Children%27s%20Food%20Experience%20Center%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Sweet%20Park%20%E2%80%93%20Lotte%20Children%27s%20Food%20Experience%20Center",
+  "icon": "🍫",
+  "transit": {
+    "home1": {
+      "drive": "כ־20–30 דק׳",
+      "line": "קו 5",
+      "station": "Magok Station",
+      "ride": "כ־25 דק׳",
+      "walk": "כ־10–15 דק׳"
+    },
+    "home2": {
+      "drive": "כ־55–65 דק׳",
+      "line": "קו 5",
+      "station": "Magok Station",
+      "ride": "כ־60 דק׳",
+      "walk": "כ־10–15 דק׳"
+    }
+  },
+  "ages": "3–16"
+},
+{
+  "name": "Seoul Children's Grand Park",
+  "destination": "seoul",
+  "category_he": "פארקים וטבע",
+  "category": "פארקים וטבע",
+  "score": 5,
+  "tags": [
+    "free",
+    "active"
+  ],
+  "hours": "05:00–22:00; אזורים פנימיים בשעות מוגבלות",
+  "price": "חינם; מתקנים מסוימים בתשלום",
+  "address": "216 Neungdong-ro, Gwangjin-gu, Seoul",
+  "why": "פארק ענק עם גני משחקים, מרחבים פתוחים, גן חיות חינמי ולונה-פארק בתשלום. אפשר לחזור אליו כמה פעמים ולעשות בכל ביקור משהו אחר.",
+  "reviews": "אחד היתרונות הגדולים של בית 2 בזכות הקרבה והגיוון.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Seoul%20Children%27s%20Grand%20Park%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Seoul%20Children%27s%20Grand%20Park",
+  "icon": "🌳",
+  "transit": {
+    "home1": {
+      "drive": "כ־45–55 דק׳",
+      "line": "קו 7",
+      "station": "Children’s Grand Park Station",
+      "ride": "כ־50 דק׳",
+      "walk": "כ־3–5 דק׳"
+    },
+    "home2": {
+      "drive": "כ־5–10 דק׳",
+      "line": "קו 7",
+      "station": "Children’s Grand Park Station",
+      "ride": "כ־5 דק׳",
+      "walk": "כ־3–5 דק׳"
+    }
+  },
+  "ages": "משפחות"
+},
+{
+  "name": "Seoul Forest",
+  "destination": "seoul",
+  "category_he": "פארקים וטבע",
+  "category": "פארקים וטבע",
+  "score": 5,
+  "tags": [
+    "free",
+    "active"
+  ],
+  "hours": "הפארק פתוח 24/7; מתקנים פנימיים בשעות שונות",
+  "price": "חינם",
+  "address": "273 Ttukseom-ro, Seongdong-gu, Seoul",
+  "why": "פארק עצום עם מדשאות, יער, גני משחקים, שבילים ואזור Eco Forest שבו אפשר לראות איילים. בקיץ יש גם פעילות מים עונתית.",
+  "reviews": "מקום מצוין לשגרת חיים בעיר ולא רק לאטרקציה חד-פעמית.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Seoul%20Forest%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Seoul%20Forest",
+  "icon": "🌲",
+  "transit": {
+    "home1": {
+      "drive": "כ־40–50 דק׳",
+      "line": "Suin-Bundang",
+      "station": "Seoul Forest Station",
+      "ride": "כ־45 דק׳",
+      "walk": "כ־5 דק׳"
+    },
+    "home2": {
+      "drive": "כ־15–20 דק׳",
+      "line": "Suin-Bundang",
+      "station": "Seoul Forest Station",
+      "ride": "כ־20 דק׳",
+      "walk": "כ־5 דק׳"
+    }
+  },
+  "ages": "משפחות"
+},
+{
+  "name": "Olympic Park",
+  "destination": "seoul",
+  "category_he": "פארקים וטבע",
+  "category": "פארקים וטבע",
+  "score": 5,
+  "tags": [
+    "free",
+    "active"
+  ],
+  "hours": "05:00–22:00 בקירוב",
+  "price": "חינם",
+  "address": "424 Olympic-ro, Songpa-gu, Seoul",
+  "why": "פארק ענק עם מדשאות, אגמים, שבילים, פסלים ושרידים ארכאולוגיים. מתאים ליום רגוע שבו הילדים יכולים לרוץ בלי תוכנית קשיחה.",
+  "reviews": "אפשר לשלב עם Hanseong Baekje Museum ולהפוך אותו ליום מגוון וזול.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Olympic%20Park%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Olympic%20Park",
+  "icon": "🌿",
+  "transit": {
+    "home1": {
+      "drive": "כ־50–60 דק׳",
+      "line": "קו 5/9",
+      "station": "Olympic Park Station",
+      "ride": "כ־55 דק׳",
+      "walk": "כ־5 דק׳"
+    },
+    "home2": {
+      "drive": "כ־20–30 דק׳",
+      "line": "קו 5/9",
+      "station": "Olympic Park Station",
+      "ride": "כ־25 דק׳",
+      "walk": "כ־5 דק׳"
+    }
+  }
+},
+{
+  "name": "Seokchon Lake",
+  "destination": "seoul",
+  "category_he": "פארקים וטבע",
+  "category": "פארקים וטבע",
+  "score": 4,
+  "tags": [
+    "free"
+  ],
+  "hours": "כל היום",
+  "price": "חינם",
+  "address": "Jamsil-dong, Songpa-gu, Seoul",
+  "why": "שני אגמים עם טיילת נוחה ונוף ל-Lotte World ולמגדל. מושלם לשילוב לפני או אחרי אטרקציה במתחם Lotte בלי להוציא עוד כסף.",
+  "reviews": "לא יעד בפני עצמו, אלא עצירה נעימה ושימושית בתוך יום Jamsil.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Seokchon%20Lake%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Seokchon%20Lake",
+  "icon": "🌊",
+  "transit": {
+    "home1": {
+      "drive": "כ־50–60 דק׳",
+      "line": "קו 2/8",
+      "station": "Jamsil Station",
+      "ride": "כ־55 דק׳",
+      "walk": "כ־5–10 דק׳"
+    },
+    "home2": {
+      "drive": "כ־20–25 דק׳",
+      "line": "קו 2/8",
+      "station": "Jamsil Station",
+      "ride": "כ־25 דק׳",
+      "walk": "כ־5–10 דק׳"
+    }
+  }
+},
+{
+  "name": "Ttukseom Hangang Park",
+  "destination": "seoul",
+  "category_he": "פארקים וטבע",
+  "category": "פארקים וטבע",
+  "score": 5,
+  "tags": [
+    "free",
+    "active"
+  ],
+  "hours": "כל היום",
+  "price": "חינם; השכרות/פעילויות בתשלום",
+  "address": "139 Gangbyeonbuk-ro, Gwangjin-gu, Seoul",
+  "why": "פארק גדול על נהר Han עם מדשאות, שבילי אופניים, מתקנים ואזורי מים עונתיים. קרוב מאוד לבית 2 ולכן מעולה ליציאה ספונטנית.",
+  "reviews": "אחד המקומות הכי שימושיים לשגרת אחר הצהריים בתקופת בית 2.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Ttukseom%20Hangang%20Park%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Ttukseom%20Hangang%20Park",
+  "icon": "🚲",
+  "transit": {
+    "home1": {
+      "drive": "כ־45–55 דק׳",
+      "line": "קו 7",
+      "station": "Ttukseom Resort Station",
+      "ride": "כ־50 דק׳",
+      "walk": "כ־2–5 דק׳"
+    },
+    "home2": {
+      "drive": "כ־10–15 דק׳",
+      "line": "קו 7",
+      "station": "Ttukseom Resort Station",
+      "ride": "כ־10 דק׳",
+      "walk": "כ־2–5 דק׳"
+    }
+  }
+},
+{
+  "name": "Yeouido Hangang Park",
+  "destination": "seoul",
+  "category_he": "פארקים וטבע",
+  "category": "פארקים וטבע",
+  "score": 5,
+  "tags": [
+    "free",
+    "active"
+  ],
+  "hours": "כל היום",
+  "price": "חינם",
+  "address": "330 Yeouidong-ro, Yeongdeungpo-gu, Seoul",
+  "why": "פארק קלאסי על נהר Han עם מדשאות, אופניים, פיקניק ומרחבים לילדים. נוח לשלב עם The Hyundai או יום Yeouido.",
+  "reviews": "מקום מצוין לחוות את תרבות הפיקניק המקומית בלי עלות.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Yeouido%20Hangang%20Park%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Yeouido%20Hangang%20Park",
+  "icon": "🧺",
+  "transit": {
+    "home1": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 5",
+      "station": "Yeouinaru Station",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־2–5 דק׳"
+    },
+    "home2": {
+      "drive": "כ־45–55 דק׳",
+      "line": "קו 5",
+      "station": "Yeouinaru Station",
+      "ride": "כ־50 דק׳",
+      "walk": "כ־2–5 דק׳"
+    }
+  }
+},
+{
+  "name": "Seonyudo Park",
+  "destination": "seoul",
+  "category_he": "פארקים וטבע",
+  "category": "פארקים וטבע",
+  "score": 4,
+  "tags": [
+    "free"
+  ],
+  "hours": "06:00–24:00 בקירוב",
+  "price": "חינם",
+  "address": "343 Seonyu-ro, Yeongdeungpo-gu, Seoul",
+  "why": "אי ירוק שהוסב ממתקן טיהור מים לפארק אקולוגי עם גנים, גשרים ושבילים. שונה מפארק עירוני רגיל ומרגיש כמו בריחה קטנה מהעיר.",
+  "reviews": "מתאים ליום נעים יותר ופחות לשיא החום.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Seonyudo%20Park%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Seonyudo%20Park",
+  "icon": "🌱",
+  "transit": {
+    "home1": {
+      "drive": "כ־25–35 דק׳",
+      "line": "קו 9",
+      "station": "Seonyudo Station",
+      "ride": "כ־30 דק׳",
+      "walk": "כ־10 דק׳"
+    },
+    "home2": {
+      "drive": "כ־45–55 דק׳",
+      "line": "קו 9",
+      "station": "Seonyudo Station",
+      "ride": "כ־50 דק׳",
+      "walk": "כ־10 דק׳"
+    }
+  }
+},
+{
+  "name": "World Cup Park",
+  "destination": "seoul",
+  "category_he": "פארקים וטבע",
+  "category": "פארקים וטבע",
+  "score": 4,
+  "tags": [
+    "free",
+    "active"
+  ],
+  "hours": "כל היום",
+  "price": "חינם",
+  "address": "Mapo-gu, Seoul",
+  "why": "מערכת גדולה של פארקים, מדשאות, שבילים ואזורי טבע. רלוונטית במיוחד בשבועיים הראשונים בגלל הקרבה לבית 1.",
+  "reviews": "טובה ליום מקומי וזול בלי לנסוע לצד השני של העיר.",
+  "link": "https://www.google.com/maps/search/?api=1&query=World%20Cup%20Park%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/World%20Cup%20Park",
+  "icon": "🌳",
+  "transit": {
+    "home1": {
+      "drive": "כ־15–20 דק׳",
+      "line": "קו 6",
+      "station": "World Cup Stadium Station",
+      "ride": "כ־15 דק׳",
+      "walk": "כ־5–10 דק׳"
+    },
+    "home2": {
+      "drive": "כ־45–55 דק׳",
+      "line": "קו 6",
+      "station": "World Cup Stadium Station",
+      "ride": "כ־50 דק׳",
+      "walk": "כ־5–10 דק׳"
+    }
+  }
+},
+{
+  "name": "Haneul Park",
+  "destination": "seoul",
+  "category_he": "פארקים וטבע",
+  "category": "פארקים וטבע",
+  "score": 4,
+  "tags": [
+    "free",
+    "active"
+  ],
+  "hours": "05:00–22:00 בקירוב",
+  "price": "חינם",
+  "address": "95 Haneulgongwon-ro, Mapo-gu, Seoul",
+  "why": "פארק גבוה עם שדות עשב ונוף רחב לעיר ולנהר Han. יפה מאוד, אך דורש יותר הליכה ולכן פחות מתאים ליום חם מאוד.",
+  "reviews": "כדאי להגיע בבוקר או לקראת ערב ולשקול את הרכבת/שאטל העונתי אם פעיל.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Haneul%20Park%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Haneul%20Park",
+  "icon": "🌾",
+  "transit": {
+    "home1": {
+      "drive": "כ־15–20 דק׳",
+      "line": "קו 6",
+      "station": "World Cup Stadium Station",
+      "ride": "כ־20 דק׳",
+      "walk": "כ־20–30 דק׳"
+    },
+    "home2": {
+      "drive": "כ־45–55 דק׳",
+      "line": "קו 6",
+      "station": "World Cup Stadium Station",
+      "ride": "כ־50 דק׳",
+      "walk": "כ־20–30 דק׳"
+    }
+  }
+},
+{
+  "name": "Gyeongui Line Forest Park",
+  "destination": "seoul",
+  "category_he": "פארקים וטבע",
+  "category": "פארקים וטבע",
+  "score": 4,
+  "tags": [
+    "free"
+  ],
+  "hours": "כל היום",
+  "price": "חינם",
+  "address": "Mapo-gu, Seoul",
+  "why": "פארק לינארי שנבנה לאורך מסילת רכבת ישנה ועובר בין שכונות ובתי קפה. מתאים לשיטוט באזור Yeonnam/Hongdae יותר מאשר כאטרקציה בפני עצמה.",
+  "reviews": "בחירה טובה לבוקר/ערב בתקופת בית 1.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Gyeongui%20Line%20Forest%20Park%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Gyeongui%20Line%20Forest%20Park",
+  "icon": "🌿",
+  "transit": {
+    "home1": {
+      "drive": "כ־20–25 דק׳",
+      "line": "Gyeongui-Jungang / AREX",
+      "station": "Hongik University Station",
+      "ride": "כ־25 דק׳",
+      "walk": "כ־5–10 דק׳"
+    },
+    "home2": {
+      "drive": "כ־45–55 דק׳",
+      "line": "Gyeongui-Jungang / AREX",
+      "station": "Hongik University Station",
+      "ride": "כ־50 דק׳",
+      "walk": "כ־5–10 דק׳"
+    }
+  }
+},
+{
+  "name": "Nodeul Island",
+  "destination": "seoul",
+  "category_he": "פארקים וטבע",
+  "category": "פארקים וטבע",
+  "score": 4,
+  "tags": [
+    "free"
+  ],
+  "hours": "כל היום; מתקנים לפי שעות",
+  "price": "חינם; אירועים מסוימים בתשלום",
+  "address": "445 Yangnyeong-ro, Yongsan-gu, Seoul",
+  "why": "אי קטן באמצע נהר Han עם מדשאות, שבילים, תרבות ואוכל. מתאים לפיקניק או אחר צהריים רגוע, במיוחד אם יש אירוע משפחתי בזמן שאתם בעיר.",
+  "reviews": "כדאי לבדוק את לוח האירועים לפני שמגיעים במיוחד.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Nodeul%20Island%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Nodeul%20Island",
+  "icon": "🏝️",
+  "transit": {
+    "home1": {
+      "drive": "כ־35–45 דק׳",
+      "line": "קו 9",
+      "station": "Nodeul Station",
+      "ride": "כ־40 דק׳",
+      "walk": "כ־10 דק׳"
+    },
+    "home2": {
+      "drive": "כ־45–55 דק׳",
+      "line": "קו 9",
+      "station": "Nodeul Station",
+      "ride": "כ־50 דק׳",
+      "walk": "כ־10 דק׳"
+    }
+  }
+},
+{
+  "name": "Achasan",
+  "destination": "seoul",
+  "category_he": "פארקים וטבע",
+  "category": "פארקים וטבע",
+  "score": 4,
+  "tags": [
+    "free",
+    "active"
+  ],
+  "hours": "כל היום",
+  "price": "חינם",
+  "address": "Gwangjin-gu, Seoul",
+  "why": "הר עירוני עם שבילי טבע ותצפיות על סיאול. אפשר לבחור מקטע משפחתי קצר ולא לעשות את המסלול המלא.",
+  "reviews": "קרוב לבית 2; עדיף ביום פחות חם ובשעות הבוקר.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Achasan%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Achasan",
+  "icon": "⛰️",
+  "transit": {
+    "home1": {
+      "drive": "כ־50–60 דק׳",
+      "line": "קו 5",
+      "station": "Achasan Station",
+      "ride": "כ־55 דק׳",
+      "walk": "כ־10–15 דק׳"
+    },
+    "home2": {
+      "drive": "כ־10–15 דק׳",
+      "line": "קו 5",
+      "station": "Achasan Station",
+      "ride": "כ־10 דק׳",
+      "walk": "כ־10–15 דק׳"
+    }
+  }
+},
+{
+  "name": "Gyeongbokgung Palace",
+  "destination": "seoul",
+  "category_he": "תרבות וקוריאה",
+  "category": "תרבות וקוריאה",
+  "score": 5,
+  "tags": [],
+  "hours": "אוגוסט עד 18:30; ספטמבר 09:00–18:00 (בדיקה ביום הביקור)",
+  "price": "מבוגר ₩3,000 ≈ ₪6 · ילדים צעירים חינם",
+  "address": "161 Sajik-ro, Jongno-gu, Seoul",
+  "why": "הארמון המלכותי המרכזי והמרשים ביותר בסיאול, עם חצרות, שערים ומבנים צבעוניים. אם עושים רק ארמון אחד עם הילדים, זה הארמון שהייתי בוחרת.",
+  "reviews": "כדאי לתזמן לטקס החלפת המשמר ולהגיע מוקדם לפני החום והעומס.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Gyeongbokgung%20Palace%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Gyeongbokgung%20Palace",
+  "icon": "🏯",
+  "transit": {
+    "home1": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 3",
+      "station": "Gyeongbokgung Station",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־5 דק׳"
+    },
+    "home2": {
+      "drive": "כ־35–45 דק׳",
+      "line": "קו 3",
+      "station": "Gyeongbokgung Station",
+      "ride": "כ־40 דק׳",
+      "walk": "כ־5 דק׳"
+    }
+  }
+},
+{
+  "name": "Changdeokgung Palace",
+  "destination": "seoul",
+  "category_he": "תרבות וקוריאה",
+  "category": "תרבות וקוריאה",
+  "score": 4,
+  "tags": [],
+  "hours": "אוגוסט עד 18:30; ספטמבר עד 18:00",
+  "price": "כניסה בתשלום; Secret Garden בנפרד",
+  "address": "99 Yulgok-ro, Jongno-gu, Seoul",
+  "why": "ארמון יפה במיוחד בזכות השילוב בין המבנים המלכותיים ל-Secret Garden. עדיף לעשות אותו ביום נפרד מ-Gyeongbokgung ולא ליצור מרתון ארמונות.",
+  "reviews": "הגן דורש הזמנה/כרטיס נפרד ולעיתים יותר הליכה.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Changdeokgung%20Palace%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Changdeokgung%20Palace",
+  "icon": "🏯",
+  "transit": {
+    "home1": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 3",
+      "station": "Anguk Station",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־5–10 דק׳"
+    },
+    "home2": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 3",
+      "station": "Anguk Station",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־5–10 דק׳"
+    }
+  }
+},
+{
+  "name": "Changgyeonggung Palace",
+  "destination": "seoul",
+  "category_he": "תרבות וקוריאה",
+  "category": "תרבות וקוריאה",
+  "score": 4,
+  "tags": [],
+  "hours": "09:00–21:00 בקירוב",
+  "price": "כ־₩1,000 ≈ ₪2 למבוגר",
+  "address": "185 Changgyeonggung-ro, Jongno-gu, Seoul",
+  "why": "ארמון קטן וירוק יותר, עם גנים ואגם, ולכן מתאים לביקור קצר עם ילדים. היתרון הגדול הוא הקרבה ל-National Children’s Science Center.",
+  "reviews": "שילוב מצוין של תרבות + מדע באותו יום בלי נסיעות מיותרות.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Changgyeonggung%20Palace%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Changgyeonggung%20Palace",
+  "icon": "🏯",
+  "transit": {
+    "home1": {
+      "drive": "כ־35–45 דק׳",
+      "line": "קו 4",
+      "station": "Hyehwa Station",
+      "ride": "כ־40 דק׳",
+      "walk": "כ־10 דק׳"
+    },
+    "home2": {
+      "drive": "כ־25–35 דק׳",
+      "line": "קו 4",
+      "station": "Hyehwa Station",
+      "ride": "כ־30 דק׳",
+      "walk": "כ־10 דק׳"
+    }
+  }
+},
+{
+  "name": "Bukchon Hanok Village",
+  "destination": "seoul",
+  "category_he": "תרבות וקוריאה",
+  "category": "תרבות וקוריאה",
+  "score": 4,
+  "tags": [
+    "free"
+  ],
+  "hours": "שעות ביקור לתיירים מוגבלות בחלק מהאזור; לבדוק",
+  "price": "חינם",
+  "address": "Jongno-gu, Seoul",
+  "why": "שכונה היסטורית של בתי Hanok מסורתיים בתוך העיר המודרנית. הכי נכון לשלב אותה עם סדנת Hanji/נגרות וארוחה, ולא כפעילות לילדים בפני עצמה.",
+  "reviews": "חשוב לשמור על שקט כי זו שכונת מגורים פעילה.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Bukchon%20Hanok%20Village%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Bukchon%20Hanok%20Village",
+  "icon": "🏘️",
+  "transit": {
+    "home1": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 3",
+      "station": "Anguk Station",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־10 דק׳"
+    },
+    "home2": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 3",
+      "station": "Anguk Station",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־10 דק׳"
+    }
+  }
+},
+{
+  "name": "Namsangol Hanok Village",
+  "destination": "seoul",
+  "category_he": "תרבות וקוריאה",
+  "category": "תרבות וקוריאה",
+  "score": 4,
+  "tags": [
+    "free"
+  ],
+  "hours": "09:00–21:00 בקירוב · סגור שני",
+  "price": "כניסה חינם; סדנאות בתשלום",
+  "address": "28 Toegye-ro 34-gil, Jung-gu, Seoul",
+  "why": "מתחם בתי Hanok משוחזרים שאפשר להיכנס אליהם, עם פעילויות תרבות ומלאכות מסורתיות משתנות. עובד טוב במיוחד בשילוב סדנה.",
+  "reviews": "בחירה טובה להכיר אדריכלות מסורתית בלי עומס של שכונת Bukchon.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Namsangol%20Hanok%20Village%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Namsangol%20Hanok%20Village",
+  "icon": "🏘️",
+  "transit": {
+    "home1": {
+      "drive": "כ־35–45 דק׳",
+      "line": "קו 3/4",
+      "station": "Chungmuro Station",
+      "ride": "כ־40 דק׳",
+      "walk": "כ־5 דק׳"
+    },
+    "home2": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 3/4",
+      "station": "Chungmuro Station",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־5 דק׳"
+    }
+  }
+},
+{
+  "name": "Donuimun Museum Village",
+  "destination": "seoul",
+  "category_he": "תרבות וקוריאה",
+  "category": "תרבות וקוריאה",
+  "score": 4,
+  "tags": [
+    "free"
+  ],
+  "hours": "10:00–19:00 בקירוב · סגור שני",
+  "price": "חינם; חלק מהפעילויות בתשלום",
+  "address": "14-3 Songwol-gil, Jongno-gu, Seoul",
+  "why": "מתחם רחובות ובתים שמציג תקופות שונות בחיי סיאול, עם חללים שאפשר להיכנס אליהם. הופך את ההיסטוריה למוחשית יותר ממוזיאון רגיל.",
+  "reviews": "נוח מאוד לשלב עם Seoul Museum of History.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Donuimun%20Museum%20Village%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Donuimun%20Museum%20Village",
+  "icon": "🏘️",
+  "transit": {
+    "home1": {
+      "drive": "כ־25–35 דק׳",
+      "line": "קו 5",
+      "station": "Seodaemun Station",
+      "ride": "כ־30 דק׳",
+      "walk": "כ־5–10 דק׳"
+    },
+    "home2": {
+      "drive": "כ־35–45 דק׳",
+      "line": "קו 5",
+      "station": "Seodaemun Station",
+      "ride": "כ־40 דק׳",
+      "walk": "כ־5–10 דק׳"
+    }
+  }
+},
+{
+  "name": "Museum Kimchikan",
+  "destination": "seoul",
+  "category_he": "תרבות וקוריאה",
+  "category": "תרבות וקוריאה",
+  "score": 4,
+  "tags": [
+    "ac"
+  ],
+  "hours": "10:00–18:00 בקירוב · סגור שני",
+  "price": "כ־₩5,000 ≈ ₪11",
+  "address": "35-4 Insadong-gil, Jongno-gu, Seoul",
+  "why": "מוזיאון קטן וממוקד על קימצ’י והתרבות סביבו, ולעיתים יש גם התנסויות. טוב במיוחד כחלק מיום Insadong ולא כיעד ליום שלם.",
+  "reviews": "כדאי לבדוק אם יש סדנה בתאריך הביקור כדי להפיק ממנו יותר.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Museum%20Kimchikan%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Museum%20Kimchikan",
+  "icon": "🥬",
+  "transit": {
+    "home1": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 3",
+      "station": "Anguk Station",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־8–10 דק׳"
+    },
+    "home2": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 3",
+      "station": "Anguk Station",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־8–10 דק׳"
+    }
+  }
+},
+{
+  "name": "Ikseon-dong Hanok Village",
+  "destination": "seoul",
+  "category_he": "תרבות וקוריאה",
+  "category": "תרבות וקוריאה",
+  "score": 4,
+  "tags": [
+    "free"
+  ],
+  "hours": "כל היום; עסקים לפי שעות",
+  "price": "חינם לשוטט",
+  "address": "Jongno-gu, Seoul",
+  "why": "סמטאות Hanok קטנות שהפכו לאזור בתי קפה, אוכל וחנויות. יותר נקודת שיטוט/ארוחה מאשר אטרקציה לילדים.",
+  "reviews": "טוב לסיום יום במרכז או לעצירת אוכל אחרי פעילות אחרת.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Ikseon-dong%20Hanok%20Village%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Ikseon-dong%20Hanok%20Village",
+  "icon": "🏘️",
+  "transit": {
+    "home1": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 1/3/5",
+      "station": "Jongno 3-ga Station",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־3–5 דק׳"
+    },
+    "home2": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 1/3/5",
+      "station": "Jongno 3-ga Station",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־3–5 דק׳"
+    }
+  }
+},
+{
+  "name": "Bongeunsa Temple",
+  "destination": "seoul",
+  "category_he": "תרבות וקוריאה",
+  "category": "תרבות וקוריאה",
+  "score": 4,
+  "tags": [
+    "free"
+  ],
+  "hours": "05:00–22:00 בקירוב",
+  "price": "חינם",
+  "address": "531 Bongeunsa-ro, Gangnam-gu, Seoul",
+  "why": "מקדש בודהיסטי מסורתי ממש מול COEX, כך שאפשר לעבור תוך דקות מקניון מודרני למקדש שקט. זה השילוב שהופך אותו לשווה עם ילדים.",
+  "reviews": "לא יעד בפני עצמו, אלא תוספת מצוינת ליום COEX.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Bongeunsa%20Temple%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Bongeunsa%20Temple",
+  "icon": "🛕",
+  "transit": {
+    "home1": {
+      "drive": "כ־50–60 דק׳",
+      "line": "קו 9",
+      "station": "Bongeunsa Station",
+      "ride": "כ־55 דק׳",
+      "walk": "כ־2–5 דק׳"
+    },
+    "home2": {
+      "drive": "כ־25–35 דק׳",
+      "line": "קו 9",
+      "station": "Bongeunsa Station",
+      "ride": "כ־30 דק׳",
+      "walk": "כ־2–5 דק׳"
+    }
+  }
+},
+{
+  "name": "Lotte World Aquarium",
+  "destination": "seoul",
+  "category_he": "אטרקציות מיוחדות",
+  "category": "אטרקציות מיוחדות",
+  "score": 5,
+  "tags": [
+    "ac"
+  ],
+  "hours": "10:00–20:00/22:00 לפי יום; לבדוק",
+  "price": "מבוגר כ־₩37,000 ≈ ₪78 · ילד כ־₩33,000 ≈ ₪69",
+  "address": "300 Olympic-ro, Songpa-gu, Seoul",
+  "why": "אקווריום גדול ומושקע עם כרישים, פינגווינים, יונקים ימיים ומנהרות תת-ימיות. מתאים ל-2–3 שעות וקל לשלב עם Seokchon Lake.",
+  "reviews": "אופציה חזקה ליום חם; אין צורך לעשות גם אותו וגם COEX Aquarium אם רוצים לחסוך.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Lotte%20World%20Aquarium%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Lotte%20World%20Aquarium",
+  "icon": "🐠",
+  "transit": {
+    "home1": {
+      "drive": "כ־50–60 דק׳",
+      "line": "קו 2/8",
+      "station": "Jamsil Station",
+      "ride": "כ־55 דק׳",
+      "walk": "כ־5 דק׳"
+    },
+    "home2": {
+      "drive": "כ־20–25 דק׳",
+      "line": "קו 2/8",
+      "station": "Jamsil Station",
+      "ride": "כ־25 דק׳",
+      "walk": "כ־5 דק׳"
+    }
+  }
+},
+{
+  "name": "Seoul Sky",
+  "destination": "seoul",
+  "category_he": "אטרקציות מיוחדות",
+  "category": "אטרקציות מיוחדות",
+  "score": 4,
+  "tags": [
+    "ac"
+  ],
+  "hours": "10:30–22:00 בקירוב",
+  "price": "מבוגר כ־₩33,000 ≈ ₪69 · ילד כ־₩29,000 ≈ ₪61",
+  "address": "300 Olympic-ro, Songpa-gu, Seoul",
+  "why": "תצפית מראש Lotte World Tower בגובה יותר מחצי קילומטר, עם רצפת זכוכית ונוף פנורמי. חוויית וואו קצרה יחסית.",
+  "reviews": "יקרה ביחס לזמן הביקור, ולכן מתאימה כאטרקציה מיוחדת ולא חובה.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Seoul%20Sky%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Seoul%20Sky",
+  "icon": "🌆",
+  "transit": {
+    "home1": {
+      "drive": "כ־50–60 דק׳",
+      "line": "קו 2/8",
+      "station": "Jamsil Station",
+      "ride": "כ־55 דק׳",
+      "walk": "כ־5 דק׳"
+    },
+    "home2": {
+      "drive": "כ־20–25 דק׳",
+      "line": "קו 2/8",
+      "station": "Jamsil Station",
+      "ride": "כ־25 דק׳",
+      "walk": "כ־5 דק׳"
+    }
+  }
+},
+{
+  "name": "N Seoul Tower",
+  "destination": "seoul",
+  "category_he": "אטרקציות מיוחדות",
+  "category": "אטרקציות מיוחדות",
+  "score": 4,
+  "tags": [
+    "ac"
+  ],
+  "hours": "10:00–22:30 בקירוב; סופ״ש לעיתים עד 23:00",
+  "price": "מבוגר כ־₩29,000 ≈ ₪61 · ילד כ־₩23,000 ≈ ₪48",
+  "address": "105 Namsangongwon-gil, Yongsan-gu, Seoul",
+  "why": "אחד הסמלים המזוהים ביותר עם סיאול, עם תצפית מהר Namsan. אפשר גם ליהנות מההר והנוף בלי לשלם על המצפה.",
+  "reviews": "ההגעה עצמה יכולה להיות חלק מהחוויה; לבדוק תור לרכבל בשעות עומס.",
+  "link": "https://www.google.com/maps/search/?api=1&query=N%20Seoul%20Tower%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/N%20Seoul%20Tower",
+  "icon": "🗼",
+  "transit": {
+    "home1": {
+      "drive": "כ־35–45 דק׳",
+      "line": "קו 4",
+      "station": "Myeongdong Station",
+      "ride": "כ־40 דק׳",
+      "walk": "כ־15–25 דק׳ + עליה"
+    },
+    "home2": {
+      "drive": "כ־35–45 דק׳",
+      "line": "קו 4",
+      "station": "Myeongdong Station",
+      "ride": "כ־40 דק׳",
+      "walk": "כ־15–25 דק׳ + עליה"
+    }
+  },
+  "ages": "כל המשפחה"
+},
+{
+  "name": "SEA LIFE COEX Aquarium",
+  "destination": "seoul",
+  "category_he": "אטרקציות מיוחדות",
+  "category": "אטרקציות מיוחדות",
+  "score": 4,
+  "tags": [
+    "ac"
+  ],
+  "hours": "10:00–20:00 בקירוב",
+  "price": "כ־₩33,000 ≈ ₪69",
+  "address": "513 Yeongdong-daero, Gangnam-gu, Seoul",
+  "why": "אקווריום גדול בתוך COEX עם כרישים, פינגווינים ומנהרות תת-ימיות. מתאים במיוחד ליום חם כשאפשר לחבר גם אוכל, הספרייה והקניון.",
+  "reviews": "אם עושים Lotte Aquarium אין הכרח לעשות גם אותו; לבחור לפי מיקום/מבצעים.",
+  "link": "https://www.google.com/maps/search/?api=1&query=SEA%20LIFE%20COEX%20Aquarium%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/SEA%20LIFE%20COEX%20Aquarium",
+  "icon": "🐟",
+  "transit": {
+    "home1": {
+      "drive": "כ־50–60 דק׳",
+      "line": "קו 2",
+      "station": "Samseong Station",
+      "ride": "כ־55 דק׳",
+      "walk": "כ־5–10 דק׳"
+    },
+    "home2": {
+      "drive": "כ־25–35 דק׳",
+      "line": "קו 2",
+      "station": "Samseong Station",
+      "ride": "כ־30 דק׳",
+      "walk": "כ־5–10 דק׳"
+    }
+  }
+},
+{
+  "name": "HiKR Ground",
+  "destination": "seoul",
+  "category_he": "אטרקציות מיוחדות",
+  "category": "אטרקציות מיוחדות",
+  "score": 5,
+  "tags": [
+    "ac",
+    "free"
+  ],
+  "hours": "ג׳–א׳ 10:00–20:00 בקירוב",
+  "price": "חינם; תוכניות מיוחדות עשויות לעלות",
+  "address": "40 Cheonggyecheon-ro, Jung-gu, Seoul",
+  "why": "מרכז K-culture אינטראקטיבי עם מדיה, K-pop, מסכים ואזורי צילום/XR. נותן משהו מאוד קוריאני-עכשווי בלי עלות.",
+  "reviews": "יחס תמורה מצוין; מתאים לשילוב עם Cheonggyecheon ומרכז העיר.",
+  "link": "https://www.google.com/maps/search/?api=1&query=HiKR%20Ground%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/HiKR%20Ground",
+  "icon": "🎤",
+  "transit": {
+    "home1": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 1",
+      "station": "Jonggak Station",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־5 דק׳"
+    },
+    "home2": {
+      "drive": "כ־35–45 דק׳",
+      "line": "קו 1",
+      "station": "Jonggak Station",
+      "ride": "כ־40 דק׳",
+      "walk": "כ־5 דק׳"
+    }
+  }
+},
+{
+  "name": "Dynamic Maze Insadong",
+  "destination": "seoul",
+  "category_he": "אטרקציות מיוחדות",
+  "category": "אטרקציות מיוחדות",
+  "score": 4,
+  "tags": [
+    "ac",
+    "active"
+  ],
+  "hours": "לרוב 11:00–18:00/20:00; לבדוק",
+  "price": "כ־₩15,000–20,000 ≈ ₪32–42",
+  "address": "12 Insadong-gil, Jongno-gu, Seoul",
+  "why": "מסלול משימות משפחתי שכולל זחילה, טיפוס ואתגרים במקום צפייה במוצגים. נותן לילדים הפסקה אקטיבית באמצע יום של תרבות.",
+  "reviews": "חשוב לבדוק מגבלות גובה/גיל לאדם לפני שמגיעים.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Dynamic%20Maze%20Insadong%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Dynamic%20Maze%20Insadong",
+  "icon": "🌀",
+  "transit": {
+    "home1": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 3",
+      "station": "Anguk Station",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־8–10 דק׳"
+    },
+    "home2": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 3",
+      "station": "Anguk Station",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־8–10 דק׳"
+    }
+  }
+},
+{
+  "name": "Zoolung Zoolung",
+  "destination": "seoul",
+  "category_he": "אטרקציות מיוחדות",
+  "category": "אטרקציות מיוחדות",
+  "score": 4,
+  "tags": [
+    "ac"
+  ],
+  "hours": "לפי שעות Times Square",
+  "price": "כ־₩20,000–30,000 ≈ ₪42–63",
+  "address": "15 Yeongjung-ro, Yeongdeungpo-gu, Seoul",
+  "why": "מתחם בעלי חיים מקורה בתוך קניון, שבו עוברים בין אזורים שונים ורואים חלק מהחיות מקרוב. מתאים ליום חם ולילדים שאוהבים בעלי חיים.",
+  "reviews": "יותר אופציה מאשר must, במיוחד אם יש מספיק אטרקציות אחרות בתשלום.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Zoolung%20Zoolung%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Zoolung%20Zoolung",
+  "icon": "🦜",
+  "transit": {
+    "home1": {
+      "drive": "כ־35–45 דק׳",
+      "line": "קו 1",
+      "station": "Yeongdeungpo Station",
+      "ride": "כ־40 דק׳",
+      "walk": "כ־10 דק׳"
+    },
+    "home2": {
+      "drive": "כ־50–60 דק׳",
+      "line": "קו 1",
+      "station": "Yeongdeungpo Station",
+      "ride": "כ־55 דק׳",
+      "walk": "כ־10 דק׳"
+    }
+  }
+},
+{
+  "name": "Le Petit Chef Seoul",
+  "destination": "seoul",
+  "category_he": "אטרקציות מיוחדות",
+  "category": "אטרקציות מיוחדות",
+  "score": 4,
+  "tags": [
+    "ac",
+    "reserve"
+  ],
+  "hours": "לפי סשנים/הזמנה",
+  "price": "יקר מאוד; תפריטים משתנים, לדוגמה עד כ־₩350,000 ≈ ₪735 לאדם",
+  "address": "Conrad Seoul, 10 Gukjegeumyung-ro, Yeongdeungpo-gu, Seoul",
+  "why": "ארוחה שהיא גם מופע: דמות תלת-ממדית של שף קטן מוקרנת על השולחן ומלווה כל מנה. זו חוויה חד-פעמית מיוחדת ולא מסעדה רגילה.",
+  "reviews": "המחיר גבוה, לכן שווה רק אם רוצים ערב חגיגי/חוויה יוצאת דופן ולבדוק חבילת ילדים/משפחה.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Le%20Petit%20Chef%20Seoul%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Le%20Petit%20Chef%20Seoul",
+  "icon": "👨‍🍳",
+  "transit": {
+    "home1": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 5/9",
+      "station": "Yeouido Station",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־8–10 דק׳"
+    },
+    "home2": {
+      "drive": "כ־45–55 דק׳",
+      "line": "קו 5/9",
+      "station": "Yeouido Station",
+      "ride": "כ־50 דק׳",
+      "walk": "כ־8–10 דק׳"
+    }
+  }
+},
+{
+  "name": "COEX Mall + Starfield Library",
+  "destination": "seoul",
+  "category_he": "קניות ובילוי",
+  "category": "קניות ובילוי",
+  "score": 4,
+  "tags": [
+    "ac",
+    "free"
+  ],
+  "hours": "הקניון בדרך כלל 10:30–22:00",
+  "price": "כניסה חינם",
+  "address": "513 Yeongdong-daero, Gangnam-gu, Seoul",
+  "why": "מתחם גדול עם אוכל, חנויות, הספרייה העצומה והאקווריום. הספרייה היא עצירה יפה בתוך היום, לא אטרקציה נפרדת.",
+  "reviews": "נוח במיוחד ביום חם כי אפשר להעביר כמה שעות בלי לצאת החוצה.",
+  "link": "https://www.google.com/maps/search/?api=1&query=COEX%20Mall%20%2B%20Starfield%20Library%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/COEX%20Mall%20%2B%20Starfield%20Library",
+  "icon": "📚",
+  "transit": {
+    "home1": {
+      "drive": "כ־50–60 דק׳",
+      "line": "קו 2",
+      "station": "Samseong Station",
+      "ride": "כ־55 דק׳",
+      "walk": "כ־2–5 דק׳"
+    },
+    "home2": {
+      "drive": "כ־25–35 דק׳",
+      "line": "קו 2",
+      "station": "Samseong Station",
+      "ride": "כ־30 דק׳",
+      "walk": "כ־2–5 דק׳"
+    }
+  }
+},
+{
+  "name": "I'Park Mall",
+  "destination": "seoul",
+  "category_he": "קניות ובילוי",
+  "category": "קניות ובילוי",
+  "score": 4,
+  "tags": [
+    "ac",
+    "free"
+  ],
+  "hours": "10:30–22:00 בקירוב",
+  "price": "כניסה חינם",
+  "address": "55 Hangang-daero 23-gil, Yongsan-gu, Seoul",
+  "why": "קניון גדול שמחובר ישירות ל-Yongsan Station, שימושי בעיקר בשילוב Champion 1250, אוכל וקניות. הופך יום משחקייה לפשוט יותר לוגיסטית.",
+  "reviews": "לא יעד בפני עצמו, אלא מעטפת טובה ליום משפחתי.",
+  "link": "https://www.google.com/maps/search/?api=1&query=I%27Park%20Mall%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/I%27Park%20Mall",
+  "icon": "🛍️",
+  "transit": {
+    "home1": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 1 / Gyeongui-Jungang",
+      "station": "Yongsan Station",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־2–5 דק׳"
+    },
+    "home2": {
+      "drive": "כ־35–45 דק׳",
+      "line": "קו 1 / Gyeongui-Jungang",
+      "station": "Yongsan Station",
+      "ride": "כ־40 דק׳",
+      "walk": "כ־2–5 דק׳"
+    }
+  }
+},
+{
+  "name": "Common Ground",
+  "destination": "seoul",
+  "category_he": "קניות ובילוי",
+  "category": "קניות ובילוי",
+  "score": 4,
+  "tags": [
+    "free"
+  ],
+  "hours": "11:00–22:00 בקירוב",
+  "price": "חינם לשוטט",
+  "address": "200 Achasan-ro, Gwangjin-gu, Seoul",
+  "why": "מתחם צבעוני ממכולות עם חנויות, אוכל ואירועים. בגלל הקרבה לבית 2 הוא יכול להיות עצירה נחמדה לארוחה או שיטוט.",
+  "reviews": "לא אטרקציית ילדים, אבל שימושי אם כבר נמצאים באזור Konkuk.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Common%20Ground%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Common%20Ground",
+  "icon": "🧱",
+  "transit": {
+    "home1": {
+      "drive": "כ־45–55 דק׳",
+      "line": "קו 2/7",
+      "station": "Konkuk University Station",
+      "ride": "כ־50 דק׳",
+      "walk": "כ־3–5 דק׳"
+    },
+    "home2": {
+      "drive": "כ־10–15 דק׳",
+      "line": "קו 2/7",
+      "station": "Konkuk University Station",
+      "ride": "כ־10 דק׳",
+      "walk": "כ־3–5 דק׳"
+    }
+  }
+},
+{
+  "name": "Cheonggyecheon Stream",
+  "destination": "seoul",
+  "category_he": "קניות ובילוי",
+  "category": "קניות ובילוי",
+  "score": 4,
+  "tags": [
+    "free"
+  ],
+  "hours": "כל היום",
+  "price": "חינם",
+  "address": "Central Seoul",
+  "why": "נחל עירוני עם שביל הליכה שעובר בלב העיר. מתאים לעצירה קצרה או טיול ערב ומשתלב מצוין עם HiKR Ground ומרכז העיר.",
+  "reviews": "נעים במיוחד בשעות פחות חמות ובערב.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Cheonggyecheon%20Stream%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Cheonggyecheon%20Stream",
+  "icon": "💧",
+  "transit": {
+    "home1": {
+      "drive": "כ־30–40 דק׳",
+      "line": "קו 1",
+      "station": "Jonggak Station",
+      "ride": "כ־35 דק׳",
+      "walk": "כ־3–8 דק׳"
+    },
+    "home2": {
+      "drive": "כ־35–45 דק׳",
+      "line": "קו 1",
+      "station": "Jonggak Station",
+      "ride": "כ־40 דק׳",
+      "walk": "כ־3–8 דק׳"
+    }
+  }
+},
+{
+  "name": "Dongdaemun Design Plaza – DDP",
+  "destination": "seoul",
+  "category_he": "קניות ובילוי",
+  "category": "קניות ובילוי",
+  "score": 4,
+  "tags": [
+    "ac",
+    "free"
+  ],
+  "hours": "המרחבים הציבוריים פתוחים לאורך היום; תערוכות משתנות",
+  "price": "מרחבים ציבוריים חינם; תערוכות בתשלום",
+  "address": "281 Eulji-ro, Jung-gu, Seoul",
+  "why": "מבנה אדריכלי עצום עם תערוכות, חללים ציבוריים ואירועים, ובתוכו Diki Diki. עובד טוב כחלק מיום Dongdaemun.",
+  "reviews": "הפעילויות משתנות ולכן כדאי לבדוק מה קורה בזמן השהות.",
+  "link": "https://www.google.com/maps/search/?api=1&query=Dongdaemun%20Design%20Plaza%20%E2%80%93%20DDP%20Seoul",
+  "naver_link": "https://map.naver.com/p/search/Dongdaemun%20Design%20Plaza%20%E2%80%93%20DDP",
+  "icon": "🏙️",
+  "transit": {
+    "home1": {
+      "drive": "כ־35–45 דק׳",
+      "line": "קו 2/4/5",
+      "station": "Dongdaemun History & Culture Park Station",
+      "ride": "כ־40 דק׳",
+      "walk": "כ־2–5 דק׳"
+    },
+    "home2": {
+      "drive": "כ־25–35 דק׳",
+      "line": "קו 2/4/5",
+      "station": "Dongdaemun History & Culture Park Station",
+      "ride": "כ־30 דק׳",
+      "walk": "כ־2–5 דק׳"
+    }
+  }
+}
 ];
 
 (function(){
@@ -4232,11 +6435,15 @@ window.ATTRACTIONS = [
     mall: "קניון",
     shopping: "קניות",
     calm: "רגוע",
-    challenging: "אתגרי"
+    challenging: "אתגרי",
+    free: "חינם",
+    active: "אקטיבי",
+    reserve: "להזמין מראש"
 }
   ;
 
   const TAG_ORDER = ["ac","water","calm","challenging"];
+  const SEOUL_TAG_ORDER = ["ac","free","active","reserve"];
 
   const elSearch = document.getElementById("search");
   const elCategory = document.getElementById("category");
@@ -4244,6 +6451,9 @@ window.ATTRACTIONS = [
   const elSortBy = document.getElementById("sortBy");
   const elTags = document.getElementById("tags");
   const elDestination = document.getElementById("destination");
+  const elHouseWrap = document.getElementById("seoulHouseWrap");
+  const elHouse = document.getElementById("seoulHouse");
+  const elSeoulBases = document.getElementById("seoulBases");
   const elCards = document.getElementById("cards");
   const elCount = document.getElementById("count");
   const elReset = document.getElementById("resetBtn");
@@ -4269,6 +6479,17 @@ window.ATTRACTIONS = [
 
   function isBase(item){
     return (item.category_he || item.category) === "בסיס" || (item.category === "Base") || /base/i.test(item.name);
+  }
+
+  function selectedHouse(){ return (elHouse && elHouse.value) || "home1"; }
+  function currentDistance(item){
+    if(currentDestination === "seoul" && item.transit){ return item.transit[selectedHouse()]?.drive || ""; }
+    return item.distance_min || "";
+  }
+  function updateSeoulControls(){
+    const on = currentDestination === "seoul";
+    if(elHouseWrap) elHouseWrap.style.display = on ? "block" : "none";
+    if(elSeoulBases) elSeoulBases.style.display = on ? "grid" : "none";
   }
 
   function parseMin(distanceText){
@@ -4304,15 +6525,17 @@ window.ATTRACTIONS = [
   let currentDestination = "koh_samui";
   if(elDestination && elDestination.value) currentDestination = elDestination.value;
 
-  // Tag checkboxes (locked to approved Hebrew tags only)
-  const tagsToShow = TAG_ORDER.slice();
-
-  elTags.innerHTML = tagsToShow.map(tagKey => {
-    const label = TAG_LABELS[tagKey] || tagKey;
-    return `<label class="tag"><input type="checkbox" value="${escapeHtml(tagKey)}"> ${escapeHtml(label)}</label>`;
-  }).join("");
-
-  const tagInputs = Array.from(elTags.querySelectorAll('input[type="checkbox"]'));
+  // Tag checkboxes are destination-aware
+  let tagInputs = [];
+  function populateTags(dest){
+    const tagsToShow = (dest === "seoul" ? SEOUL_TAG_ORDER : TAG_ORDER).slice();
+    const emoji = {ac:"❄️", free:"🆓", active:"⚡", reserve:"📅", water:"💧", calm:"🌿", challenging:"🥾"};
+    elTags.innerHTML = tagsToShow.map(tagKey => {
+      const label = TAG_LABELS[tagKey] || tagKey;
+      return `<label class="tag"><input type="checkbox" value="${escapeHtml(tagKey)}"> <span>${emoji[tagKey]||"🏷️"} ${escapeHtml(label)}</span></label>`;
+    }).join("");
+    tagInputs = Array.from(elTags.querySelectorAll('input[type="checkbox"]'));
+  }
 
   const DEST_DEFAULT_MAP = {
     koh_samui: "https://www.google.com/maps?q=The%20Gardens%20by%20Samui%20Beach%20Properties%20Bang%20Rak&output=embed",
@@ -4322,7 +6545,8 @@ window.ATTRACTIONS = [
     da_nang: "https://www.google.com/maps?q=Chi%20House%20Danang&output=embed",
     dalat: "https://www.google.com/maps?q=Dalat%20Vietnam&output=embed",
     hcmc: "https://www.google.com/maps?q=Ho%20Chi%20Minh%20City%20Vietnam&output=embed",
-    dali: "https://www.google.com/maps?q=Manjiang%20Dali%20Yunnan&output=embed"
+    dali: "https://www.google.com/maps?q=Manjiang%20Dali%20Yunnan&output=embed",
+    seoul: "https://www.google.com/maps?q=Seoul%20South%20Korea&output=embed"
   };
 
   const DEST_TITLES = {
@@ -4333,11 +6557,14 @@ window.ATTRACTIONS = [
     da_nang: "דה נאנג – אטרקציות למשפחה",
     dalat: "דאלאת – אטרקציות למשפחה",
     hcmc: "הו צ׳י מין – אטרקציות למשפחה",
-    dali: "דאלי – אטרקציות למשפחה"
+    dali: "דאלי – אטרקציות למשפחה",
+    seoul: "סיאול – אטרקציות למשפחה"
   };
 
   populateCategories(currentDestination);
+  populateTags(currentDestination);
   updateHeaderTitle();
+  updateSeoulControls();
 
   function updateHeaderTitle(){
     const h1 = document.querySelector('.topbar h1');
@@ -4444,7 +6671,7 @@ window.ATTRACTIONS = [
     const mode = elSortBy.value;
     const copy = items.slice();
     if(mode === "distance_asc"){
-      copy.sort((a,b)=> (parseMin(a.distance_min)??9999) - (parseMin(b.distance_min)??9999));
+      copy.sort((a,b)=> (parseMin(currentDistance(a))??9999) - (parseMin(currentDistance(b))??9999));
       return copy;
     }
     if(mode === "name_asc"){
@@ -4526,7 +6753,9 @@ window.ATTRACTIONS = [
     const id = item._id;
     const cat = item.category_he || item.category;
     const icon = item.icon || "✨";
-    const dist = item.distance_min || "";
+    const dist = currentDistance(item);
+    const houseKey = selectedHouse();
+    const transit = (currentDestination === "seoul" && item.transit) ? item.transit[houseKey] : null;
     const score = item.score;
     const starsText = stars(score);
     const metaParts = [];
@@ -4536,6 +6765,9 @@ window.ATTRACTIONS = [
     const metaText = "";
 
     const hoursLine = item.hours ? `<div class="line"><div class="k">שעות</div><div class="v">${item.hours === 'לבדיקה' ? '<span class="checkBadge">❓</span> לבדיקה' : escapeHtml(item.hours)}</div></div>` : ``;
+    const agesLine = item.ages ? `<div class="line"><div class="k">גילאים</div><div class="v">${escapeHtml(item.ages)}</div></div>` : ``;
+    const addressLine = item.address ? `<div class="line"><div class="k">כתובת</div><div class="v">${escapeHtml(item.address)}</div></div>` : ``;
+    const transitLine = transit ? `<div class="line"><div class="k">רכבת</div><div class="v">🚇 ${escapeHtml(transit.line)} · לרדת ב־<strong>${escapeHtml(transit.station)}</strong> · נסיעה ${escapeHtml(transit.ride)} · הליכה ${escapeHtml(transit.walk)}</div></div>` : ``;
     let phoneLine = ``;
     if(item.phone){
       if(item.phone === "לבדיקה"){
@@ -4568,7 +6800,8 @@ window.ATTRACTIONS = [
 
     const tagsForChips = rawTags.filter(t => TAG_LABELS[t] && ![].includes(t)).map(t => TAG_LABELS[t]);
 
-    const tagChips = tagsForChips.slice(0, 5).map(t => `<span class="badge tag"><span class="emoji">🏷️</span>${escapeHtml(t)}</span>`).join("");
+    const tagEmoji = {"ממוזג":"❄️","חינם":"🆓","אקטיבי":"⚡","להזמין מראש":"📅","מים":"💧","רגוע":"🌿","אתגרי":"🥾"};
+    const tagChips = tagsForChips.slice(0, 5).map(t => `<span class="badge tag"><span class="emoji">${tagEmoji[t]||"🏷️"}</span>${escapeHtml(t)}</span>`).join("");
 
     return `
       <article class="card" tabindex="0" data-id="${escapeHtml(id)}" aria-label="${escapeHtml(item.name)}">
@@ -4589,6 +6822,9 @@ window.ATTRACTIONS = [
 
         <div class="cardBody">
           ${hoursLine}
+          ${agesLine}
+          ${addressLine}
+          ${transitLine}
           ${phoneLine}
           ${metaLine}
           ${dayPassBlock}
@@ -4601,7 +6837,8 @@ window.ATTRACTIONS = [
 
         <div class="cardLinks">
           <a class="linkBtn" data-action="openLink" target="_blank" rel="noopener" href="${escapeHtml(item.link || "#")}">קישור להתרשמות</a>
-          <a class="linkBtn" data-action="openLink" target="_blank" rel="noopener" href="${escapeHtml(openMapHref(item.link && item.link.includes('google.com/maps') ? item.link : item.name))}">פתחי מפה</a>
+          <a class="linkBtn" data-action="openLink" target="_blank" rel="noopener" href="${escapeHtml(openMapHref(item.link && item.link.includes('google.com/maps') ? item.link : item.name))}">Google Maps</a>
+          ${currentDestination === "seoul" && item.naver_link ? `<a class="linkBtn naverBtn" data-action="openLink" target="_blank" rel="noopener" href="${escapeHtml(item.naver_link)}">Naver Map</a>` : ``}
           <button class="linkBtn" data-action="focus" data-id="${escapeHtml(id)}" type="button">מקד במפה</button>
         </div>
       </article>
@@ -5120,7 +7357,7 @@ window.ATTRACTIONS = [
     } else {
       const hasTag = (it, t) => (it.tags || []).includes(t);
       const score = (it) => Number(it.score) || 0;
-      const mins = (it) => parseMin(it.distance_min) ?? 9999;
+      const mins = (it) => parseMin(currentDistance(it)) ?? 9999;
 
       let pool = poolAll.filter(isAttraction);
 
@@ -5246,7 +7483,9 @@ window.ATTRACTIONS = [
     elDestination.addEventListener("change", ()=>{
       currentDestination = elDestination.value || "koh_samui";
       populateCategories(currentDestination);
+      populateTags(currentDestination);
       updateHeaderTitle();
+      updateSeoulControls();
       // reset category selection when switching destination
       elCategory.value = "";
       resetAll();
@@ -5257,6 +7496,7 @@ window.ATTRACTIONS = [
     });
   }
   elTags.addEventListener("change", render);
+  if(elHouse) elHouse.addEventListener("change", ()=>{ setDefaultMap(); render(); });
   elReset.addEventListener("click", resetAll);
   elBuild.addEventListener("click", buildDay);
 

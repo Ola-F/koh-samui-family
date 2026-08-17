@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>אטרקציות למשפחות במזרח</title>
-  <link rel="stylesheet" href="styles.css?v=11">
+  <link rel="stylesheet" href="styles.css?v=12">
 </head>
 <body>
   <header class="topbar">
@@ -29,12 +29,28 @@
               <option value="dalat">דאלאת</option>
               <option value="hcmc">הו צ׳י מין</option>
               <option value="dali">דאלי</option>
+              <option value="seoul">סיאול</option>
             </select>
           </label>
           <label>
             <span>חיפוש</span>
             <input id="search" type="search" placeholder="שם מקום, תיאור או תגית">
           </label>
+        </div>
+
+        <div id="seoulHouseWrap" class="seoulHouseWrap" style="display:none">
+          <label>
+            <span>בית בסיאול</span>
+            <select id="seoulHouse">
+              <option value="home1">בית 1</option>
+              <option value="home2">בית 2</option>
+            </select>
+          </label>
+        </div>
+
+        <div id="seoulBases" class="seoulBases" style="display:none">
+          <div class="baseMini"><strong>🏠 בית 1</strong><span>86 Eunpyeong-ro, Eunpyeong-gu</span><span>🚇 Eungam Station · כדקה הליכה</span></div>
+          <div class="baseMini"><strong>🏠 בית 2</strong><span>301, 3F, 6 Eongdong-ro 32-gil, Gwangjin-gu</span><span>🚇 Gunja Station · כ־2 דקות הליכה</span></div>
         </div>
 
         <div class="row4">
@@ -129,6 +145,6 @@
     </div>
   </div>
 
-  <script src="app.js?v=11"></script>
+  <script src="app.js?v=12"></script>
 </body>
 </html>

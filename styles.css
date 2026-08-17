@@ -112,3 +112,12 @@ button{cursor:pointer;background:#111;color:#fff;border-color:#111}
   .dayPlanTitle{font-size:20px}
   .dayPlan{padding:16px}
 }
+
+/* Seoul-specific controls */
+.seoulHouseWrap{max-width:360px}
+.seoulBases{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:2px}
+.baseMini{border:1px solid var(--line);background:#faf8f3;border-radius:16px;padding:10px 12px;display:grid;gap:3px;font-size:13px}
+.baseMini strong{margin:0;font-size:14px}
+.baseMini span{color:var(--muted)}
+.naverBtn{background:#f7fff7;border-color:#cfe8cf}
+@media (max-width:760px){.seoulBases{grid-template-columns:1fr}.seoulHouseWrap{max-width:none}}
