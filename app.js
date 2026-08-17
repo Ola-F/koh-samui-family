@@ -4250,7 +4250,7 @@ window.ATTRACTIONS = [
       "drive": "כ־20–25 דק׳",
       "line": "קו 2/8",
       "station": "Jamsil Station",
-      "ride": "כ־25–30 דק׳",
+      "ride": "כ־20–30 דק׳",
       "walk": "כ־5 דק׳"
     }
   },
@@ -4286,7 +4286,7 @@ window.ATTRACTIONS = [
       "drive": "כ־20–25 דק׳",
       "line": "קו 2/8",
       "station": "Jamsil Station",
-      "ride": "כ־25–30 דק׳",
+      "ride": "כ־20–30 דק׳",
       "walk": "כ־5 דק׳"
     }
   },
@@ -6637,18 +6637,18 @@ window.ATTRACTIONS = [
   }
 
   function setPlanMap(plan){
-    elMap.src = buildPlanMapEmbed(plan);
-    elOpenMaps.href = buildPlanRouteHref(plan);
+    if(elMap) elMap.src = buildPlanMapEmbed(plan);
+    if(elOpenMaps) elOpenMaps.href = buildPlanRouteHref(plan);
   }
 
   function setDefaultMap(){
-    elMap.src = DEST_DEFAULT_MAP[currentDestination] || DEST_DEFAULT_MAP.koh_samui;
+    if(elMap) elMap.src = DEST_DEFAULT_MAP[currentDestination] || DEST_DEFAULT_MAP.koh_samui;
   }
 
   function setMap(item){
     const q = item.link && item.link.includes("google.com/maps") ? item.link : item.name;
-    elMap.src = buildMapEmbed(q);
-    elOpenMaps.href = openMapHref(q);
+    if(elMap) elMap.src = buildMapEmbed(q);
+    if(elOpenMaps) elOpenMaps.href = openMapHref(q);
   }
 
   function matchesSearch(item, q){
@@ -6836,10 +6836,8 @@ window.ATTRACTIONS = [
         </div>
 
         <div class="cardLinks">
-          <a class="linkBtn" data-action="openLink" target="_blank" rel="noopener" href="${escapeHtml(item.link || "#")}">קישור להתרשמות</a>
           <a class="linkBtn" data-action="openLink" target="_blank" rel="noopener" href="${escapeHtml(openMapHref(item.link && item.link.includes('google.com/maps') ? item.link : item.name))}">Google Maps</a>
           ${currentDestination === "seoul" && item.naver_link ? `<a class="linkBtn naverBtn" data-action="openLink" target="_blank" rel="noopener" href="${escapeHtml(item.naver_link)}">Naver Map</a>` : ``}
-          <button class="linkBtn" data-action="focus" data-id="${escapeHtml(id)}" type="button">מקד במפה</button>
         </div>
       </article>
     `;
@@ -7424,7 +7422,6 @@ window.ATTRACTIONS = [
         ${plan.why ? `<div class="dayWhy"><strong>למה זה עובד:</strong> ${escapeHtml(plan.why)}</div>` : ``}
         ${tips}
         <div class="dayPlanActions">
-          <button class="linkBtn" data-action="plan-map" data-plan="${escapeHtml(plan.title)}" type="button">📍 כל התחנות על המפה</button>
           <a class="linkBtn" data-action="openLink" target="_blank" rel="noopener" href="${escapeHtml(buildPlanRouteHref(plan))}">פתחי מסלול</a>
         </div>
       </div>`;
