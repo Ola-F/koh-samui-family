@@ -4039,6 +4039,186 @@ window.ATTRACTIONS = [
     "why": "Kids Cafe מושקע במיוחד עם אזורי משחק איכותיים לילדים וישיבה נוחה להורים. מתאים מאוד ליום חם או גשום, או כשצריך פעילות רגועה ולא עוד קניון.",
     "reviews": "נראה כאחת האפשרויות החזקות בקטגוריית בתי הקפה לילדים בעיר, ולכן עדיף להשאיר אותו במקום המלצות כלליות או מקומות פחות עדכניים.",
     "icon": "🐝"
+  },
+{
+    "name": "בסיס דאלי",
+    "destination": "dali",
+    "category_he": "בסיס",
+    "category": "בסיס",
+    "score": null,
+    "tags": [],
+    "hours": "",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Manjiang+Dali+Yunnan",
+    "why": "",
+    "reviews": "",
+    "icon": "🏠"
+  },
+  {
+    "name": "赖克宝儿童主题乐园 – Raikebao Children’s Theme Park",
+    "destination": "dali",
+    "category_he": "משחקיות וסדנאות",
+    "category": "משחקיות וסדנאות",
+    "score": 4,
+    "tags": [
+      "ac"
+    ],
+    "hours": "לבדיקה",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=%E8%B5%96%E5%85%8B%E5%AE%9D%E5%84%BF%E7%AB%A5%E4%B8%BB%E9%A2%98%E4%B9%90%E5%9B%AD+%E5%A4%A7%E7%90%86",
+    "why": "משחקייה מקורה באזור 满江, קרובה מאוד לבסיס. פתרון שימושי במיוחד לשעה–שעתיים ביום גשום או כשלא רוצים להפוך כל יציאה לטיול.",
+    "reviews": "נמצא מידע עקבי על קיומה ומיקומה, אבל המידע המקוון על שעות, מחיר ורמת התחזוקה מוגבל; מומלץ לבדוק באפליקציה מקומית לפני הגעה.",
+    "icon": "🛝",
+    "distance_min": "כ־0–5 דק׳"
+  },
+  {
+    "name": "洱海公园 – Erhai Park",
+    "destination": "dali",
+    "category_he": "פארקים",
+    "category": "פארקים",
+    "score": 4,
+    "tags": [
+      "calm"
+    ],
+    "hours": "לבדיקה",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Erhai+Park+Dali",
+    "why": "פארק גדול ונגיש יחסית ב-Xiaguan, טוב לטיול קצר, מרחב פתוח ונוף לאגם. בתוך אזור הפארק מופיעים גם מתקני שעשועים לילדים.",
+    "reviews": "אופציה טובה לשגרת יום רגילה עם ילדים; פחות מתאימה כפתרון לגשם חזק.",
+    "icon": "🌳",
+    "distance_min": "כ־5–10 דק׳"
+  },
+  {
+    "name": "洱海公园游乐区 – Erhai Park Amusement Area",
+    "destination": "dali",
+    "category_he": "גני שעשועים",
+    "category": "גני שעשועים",
+    "score": 4,
+    "tags": [],
+    "hours": "לבדיקה",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=%E6%B4%B1%E6%B5%B7%E5%85%AC%E5%9B%AD%E6%B8%B8%E4%B9%90%E5%8C%BA+%E5%A4%A7%E7%90%86",
+    "why": "אזור מתקנים בתוך Erhai Park, שימושי במיוחד כשרוצים פעילות פשוטה לילדים בלי נסיעה ארוכה.",
+    "reviews": "המידע באנגלית דל יחסית ולכן כדאי לבדוק במקום אילו מתקנים פעילים ובאילו שעות.",
+    "icon": "🎠",
+    "distance_min": "כ־5–10 דק׳"
+  },
+  {
+    "name": "洱海玉白菜湿地公园 – Jade Cabbage Wetland Park",
+    "destination": "dali",
+    "category_he": "פארקים",
+    "category": "פארקים",
+    "score": 4,
+    "tags": [
+      "calm"
+    ],
+    "hours": "לבדיקה",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=%E6%B4%B1%E6%B5%B7%E7%8E%89%E7%99%BD%E8%8F%9C%E6%B9%BF%E5%9C%B0%E5%85%AC%E5%9B%AD+%E5%A4%A7%E7%90%86",
+    "why": "פארק ביצות וטבע קרוב מאוד לאזור 满江. מתאים ליציאה קצרה, הליכה ואוויר פתוח בלי לנסוע לאטרקציה גדולה.",
+    "reviews": "לא גן שעשועים, אלא מקום שימושי לשגרת שבועיים ולזמן רגוע בחוץ.",
+    "icon": "🌿",
+    "distance_min": "כ־0–5 דק׳"
+  },
+  {
+    "name": "大理爱琴海购物公园 – Dali Aegean Shopping Park",
+    "destination": "dali",
+    "category_he": "קניות",
+    "category": "קניות",
+    "score": 4,
+    "tags": [
+      "ac",
+      "mall"
+    ],
+    "hours": "לבדיקה",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E7%90%86%E7%88%B1%E7%90%B4%E6%B5%B7%E8%B4%AD%E7%89%A9%E5%85%AC%E5%9B%AD",
+    "why": "קניון גדול ב-Xiaguan עם אוכל, קניות ופעילויות משפחתיות. לפי פרסומי הקבוצה יש בו גם מתחם ילדים, ולכן הוא שימושי במיוחד ביום גשום.",
+    "reviews": "בחירה פרקטית ליום שבו צריך מזגן וגמישות; מומלץ לבדוק באותו יום אילו מתחמי ילדים פעילים.",
+    "icon": "🏬",
+    "distance_min": "כ־10–15 דק׳"
+  },
+  {
+    "name": "Kaka Children’s Paradise",
+    "destination": "dali",
+    "category_he": "משחקיות וסדנאות",
+    "category": "משחקיות וסדנאות",
+    "score": "check",
+    "tags": [
+      "ac"
+    ],
+    "hours": "לבדיקה",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Kaka+Children%27s+Paradise+Dali+Wenhua+Road",
+    "why": "מתחם ילדים נוסף באזור העיר החדשה/Xiaguan שיכול להרחיב את אפשרויות המשחק המקורות.",
+    "reviews": "המידע המקוון עליו מוגבל משמעותית, ולכן הוא נשאר באתר כאופציה לבדיקה ולא כהמלצה חזקה.",
+    "icon": "🎈",
+    "distance_min": "כ־15–20 דק׳"
+  },
+  {
+    "name": "大理古城 – Dali Ancient City",
+    "destination": "dali",
+    "category_he": "עיר עתיקה ושווקים",
+    "category": "עיר עתיקה ושווקים",
+    "score": 5,
+    "tags": [],
+    "hours": "לבדיקה",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Dali+Ancient+City",
+    "why": "אחד המקומות המרכזיים בדאלי: רחובות עתיקים, אוכל, חנויות ואווירה. מתאים למשפחה כשמגיעים בשעות נעימות ולא מנסים להספיק הכול.",
+    "reviews": "יעד קלאסי וחזק לביקור בדאלי; עם ילדים עדיף לבנות ביקור קצר וגמיש.",
+    "icon": "🏮",
+    "distance_min": "כ־25–35 דק׳"
+  },
+  {
+    "name": "才村码头 – Caicun Wharf",
+    "destination": "dali",
+    "category_he": "אגם וטיילות",
+    "category": "אגם וטיילות",
+    "score": 4,
+    "tags": [
+      "water",
+      "calm"
+    ],
+    "hours": "לבדיקה",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Caicun+Wharf+Dali",
+    "why": "אזור נעים ליד Erhai שמתאים להליכה, נוף ועצירה רגועה ליד האגם, ואפשר לשלב עם העיר העתיקה.",
+    "reviews": "מתאים יותר כחצי יום רגוע מאשר כאטרקציה בפני עצמה.",
+    "icon": "🌊",
+    "distance_min": "כ־25–35 דק׳"
+  },
+  {
+    "name": "喜洲古镇 – Xizhou Ancient Town",
+    "destination": "dali",
+    "category_he": "עיר עתיקה ושווקים",
+    "category": "עיר עתיקה ושווקים",
+    "score": 5,
+    "tags": [],
+    "hours": "לבדיקה",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Xizhou+Ancient+Town+Dali",
+    "why": "עיירה היסטורית מצפון לדאלי עם אדריכלות Bai, רחובות נעימים ואוכל מקומי. טובה ליום טיול משפחתי בקצב רגוע.",
+    "reviews": "אחת העצירות המומלצות באזור Erhai; עדיף להגיע מוקדם ולשלב עם יעד אחד נוסף בלבד.",
+    "icon": "🏘️",
+    "distance_min": "כ־40–50 דק׳"
+  },
+  {
+    "name": "双廊古镇 – Shuanglang Ancient Town",
+    "destination": "dali",
+    "category_he": "אגם וטיילות",
+    "category": "אגם וטיילות",
+    "score": 5,
+    "tags": [
+      "water"
+    ],
+    "hours": "לבדיקה",
+    "phone": "",
+    "link": "https://www.google.com/maps/search/?api=1&query=Shuanglang+Ancient+Town+Dali",
+    "why": "עיירה על שפת Erhai עם נוף יפה מאוד לאגם. מתאימה ליום טיול מלא יותר מחוץ לבסיס.",
+    "reviews": "יפה במיוחד, אבל הנסיעה ארוכה יותר ולכן עדיף להקדיש לה יום ולא לשלב יותר מדי תחנות.",
+    "icon": "⛰️",
+    "distance_min": "כ־60–75 דק׳"
   }
 ];
 
@@ -4141,7 +4321,8 @@ window.ATTRACTIONS = [
     hoi_an: "https://www.google.com/maps?q=Hoi%20An%20Vietnam&output=embed",
     da_nang: "https://www.google.com/maps?q=Chi%20House%20Danang&output=embed",
     dalat: "https://www.google.com/maps?q=Dalat%20Vietnam&output=embed",
-    hcmc: "https://www.google.com/maps?q=Ho%20Chi%20Minh%20City%20Vietnam&output=embed"
+    hcmc: "https://www.google.com/maps?q=Ho%20Chi%20Minh%20City%20Vietnam&output=embed",
+    dali: "https://www.google.com/maps?q=Manjiang%20Dali%20Yunnan&output=embed"
   };
 
   const DEST_TITLES = {
@@ -4151,7 +4332,8 @@ window.ATTRACTIONS = [
     hoi_an: "הוי אן – אטרקציות למשפחה",
     da_nang: "דה נאנג – אטרקציות למשפחה",
     dalat: "דאלאת – אטרקציות למשפחה",
-    hcmc: "הו צ׳י מין – אטרקציות למשפחה"
+    hcmc: "הו צ׳י מין – אטרקציות למשפחה",
+    dali: "דאלי – אטרקציות למשפחה"
   };
 
   populateCategories(currentDestination);
